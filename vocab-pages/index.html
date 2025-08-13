@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>단어장 (GitHub Pages 버전)</title>
+  <style>
+    :root { color-scheme: dark light; }
+    body { margin: 0; font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, Apple SD Gothic Neo, Noto Sans KR, "Malgun Gothic", sans-serif; background:#111; color:#e5e5e5; }
+    header { position: sticky; top:0; z-index:10; background:#0d0d0d; border-bottom:1px solid #222; }
+    .wrap { max-width:1080px; margin:0 auto; padding:16px; }
+    .grid { display:grid; grid-template-columns: repeat(auto-fill,minmax(260px,1fr)); gap:16px; }
+    .card { background:#181818; border:1px solid #2a2a2a; border-radius:16px; overflow:hidden; box-shadow: 0 4px 16px rgba(0,0,0,.35); display:flex; flex-direction:column; }
+    .thumb { width:100%; aspect-ratio:16/9; object-fit:cover; background:#0f0f0f; }
+    .content { padding:14px 14px 10px; display:flex; flex-direction:column; gap:8px; }
+    .title { display:flex; align-items:center; justify-content:space-between; gap:8px; }
+    .word { font-size:1.15rem; font-weight:700; }
+    .pos { font-size:.8rem; opacity:.8; margin-left:.25rem; }
+    .meaning { font-size:.95rem; color:#cfcfcf; }
+    .example { font-size:.9rem; color:#bdbdbd; }
+    .row { display:flex; align-items:center; justify-content:space-between; gap:8px; }
+    .meta { font-size:.75rem; opacity:.7; }
+    .btn { cursor:pointer; border:1px solid #2d2d2d; background:#1f1f1f; color:#eaeaea; padding:6px 10px; border-radius:10px; }
+    .btn:hover { background:#242424; }
+    .controls { display:flex; flex-wrap:wrap; gap:8px; align-items:center; }
+    input[type="search"], select { background:#1b1b1b; color:#eaeaea; border:1px solid #2a2a2a; border-radius:10px; padding:8px 10px; outline:none; }
+    a { color:#7ab8ff; text-decoration:none; }
+    a:hover { text-decoration:underline; }
+    .badge { font-size:.72rem; padding:2px 8px; border-radius:999px; background:#232323; border:1px solid #303030; }
+    .hide { display:none !important; }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap" style="display:flex; gap:12px; align-items:center; justify-content:space-between;">
+      <div style="display:flex; flex-direction:column; gap:2px;">
+        <strong>단어장 (Pages)</strong>
+        <span class="meta" id="status">데이터 로딩 중...</span>
+      </div>
+      <div class="controls">
+        <input id="q" type="search" placeholder="검색(단어/뜻/예문)" />
+        <select id="level">
+          <option value="">레벨 전체</option>
+          <option value="A1">A1</option><option value="A2">A2</option>
+          <option value="B1">B1</option><option value="B2">B2</option>
+          <option value="C1">C1</option><option value="C2">C2</option>
+        </select>
+        <label class="badge"><input type="checkbox" id="showOnlyUnlearned" /> 미학습만</label>
+        <button class="btn" id="resetLearned">학습 체크 초기화</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <div class="grid" id="grid"></div>
+  </main>
+
+  <template id="card-tpl">
+    <article class="card" data-word>
+      <img class="thumb" data-img alt=""/>
+      <div class="content">
+        <div class="title">
+          <div>
+            <span class="word" data-word-text></span>
+            <span class="pos" data-pos></span>
+          </div>
+          <label class="badge"><input type="checkbox" data-learned /> learned</label>
+        </div>
+        <div class="meaning" data-meaning></div>
+        <div class="example" data-example-en></div>
+        <div class="example" data-example-gloss></div>
+        <div class="row">
+          <span class="meta" data-level></span>
+          <span class="meta"><a data-src target="_blank" rel="noopener">출처</a></span>
+        </div>
+      </div>
+    </article>
+  </template>
+
+  <script>
+  // ------- Config ---------
+  const DATA_INDEX = "data/index.json";       // 목록 파일
+  const CACHE_BUST = () => `?t=${Date.now()}`; // 캐시 무력화
+  const LS_LEARNED = "vocab.learned.v1";
+  const LS_BAD_IMAGES = "vocab.badImages.v1";
+
+  // ------- State ---------
+  let ALL = [];
+  const learned = new Set(JSON.parse(localStorage.getItem(LS_LEARNED) || "[]"));
+  const badImages = new Set(JSON.parse(localStorage.getItem(LS_BAD_IMAGES) || "[]"));
+
+  function saveLearned() {
+    localStorage.setItem(LS_LEARNED, JSON.stringify([...learned]));
+  }
+  function saveBadImages() {
+    localStorage.setItem(LS_BAD_IMAGES, JSON.stringify([...badImages]));
+  }
+
+  // ------- DOM ---------
+  const $grid = document.getElementById("grid");
+  const $status = document.getElementById("status");
+  const $tpl = document.getElementById("card-tpl");
+  const $q = document.getElementById("q");
+  const $level = document.getElementById("level");
+  const $showOnlyUnlearned = document.getElementById("showOnlyUnlearned");
+  const $resetLearned = document.getElementById("resetLearned");
+
+  // ------- Utils ---------
+  const norm = (s) => (s || "").toString().trim().toLowerCase();
+  const includes = (hay, needle) => norm(hay).includes(norm(needle));
+
+  function render(list) {
+    $grid.innerHTML = "";
+    const frag = document.createDocumentFragment();
+
+    for (const item of list) {
+      const node = $tpl.content.firstElementChild.cloneNode(true);
+
+      // set attributes/text
+      node.dataset.word = item.word;
+      node.querySelector("[data-word-text]").textContent = item.word;
+      node.querySelector("[data-pos]").textContent = item.pos ? `(${item.pos})` : "";
+      node.querySelector("[data-meaning]").textContent = item.meaning || "";
+      node.querySelector("[data-example-en]").textContent = item.example_en || "";
+      node.querySelector("[data-example-gloss]").textContent = item.example_gloss || "";
+      node.querySelector("[data-level]").textContent = item.level || "";
+      const a = node.querySelector("[data-src]");
+      a.href = item.source_link || "#";
+
+      // learned checkbox
+      const cb = node.querySelector("[data-learned]");
+      cb.checked = learned.has(item.word);
+      cb.addEventListener("change", () => {
+        if (cb.checked) learned.add(item.word);
+        else learned.delete(item.word);
+        saveLearned();
+        // if filter "only unlearned" is on, re-apply
+        if ($showOnlyUnlearned.checked) applyFilters();
+      });
+
+      // image handling + broken image tracking
+      const img = node.querySelector("[data-img]");
+      if (item.image_url && !badImages.has(item.image_url)) {
+        img.src = item.image_url;
+        img.alt = item.word;
+        img.addEventListener("error", () => {
+          // mark as broken & hide image
+          badImages.add(item.image_url);
+          saveBadImages();
+          img.classList.add("hide");
+        }, { once:true });
+        img.addEventListener("load", () => {
+          // loaded successfully: ensure it's visible
+          img.classList.remove("hide");
+        }, { once:true });
+      } else {
+        img.classList.add("hide");
+      }
+
+      frag.appendChild(node);
+    }
+
+    $grid.appendChild(frag);
+    $status.textContent = `총 ${list.length}개 (전체 ${ALL.length}개)`;
+  }
+
+  function applyFilters() {
+    const q = norm($q.value);
+    const lv = $level.value;
+    const onlyUnlearned = $showOnlyUnlearned.checked;
+
+    const filtered = ALL.filter(item => {
+      if (lv && item.level !== lv) return false;
+      if (onlyUnlearned && learned.has(item.word)) return false;
+      if (!q) return true;
+      return (
+        includes(item.word, q) ||
+        includes(item.meaning, q) ||
+        includes(item.example_en, q) ||
+        includes(item.example_gloss, q)
+      );
+    });
+    render(filtered);
+  }
+
+  $q.addEventListener("input", applyFilters);
+  $level.addEventListener("change", applyFilters);
+  $showOnlyUnlearned.addEventListener("change", applyFilters);
+  $resetLearned.addEventListener("click", () => {
+    if (!confirm("모든 learned 체크를 초기화할까요?")) return;
+    learned.clear();
+    saveLearned();
+    applyFilters();
+  });
+
+  // ------- Load data flow ---------
+  async function fetchJSON(url) {
+    const res = await fetch(url + CACHE_BUST());
+    if (!res.ok) throw new Error(`HTTP ${res.status} for ${url}`);
+    return await res.json();
+  }
+
+  async function loadAll() {
+    try {
+      $status.textContent = "목록 로딩…";
+      const files = await fetchJSON(DATA_INDEX);
+      if (!Array.isArray(files)) throw new Error("index.json은 JSON 배열이어야 합니다.");
+
+      const results = [];
+      for (const f of files) {
+        const href = "data/" + f;
+        try {
+          const arr = await fetchJSON(href);
+          if (Array.isArray(arr)) results.push(...arr);
+        } catch (e) {
+          console.warn("불러오기 실패:", href, e);
+        }
+      }
+
+      // Normalize + dedupe by word
+      const seen = new Set();
+      ALL = results.filter(x => {
+        if (!x || !x.word) return false;
+        const key = norm(x.word);
+        if (seen.has(key)) return false;
+        seen.add(key);
+        return true;
+      });
+
+      $status.textContent = "렌더링…";
+      render(ALL);
+    } catch (e) {
+      console.error(e);
+      $status.textContent = "로딩 실패: " + e.message;
+    }
+  }
+
+  loadAll();
+  </script>
+</body>
+</html>

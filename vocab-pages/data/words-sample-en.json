@@ -1,0 +1,32 @@
+[
+  {
+    "word": "brook",
+    "pos": "n.",
+    "meaning": "시내, 개울",
+    "example_en": "A gentle brook ran through the forest.",
+    "example_gloss": "잔잔한 개울이 숲을 가로질러 흘렀다.",
+    "image_url": "https://cdn.pixabay.com/photo/2020/06/10/20/02/brook-5283248_1280.jpg",
+    "source_link": "https://pixabay.com/photos/brook-stream-water-nature-forest-5283248/",
+    "level": "A2"
+  },
+  {
+    "word": "resilient",
+    "pos": "adj.",
+    "meaning": "회복력 있는, 탄력 있는",
+    "example_en": "She remained resilient despite the setbacks.",
+    "example_gloss": "그녀는 좌절에도 불구하고 회복력을 유지했다.",
+    "image_url": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
+    "source_link": "https://unsplash.com/photos/a-tree-in-a-field-8K4V2S0vJ6s",
+    "level": "B2"
+  },
+  {
+    "word": "juxtapose",
+    "pos": "v.",
+    "meaning": "병치하다, 나란히 놓다",
+    "example_en": "The exhibition juxtaposes modern art with classical pieces.",
+    "example_gloss": "그 전시는 현대 미술과 고전 작품을 병치한다.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Color_icon_blue.png",
+    "source_link": "https://commons.wikimedia.org/wiki/File:Color_icon_blue.png",
+    "level": "C1"
+  }
+]
