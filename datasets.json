@@ -1,0 +1,32 @@
+{
+  "languages": [
+    {
+      "id": "en",
+      "name": "English",
+      "files": [
+        {
+          "title": "English Words 2025 08 12",
+          "path": "EnglishjsonWordData/english_words_2025-08-12.json"
+        },
+        {
+          "title": "English Words 2025 08 13",
+          "path": "EnglishjsonWordData/english_words_2025-08-13.json"
+        }
+      ]
+    },
+    {
+      "id": "xx",
+      "name": "日本語",
+      "files": [
+        {
+          "title": "日本語 Words 2025 08 12",
+          "path": "日本語jsonWordData/日本語_words_2025-08-12.json"
+        },
+        {
+          "title": "日本語 Words 2025 08 13",
+          "path": "日本語jsonWordData/日本語_words_2025-08-13.json"
+        }
+      ]
+    }
+  ]
+}

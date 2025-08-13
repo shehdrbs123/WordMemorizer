@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>문제 — 멀티 JSON 로더</title>
+<style>
+  :root{ --bg:#0b0d12; --card:#121620; --card2:#0e131c;
+         --text:#e6e9ef; --muted:#9aa3b2; --accent:#4da3ff; --border:#1f2a3a; --good:#18c964; --bad:#ff5d5d; }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--text);font-family:ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Apple SD Gothic Neo,Malgun Gothic,AppleGothic,Helvetica,Arial,sans-serif}
+  header{padding:20px 16px;max-width:1000px;margin:0 auto}
+  h1{margin:0 0 6px;font-size:24px;letter-spacing:-0.2px}
+  p.lead{margin:0 0 12px;color:var(--muted);font-size:13px}
+  .bar{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+  .bar > *{background:#0e131c;border:1px solid var(--border);color:var(--text);border-radius:8px;padding:8px 10px;font-size:13px}
+  .bar button{cursor:pointer}
+  .wrap{max-width:1000px;margin:0 auto;padding:0 16px 20px}
+  .card{background:#121620;border:1px solid var(--border);border-radius:12px;padding:16px;margin-top:14px}
+  .q{font-size:18px;font-weight:700;margin-bottom:10px;display:flex;align-items:center;gap:8px}
+  .mode{font-size:12px;color:var(--muted)}
+  .img{width:140px;height:100px;object-fit:contain;background:#1c2330;border-radius:10px;padding:8px;margin-left:auto}
+  .choices{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:10px}
+  .choices button, .submit{background:#1b2433;border:1px solid var(--border);border-radius:10px;padding:10px;cursor:pointer;color:#dbe3f2}
+  .choices button.correct{background:rgba(24,201,100,0.15);border-color:#1e7d4f}
+  .choices button.wrong{background:rgba(255,93,93,0.15);border-color:#7d3030}
+  .typing{display:flex;gap:8px;margin-top:10px}
+  .typing input{flex:1;background:#0f1420;border:1px solid var(--border);border-radius:10px;padding:10px;color:#e6e9ef}
+  .typing .submit{padding:10px 14px}
+  .meta{font-size:12px;color:var(--muted);margin-top:10px;display:flex;gap:10px;flex-wrap:wrap}
+  .example{font-size:13px;color:#d1d5db;background:#1e2838;padding:6px 8px;border-left:3px solid var(--accent);border-radius:6px;line-height:1.4;margin-top:10px}
+  .footer{font-size:12px;color:var(--muted);margin-top:16px;display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
+  .pill{font-size:11px;padding:3px 8px;background:#1e2838;border-radius:999px;color:#b8c2d3}
+  .hint{font-size:12px;color:#cdd6e3;margin-top:6px}
+  .stats{font-size:12px;color:#cdd6e3;margin-left:auto}
+  .hidden{display:none}
+  @media(max-width:640px){ .choices{grid-template-columns:1fr} .img{width:100%;height:auto;margin-top:10px} }
+</style>
+</head>
+<body>
+<header>
+  <h1>문제 — 멀티 JSON 로더</h1>
+  <p class="lead">같은 <code>datasets.json</code>에서 세트를 선택해 퀴즈로 풉니다.</p>
+  <div class="bar">
+    <select id="langSel"><option value="">언어 선택…</option></select>
+    <select id="setSel" disabled><option value="">세트 선택…</option></select>
+    <select id="modeSel">
+      <option value="en2ko">뜻 맞히기 (영→한)</option>
+      <option value="ko2en">영어 맞히기 (한→영)</option>
+    </select>
+    <select id="typeSel">
+      <option value="mc">객관식 (4지선다)</option>
+      <option value="typing">주관식 (타이핑)</option>
+    </select>
+    <label class="pill"><input type="checkbox" id="onlyNew"> 외움 미체크만</label>
+    <button id="start">시작</button>
+    <span class="stats"><span id="done">0</span>/<span id="total">0</span> · 정답 <span id="ok">0</span> · 오답 <span id="ng">0</span></span>
+  </div>
+</header>
+
+<div class="wrap">
+  <div id="quiz" class="card hidden">
+    <div style="display:flex;align-items:center;gap:12px">
+      <div class="q"><span id="prompt"></span> <span class="mode" id="modeLabel"></span></div>
+      <img id="img" class="img" alt="">
+    </div>
+    <div id="choices" class="choices hidden"></div>
+    <div id="typing" class="typing hidden">
+      <input id="answer" placeholder="정답 입력..." autocomplete="off" />
+      <button class="submit" id="submit">확인</button>
+    </div>
+    <div id="example" class="example hidden"></div>
+    <div class="meta">
+      <a id="src" href="#" target="_blank">출처</a>
+      <a id="imgLink" href="#" target="_blank">이미지 URL</a>
+      <span class="pill" id="pos"></span>
+    </div>
+    <div class="footer">
+      <div class="hint" id="hint"></div>
+      <div style="display:flex;gap:8px">
+        <button id="show" class="submit">정답 보기</button>
+        <button id="next" class="submit">다음</button>
+      </div>
+    </div>
+  </div>
+  <div id="empty" class="card">먼저 언어와 세트를 선택하고 시작을 누르세요.</div>
+</div>
+
+<script>
+const $ = s => document.querySelector(s);
+const shuffle = (arr) => arr.sort(()=>Math.random()-0.5);
+const norm = s => (s||'').toString().trim().toLowerCase();
+let DATASETS=null, DATA=[], QUEUE=[], CUR=null, MODE='en2ko', TYPE='mc', STATS={done:0,ok:0,ng:0};
+
+async function loadManifest(){
+  const res = await fetch('./datasets.json?v=2025-08-11');
+  if(!res.ok) throw new Error('datasets.json 로드 실패');
+  return await res.json();
+}
+function fillSelectors(m){
+  const langSel=$('#langSel');
+  langSel.innerHTML='<option value="">언어 선택…</option>'+m.languages.map(l=>`<option value="${l.id}">${l.name}</option>`).join('');
+  $('#setSel').innerHTML='<option value="">세트 선택…</option>'; $('#setSel').disabled=true;
+}
+$('#langSel').addEventListener('change',e=>{
+  const id=e.target.value; const lang=(DATASETS.languages||[]).find(l=>l.id===id);
+  const setSel=$('#setSel'); if(!lang){setSel.innerHTML='<option value="">세트 선택…</option>'; setSel.disabled=true; return;}
+  setSel.disabled=false;
+  setSel.innerHTML='<option value="">세트 선택…</option>'+(lang.files||[]).map(f=>`<option value="${f.path}">${f.title||f.path}</option>`).join('');
+});
+$('#modeSel').addEventListener('change',e=>MODE=e.target.value);
+$('#typeSel').addEventListener('change',e=>TYPE=e.target.value);
+$('#start').addEventListener('click', async ()=>{
+  const path=$('#setSel').value; if(!path) return alert('세트를 선택하세요.');
+  const res = await fetch(path); if(!res.ok) return alert('JSON 로드 실패');
+  const arr = await res.json(); DATA = Array.isArray(arr)?arr:[];
+  startQuiz();
+});
+$('#onlyNew').addEventListener('change',()=> startQuiz());
+
+function startQuiz(){
+  const onlyNew=$('#onlyNew').checked;
+  const pool = DATA.filter(x=>x&&x.word&&x.meaning&&x.example_en&&x.example_gloss&&x.image_url&&x.source_link)
+                   .filter(x=>!onlyNew || localStorage.getItem('learned_'+x.word)!=='true');
+  if(pool.length===0){ $('#empty').textContent='조건에 맞는 문제가 없습니다.'; $('#quiz').classList.add('hidden'); $('#empty').classList.remove('hidden'); return; }
+  QUEUE = pool.map((_,i)=>i); shuffle(QUEUE);
+  STATS={done:0,ok:0,ng:0}; $('#ok').textContent='0'; $('#ng').textContent='0'; $('#done').textContent='0'; $('#total').textContent=String(QUEUE.length);
+  $('#empty').classList.add('hidden'); $('#quiz').classList.remove('hidden'); nextQuestion();
+}
+function nextQuestion(){
+  if(QUEUE.length===0){ alert('끝! 잘했어요.'); return; }
+  CUR = QUEUE.pop(); const it = DATA[CUR];
+  const prompt = (MODE==='en2ko') ? it.word : it.meaning;
+  $('#prompt').textContent=prompt; $('#modeLabel').textContent=(MODE==='en2ko')?'영→한':'한→영';
+  $('#img').src=it.image_url; $('#img').alt=it.word; $('#src').href=it.source_link; $('#imgLink').href=it.image_url; $('#pos').textContent=it.pos;
+  $('#example').classList.add('hidden'); $('#hint').textContent=''; const ans=(MODE==='en2ko')?it.meaning:it.word;
+  if(TYPE==='mc'){ showMC(it, ans); } else { showTyping(it, ans); }
+}
+function showMC(it, correct){
+  const wrap=$('#choices'); wrap.classList.remove('hidden'); $('#typing').classList.add('hidden'); wrap.innerHTML='';
+  const pool = DATA.filter((x)=>x.word!==it.word); shuffle(pool);
+  const choices = pool.slice(0,3).map(x=> (MODE==='en2ko'?x.meaning:x.word)); choices.push(correct); shuffle(choices);
+  choices.forEach(txt=>{ const b=document.createElement('button'); b.textContent=txt;
+    b.onclick=()=>{ const ok=norm(txt)===norm(correct); grade(ok,it,correct); [...wrap.children].forEach(bb=>bb.disabled=true); b.classList.add(ok?'correct':'wrong'); };
+    wrap.appendChild(b);
+  });
+}
+function showTyping(it, correct){
+  $('#choices').classList.add('hidden'); $('#typing').classList.remove('hidden'); const input=$('#answer'); input.value=''; input.focus();
+  const submit=$('#submit'); const handler=()=>{ const ok=norm(input.value)===norm(correct); grade(ok,it,correct); submit.removeEventListener('click',handler); };
+  submit.addEventListener('click',handler); input.addEventListener('keydown',e=>{ if(e.key==='Enter') handler(); });
+}
+function grade(ok,it,correct){
+  $('#example').classList.remove('hidden'); $('#example').innerHTML='💬 '+it.example_en+'<br>('+it.example_gloss+')';
+  $('#hint').textContent = ok ? '정답!' : '정답: '+correct;
+  const kc='quiz_correct_'+it.word, kw='quiz_wrong_'+it.word; if(ok){ STATS.ok++; localStorage.setItem(kc, String((+localStorage.getItem(kc)||0)+1)); } else { STATS.ng++; localStorage.setItem(kw, String((+localStorage.getItem(kw)||0)+1)); }
+  STATS.done++; $('#ok').textContent=String(STATS.ok); $('#ng').textContent=String(STATS.ng); $('#done').textContent=String(STATS.done);
+}
+$('#show').addEventListener('click',()=>{ const it=DATA[CUR]; if(!it) return; const correct=(MODE==='en2ko')?it.meaning:it.word; $('#hint').textContent='정답: '+correct; $('#example').classList.remove('hidden'); });
+$('#next').addEventListener('click', nextQuestion);
+
+(async function init(){
+  try{ DATASETS = await loadManifest(); const langSel=$('#langSel');
+    langSel.innerHTML='<option value="">언어 선택…</option>'+DATASETS.languages.map(l=>`<option value="${l.id}">${l.name}</option>`).join('');
+    $('#setSel').innerHTML='<option value="">세트 선택…</option>'; $('#setSel').disabled=true;
+  }catch(err){ alert('datasets.json 로드 실패: '+err.message+' — 파일을 웹서버에서 열고 있는지 확인하세요.'); }
+})();
+</script>
+</body>
+</html>

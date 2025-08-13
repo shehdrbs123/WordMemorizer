@@ -1,0 +1,137 @@
+[
+  {
+    "word": "garden",
+    "pos": "n.",
+    "meaning": "정원",
+    "example_en": "She grows beautiful flowers in her garden.",
+    "example_gloss": "그녀는 정원에서 아름다운 꽃을 기른다.",
+    "image_url": "https://cdn.pixabay.com/photo/2014/06/30/13/04/books-library-bookshelf-bookshop-378600.jpg",
+    "source_link": "https://commons.wikimedia.org/wiki/Category:Gardens"
+  },
+  {
+    "word": "weather",
+    "pos": "n.",
+    "meaning": "날씨",
+    "example_en": "The weather is sunny and warm today.",
+    "example_gloss": "오늘 날씨는 맑고 따뜻하다.",
+    "image_url": "https://cdn.pixabay.com/photo/2017/06/20/23/42/landscape-2423876.jpg",
+    "source_link": "https://pixabay.com/photos/landscape-sunset-clouds-trees-2423876/"
+  },
+  {
+    "word": "unique",
+    "pos": "adj.",
+    "meaning": "독특한, 유일한",
+    "example_en": "Each person has a unique fingerprint.",
+    "example_gloss": "각 사람은 독특한 지문을 가지고 있다.",
+    "image_url": "https://images.unsplash.com/photo-1618172193622-ae2d025f4032?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
+    "source_link": "https://unsplash.com/photos/an-elegant-building-and-a-street-sign--WPFN-2wiN8"
+  },
+  {
+    "word": "opportunity",
+    "pos": "n.",
+    "meaning": "기회",
+    "example_en": "This job offers a great opportunity for career growth.",
+    "example_gloss": "이 직장은 경력 성장을 위한 좋은 기회를 제공한다.",
+    "image_url": "https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "source_link": "https://www.pexels.com/search/business%20success/"
+  },
+  {
+    "word": "challenge",
+    "pos": "n.",
+    "meaning": "도전, 어려움",
+    "example_en": "Learning a new language is always a challenge.",
+    "example_gloss": "새로운 언어를 배우는 것은 항상 도전이다.",
+    "image_url": "https://images.pexels.com/photos/1105772/pexels-photo-1105772.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "source_link": "https://www.pexels.com/search/challenge/"
+  },
+  {
+    "word": "happiness",
+    "pos": "n.",
+    "meaning": "행복",
+    "example_en": "Family time brings me great happiness.",
+    "example_gloss": "가족과 함께하는 시간은 나에게 큰 행복을 가져다준다.",
+    "image_url": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
+    "source_link": "https://unsplash.com/s/photos/happiness"
+  },
+  {
+    "word": "efficient",
+    "pos": "adj.",
+    "meaning": "효율적인",
+    "example_en": "The new system is more efficient than the old one.",
+    "example_gloss": "새로운 시스템은 이전 것보다 더 효율적이다.",
+    "image_url": "https://images.unsplash.com/photo-1518186285589-2f7649de83e0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
+    "source_link": "https://unsplash.com/s/photos/technology"
+  },
+  {
+    "word": "priority",
+    "pos": "n.",
+    "meaning": "우선순위",
+    "example_en": "Education should be our top priority.",
+    "example_gloss": "교육이 우리의 최우선순위가 되어야 한다.",
+    "image_url": "https://cdn.pixabay.com/photo/2016/10/05/15/43/priority-1714375.jpg",
+    "source_link": "https://pixabay.com/illustrations/priority-important-information-1714375/"
+  },
+  {
+    "word": "overcome",
+    "pos": "v.",
+    "meaning": "극복하다",
+    "example_en": "She worked hard to overcome her fears.",
+    "example_gloss": "그녀는 자신의 두려움을 극복하기 위해 열심히 노력했다.",
+    "image_url": "https://images.unsplash.com/photo-1533134486753-c833f0ed4866?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
+    "source_link": "https://unsplash.com/s/photos/challenge"
+  },
+  {
+    "word": "establish",
+    "pos": "v.",
+    "meaning": "설립하다, 확립하다",
+    "example_en": "The company was established in 1995.",
+    "example_gloss": "그 회사는 1995년에 설립되었다.",
+    "image_url": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
+    "source_link": "https://unsplash.com/s/photos/beautiful-building"
+  },
+  {
+    "word": "particularly",
+    "pos": "adv.",
+    "meaning": "특히",
+    "example_en": "I enjoy outdoor activities, particularly hiking.",
+    "example_gloss": "나는 야외 활동, 특히 하이킹을 즐긴다.",
+    "image_url": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
+    "source_link": "https://unsplash.com/s/photos/nature-forest"
+  },
+  {
+    "word": "innovation",
+    "pos": "n.",
+    "meaning": "혁신",
+    "example_en": "The company is known for its technological innovation.",
+    "example_gloss": "그 회사는 기술 혁신으로 유명하다.",
+    "image_url": "https://images.unsplash.com/photo-1518186285589-2f7649de83e0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
+    "source_link": "https://commons.wikimedia.org/wiki/Category:Innovation"
+  },
+  {
+    "word": "comprehensive",
+    "pos": "adj.",
+    "meaning": "종합적인, 포괄적인",
+    "example_en": "The report provides a comprehensive analysis of the market.",
+    "example_gloss": "그 보고서는 시장에 대한 종합적인 분석을 제공한다.",
+    "image_url": "https://cdn.pixabay.com/photo/2015/09/05/07/28/writing-923882_1280.jpg",
+    "source_link": "https://pixabay.com/images/search/library%20books/"
+  },
+  {
+    "word": "fundamental",
+    "pos": "adj.",
+    "meaning": "근본적인, 기본적인",
+    "example_en": "Understanding grammar is fundamental to learning any language.",
+    "example_gloss": "문법을 이해하는 것은 모든 언어 학습의 기본이다.",
+    "image_url": "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
+    "source_link": "https://unsplash.com/s/photos/architecture"
+  },
+  {
+    "word": "nevertheless",
+    "pos": "adv.",
+    "meaning": "그럼에도 불구하고",
+    "example_en": "The task was difficult; nevertheless, we completed it on time.",
+    "example_gloss": "그 과제는 어려웠다. 그럼에도 불구하고 우리는 제시간에 완성했다.",
+    "image_url": "https://images.unsplash.com/photo-1533134486753-c833f0ed4866?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
+    "source_link": "https://unsplash.com/s/photos/challenge"
+  }
+]

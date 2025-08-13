@@ -1,0 +1,137 @@
+[
+  {
+    "word": "kitchen",
+    "pos": "n.",
+    "meaning": "부엌",
+    "example_en": "She prepared dinner in the kitchen.",
+    "example_gloss": "그녀는 부엌에서 저녁을 준비했다.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/19/Kitchen.JPG",
+    "source_link": "https://commons.wikimedia.org/wiki/File:Kitchen.JPG"
+  },
+  {
+    "word": "smartphone",
+    "pos": "n.",
+    "meaning": "스마트폰",
+    "example_en": "I use my smartphone to check emails.",
+    "example_gloss": "나는 이메일을 확인하기 위해 스마트폰을 사용한다.",
+    "image_url": "https://cdn.pixabay.com/photo/2016/12/09/18/39/smartphone-1894723_1280.jpg",
+    "source_link": "https://pixabay.com/images/search/smartphone/"
+  },
+  {
+    "word": "adventure",
+    "pos": "n.",
+    "meaning": "모험",
+    "example_en": "They went on an exciting adventure through the mountains.",
+    "example_gloss": "그들은 산을 통과하는 흥미진진한 모험을 떠났다.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/77/A_Young_Lady's_Adventure.JPG",
+    "source_link": "https://commons.wikimedia.org/wiki/File:A_Young_Lady's_Adventure.JPG"
+  },
+  {
+    "word": "environment",
+    "pos": "n.",
+    "meaning": "환경",
+    "example_en": "We need to protect the environment for future generations.",
+    "example_gloss": "우리는 미래 세대를 위해 환경을 보호해야 한다.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/39/Landscape-nature-forest-trees-2_%2824218576162%29.jpg",
+    "source_link": "https://commons.wikimedia.org/wiki/File:Landscape-nature-forest-trees-2_(24218576162).jpg"
+  },
+  {
+    "word": "library",
+    "pos": "n.",
+    "meaning": "도서관",
+    "example_en": "Students often study at the library during exam period.",
+    "example_gloss": "학생들은 시험 기간 동안 종종 도서관에서 공부한다.",
+    "image_url": "https://cdn.pixabay.com/photo/2014/06/30/13/04/books-library-bookshelf-bookshop-378600.jpg",
+    "source_link": "https://pixabay.com/photos/books-library-bookshelf-bookshop-378600/"
+  },
+  {
+    "word": "comfortable",
+    "pos": "adj.",
+    "meaning": "편안한",
+    "example_en": "This chair is very comfortable to sit in.",
+    "example_gloss": "이 의자는 앉기에 매우 편안하다.",
+    "image_url": "https://images.unsplash.com/photo-1567538096630-e0c55bd6374c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
+    "source_link": "https://unsplash.com/s/photos/comfy-chair"
+  },
+  {
+    "word": "successful",
+    "pos": "adj.",
+    "meaning": "성공적인",
+    "example_en": "The company launched a successful marketing campaign.",
+    "example_gloss": "그 회사는 성공적인 마케팅 캠페인을 시작했다.",
+    "image_url": "https://images.pexels.com/photos/1181533/pexels-photo-1181533.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "source_link": "https://www.pexels.com/search/business%20success/"
+  },
+  {
+    "word": "delicious",
+    "pos": "adj.",
+    "meaning": "맛있는",
+    "example_en": "The chef prepared a delicious meal for the guests.",
+    "example_gloss": "요리사는 손님들을 위해 맛있는 식사를 준비했다.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/9/9c/New_Mexican_Food_Plate.JPG",
+    "source_link": "https://commons.wikimedia.org/wiki/File:New_Mexican_Food_Plate.JPG"
+  },
+  {
+    "word": "discover",
+    "pos": "v.",
+    "meaning": "발견하다",
+    "example_en": "Scientists hope to discover new medicines in the rainforest.",
+    "example_gloss": "과학자들은 열대우림에서 새로운 약을 발견하기를 희망한다.",
+    "image_url": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
+    "source_link": "https://unsplash.com/s/photos/nature-forest"
+  },
+  {
+    "word": "appreciate",
+    "pos": "v.",
+    "meaning": "감사하다, 높이 평가하다",
+    "example_en": "I really appreciate your help with this project.",
+    "example_gloss": "이 프로젝트에 대한 당신의 도움에 정말 감사합니다.",
+    "image_url": "https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "source_link": "https://www.pexels.com/search/business%20success/"
+  },
+  {
+    "word": "frequently",
+    "pos": "adv.",
+    "meaning": "자주",
+    "example_en": "She frequently visits her grandmother on weekends.",
+    "example_gloss": "그녀는 주말에 할머니를 자주 방문한다.",
+    "image_url": "https://cdn.pixabay.com/photo/2017/08/10/08/47/smartphone-2619526_1280.jpg",
+    "source_link": "https://pixabay.com/images/search/smartphone/"
+  },
+  {
+    "word": "sustainability",
+    "pos": "n.",
+    "meaning": "지속가능성",
+    "example_en": "The company focuses on sustainability in their business practices.",
+    "example_gloss": "그 회사는 사업 관행에서 지속가능성에 중점을 둔다.",
+    "image_url": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
+    "source_link": "https://unsplash.com/s/photos/nature-forest"
+  },
+  {
+    "word": "contemplate",
+    "pos": "v.",
+    "meaning": "숙고하다, 심사숙고하다",
+    "example_en": "He contemplated the decision for several days before agreeing.",
+    "example_gloss": "그는 동의하기 전에 며칠 동안 그 결정을 숙고했다.",
+    "image_url": "https://cdn.pixabay.com/photo/2015/09/05/07/28/writing-923882_1280.jpg",
+    "source_link": "https://pixabay.com/images/search/library%20books/"
+  },
+  {
+    "word": "consequently",
+    "pos": "adv.",
+    "meaning": "따라서, 그 결과로",
+    "example_en": "The roads were icy; consequently, many flights were cancelled.",
+    "example_gloss": "도로가 얼어 있었다. 따라서 많은 항공편이 취소되었다.",
+    "image_url": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
+    "source_link": "https://unsplash.com/s/photos/nature-forest"
+  },
+  {
+    "word": "sophisticated",
+    "pos": "adj.",
+    "meaning": "정교한, 세련된",
+    "example_en": "The sophisticated technology allows for precise measurements.",
+    "example_gloss": "정교한 기술로 정밀한 측정이 가능하다.",
+    "image_url": "https://cdn.pixabay.com/photo/2016/11/29/06/15/mobile-phone-1867510_1280.jpg",
+    "source_link": "https://pixabay.com/images/search/smartphone/"
+  }
+]

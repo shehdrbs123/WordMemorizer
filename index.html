@@ -1,241 +1,397 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ko">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>단어장 (GitHub Pages 버전)</title>
-  <style>
-    :root { color-scheme: dark light; }
-    body { margin: 0; font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, Apple SD Gothic Neo, Noto Sans KR, "Malgun Gothic", sans-serif; background:#111; color:#e5e5e5; }
-    header { position: sticky; top:0; z-index:10; background:#0d0d0d; border-bottom:1px solid #222; }
-    .wrap { max-width:1080px; margin:0 auto; padding:16px; }
-    .grid { display:grid; grid-template-columns: repeat(auto-fill,minmax(260px,1fr)); gap:16px; }
-    .card { background:#181818; border:1px solid #2a2a2a; border-radius:16px; overflow:hidden; box-shadow: 0 4px 16px rgba(0,0,0,.35); display:flex; flex-direction:column; }
-    .thumb { width:100%; aspect-ratio:16/9; object-fit:cover; background:#0f0f0f; }
-    .content { padding:14px 14px 10px; display:flex; flex-direction:column; gap:8px; }
-    .title { display:flex; align-items:center; justify-content:space-between; gap:8px; }
-    .word { font-size:1.15rem; font-weight:700; }
-    .pos { font-size:.8rem; opacity:.8; margin-left:.25rem; }
-    .meaning { font-size:.95rem; color:#cfcfcf; }
-    .example { font-size:.9rem; color:#bdbdbd; }
-    .row { display:flex; align-items:center; justify-content:space-between; gap:8px; }
-    .meta { font-size:.75rem; opacity:.7; }
-    .btn { cursor:pointer; border:1px solid #2d2d2d; background:#1f1f1f; color:#eaeaea; padding:6px 10px; border-radius:10px; }
-    .btn:hover { background:#242424; }
-    .controls { display:flex; flex-wrap:wrap; gap:8px; align-items:center; }
-    input[type="search"], select { background:#1b1b1b; color:#eaeaea; border:1px solid #2a2a2a; border-radius:10px; padding:8px 10px; outline:none; }
-    a { color:#7ab8ff; text-decoration:none; }
-    a:hover { text-decoration:underline; }
-    .badge { font-size:.72rem; padding:2px 8px; border-radius:999px; background:#232323; border:1px solid #303030; }
-    .hide { display:none !important; }
-  </style>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>단어 공부 — 멀티 JSON 로더 (언어별 TTS + 예외발음)</title>
+<style>
+  :root{ --bg:#0b0d12; --card:#121620; --text:#e6e9ef; --muted:#9aa3b2; --accent:#4da3ff; --border:#1f2a3a; }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--text);font-family:ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Apple SD Gothic Neo,Malgun Gothic,AppleGothic,Helvetica,Arial,sans-serif}
+  header{padding:20px 16px;max-width:1100px;margin:0 auto}
+  h1{margin:0 0 6px;font-size:24px;letter-spacing:-0.2px}
+  p.lead{margin:0 0 12px;color:var(--muted);font-size:13px}
+  .bar{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+  .bar > *{background:#0e131c;border:1px solid var(--border);color:var(--text);border-radius:8px;padding:8px 10px;font-size:13px}
+  .bar button{cursor:pointer}
+  .wrap{max-width:1100px;margin:0 auto;padding:0 16px 24px}
+  ul.vlist{list-style:none;padding:0;margin:14px 0;display:flex;flex-direction:column;gap:14px;}
+  li.item{display:flex;gap:14px;background:#121620;border:1px solid var(--border);border-radius:12px;padding:12px;position:relative}
+  .thumb{flex-shrink:0;width:120px;height:90px;object-fit:contain;border-radius:8px;background:#1c2330;padding:6px}
+  .text{flex:1;display:flex;flex-direction:column;gap:4px}
+  .wordline{display:flex;align-items:center;gap:8px;font-weight:700;font-size:17px}
+  .pos{font-size:11px;padding:2px 8px;background:#1e2838;border-radius:999px;color:#b8c2d3}
+  .desc{font-size:14px}
+  .example{font-size:13px;color:#d1d5db;background:#1e2838;padding:6px 8px;border-left:3px solid var(--accent);border-radius:4px;display:flex;align-items:center;gap:6px;flex-wrap:wrap}
+  .example .extext{flex:1;min-width:250px}
+  .meta{margin-top:4px;font-size:11px;color:var(--muted);display:flex;gap:8px;flex-wrap:wrap}
+  .meta a{color:var(--accent)}
+  .check{position:absolute;top:12px;right:12px;display:flex;align-items:center;gap:4px;font-size:11px;color:#babec9}
+  .badge{font-size:10px;color:#ffd1d1;background:#3a1e1e;border:1px solid #583333;padding:2px 6px;border-radius:999px;display:none}
+
+  .speakbtn{
+    border:1px solid var(--border);
+    background:#1e2838;color:#cbd5e1;
+    width:26px;height:26px;border-radius:8px;
+    display:inline-flex;align-items:center;justify-content:center;
+    cursor:pointer;transition:background .15s,color .15s,transform .05s;
+  }
+  .speakbtn:hover{ background:#283349; color:#fff; }
+  .speakbtn:active{ transform:translateY(1px); }
+  .speakbtn svg{ width:16px;height:16px; display:block; }
+
+  /* 상단 보조 옵션 */
+  .bar .inline{display:flex;gap:8px;align-items:center;padding:0;border:none;background:transparent}
+  .bar .inline label{display:flex;gap:6px;align-items:center;font-size:12px;color:#cbd5e1}
+  .bar .inline select{padding:6px 8px;border-radius:8px;background:#0e131c;border:1px solid var(--border);color:#e6e9ef;font-size:12px}
+</style>
 </head>
 <body>
-  <header>
-    <div class="wrap" style="display:flex; gap:12px; align-items:center; justify-content:space-between;">
-      <div style="display:flex; flex-direction:column; gap:2px;">
-        <strong>단어장 (Pages)</strong>
-        <span class="meta" id="status">데이터 로딩 중...</span>
-      </div>
-      <div class="controls">
-        <input id="q" type="search" placeholder="검색(단어/뜻/예문)" />
-        <select id="level">
-          <option value="">레벨 전체</option>
-          <option value="A1">A1</option><option value="A2">A2</option>
-          <option value="B1">B1</option><option value="B2">B2</option>
-          <option value="C1">C1</option><option value="C2">C2</option>
+<header>
+  <h1>단어 공부 — 멀티 JSON 로더</h1>
+  <p class="lead">언어/세트를 선택해 렌더링하고, 텍스트 언어에 맞는 보이스로 읽어줍니다. (체크 상태는 브라우저에 저장)</p>
+  <div class="bar">
+    <select id="langSel"><option value="">언어 선택…</option></select>
+    <select id="setSel" disabled><option value="">세트 선택…</option></select>
+    <label><input id="onlyNew" type="checkbox"> 외움 미체크만 보기</label>
+    <button id="reload">불러오기</button>
+
+    <div class="inline">
+      <label title="문자 범위를 보고 언어를 자동으로 고릅니다(한/일/라틴 등)">
+        <input id="autoLang" type="checkbox" checked> 자동 언어 감지
+      </label>
+      <label>강제 로캘
+        <select id="forceLocale">
+          <option value="">(선택된 언어 기준)</option>
+          <option>ja-JP</option><option>ko-KR</option><option>en-US</option><option>en-GB</option>
+          <option>zh-CN</option><option>zh-TW</option><option>fr-FR</option><option>de-DE</option>
+          <option>es-ES</option><option>it-IT</option><option>th-TH</option><option>vi-VN</option><option>id-ID</option>
         </select>
-        <label class="badge"><input type="checkbox" id="showOnlyUnlearned" /> 미학습만</label>
-        <button class="btn" id="resetLearned">학습 체크 초기화</button>
-      </div>
+      </label>
     </div>
-  </header>
 
-  <main class="wrap">
-    <div class="grid" id="grid"></div>
-  </main>
+    <a id="openQuiz" href="./quiz.html" style="text-decoration:none" target="_blank">문제 풀기 열기 ↗</a>
+    <span id="status" style="margin-left:auto;color:#9aa3b2"></span>
+  </div>
+</header>
+<div class="wrap">
+  <ul id="list" class="vlist"></ul>
+</div>
+<script>
+/* ===== 공통 ===== */
+const $ = s => document.querySelector(s);
+const list = $('#list');
+const statusEl = $('#status');
+let DATASETS = null;
+let CURRENT = null;
 
-  <template id="card-tpl">
-    <article class="card" data-word>
-      <img class="thumb" data-img alt=""/>
-      <div class="content">
-        <div class="title">
-          <div>
-            <span class="word" data-word-text></span>
-            <span class="pos" data-pos></span>
-          </div>
-          <label class="badge"><input type="checkbox" data-learned /> learned</label>
-        </div>
-        <div class="meaning" data-meaning></div>
-        <div class="example" data-example-en></div>
-        <div class="example" data-example-gloss></div>
-        <div class="row">
-          <span class="meta" data-level></span>
-          <span class="meta"><a data-src target="_blank" rel="noopener">출처</a></span>
-        </div>
-      </div>
-    </article>
-  </template>
+/* ===== datasets.json ===== */
+async function loadManifest(){
+  const res = await fetch('./datasets.json?v=2025-08-11');
+  if(!res.ok) throw new Error('datasets.json 로드 실패');
+  return await res.json();
+}
+function fillSelectors(manifest){
+  const langSel = $('#langSel');
+  langSel.innerHTML = '<option value="">언어 선택…</option>' + (manifest.languages||[]).map(l => `<option value="${l.id}">${l.name}</option>`).join('');
+  $('#setSel').innerHTML = '<option value="">세트 선택…</option>';
+  $('#setSel').disabled = true;
+}
+$('#langSel').addEventListener('change', (e)=>{
+  const id = e.target.value;
+  const lang = (DATASETS.languages||[]).find(l => l.id===id);
+  const setSel = $('#setSel');
+  if(!lang){ setSel.innerHTML='<option value="">세트 선택…</option>'; setSel.disabled=true; return; }
+  setSel.disabled = false;
+  setSel.innerHTML = '<option value="">세트 선택…</option>' + (lang.files||[]).map(f=>`<option value="${f.path}">${f.title || f.path}</option>`).join('');
+});
+$('#reload').addEventListener('click', ()=>{
+  const path = $('#setSel').value;
+  if(!path) return alert('세트를 선택하세요.');
+  loadJSON(path);
+});
+$('#onlyNew').addEventListener('change', ()=>{ if(CURRENT) render(CURRENT); });
 
-  <script>
-  // ------- Config ---------
-  const DATA_INDEX = "data/index.json";       // 목록 파일
-  const CACHE_BUST = () => `?t=${Date.now()}`; // 캐시 무력화
-  const LS_LEARNED = "vocab.learned.v1";
-  const LS_BAD_IMAGES = "vocab.badImages.v1";
+/* ===== 데이터 로드 ===== */
+async function loadJSON(path){
+  statusEl.textContent = '로딩 중…';
+  const res = await fetch(path);
+  if(!res.ok){ statusEl.textContent='JSON 로드 실패'; return; }
+  const arr = await res.json();
+  CURRENT = (Array.isArray(arr) ? arr : []);
+  render(CURRENT);
+}
 
-  // ------- State ---------
-  let ALL = [];
-  const learned = new Set(JSON.parse(localStorage.getItem(LS_LEARNED) || "[]"));
-  const badImages = new Set(JSON.parse(localStorage.getItem(LS_BAD_IMAGES) || "[]"));
+/* ===== TTS (언어별 + 예외발음) ===== */
+const synth = window.speechSynthesis;
+let VOICES = [];
+let VOICES_READY = false;
 
-  function saveLearned() {
-    localStorage.setItem(LS_LEARNED, JSON.stringify([...learned]));
-  }
-  function saveBadImages() {
-    localStorage.setItem(LS_BAD_IMAGES, JSON.stringify([...badImages]));
-  }
+// 언어코드 → 대표 로캘 매핑
+const LOCALE_MAP = {
+  en: 'en-US', ja: 'ja-JP', ko: 'ko-KR', zh: 'zh-CN', 'zh-hant': 'zh-TW',
+  fr: 'fr-FR', de: 'de-DE', es: 'es-ES', it: 'it-IT', th: 'th-TH', vi: 'vi-VN', id: 'id-ID'
+};
+const VENDOR_PREF = /Google|Microsoft|Siri|Apple/i;
 
-  // ------- DOM ---------
-  const $grid = document.getElementById("grid");
-  const $status = document.getElementById("status");
-  const $tpl = document.getElementById("card-tpl");
-  const $q = document.getElementById("q");
-  const $level = document.getElementById("level");
-  const $showOnlyUnlearned = document.getElementById("showOnlyUnlearned");
-  const $resetLearned = document.getElementById("resetLearned");
+function refreshVoices(){ VOICES = synth.getVoices(); VOICES_READY = VOICES.length > 0; }
+function waitVoices(timeoutMs=2500){
+  return new Promise(resolve=>{
+    const t0 = Date.now();
+    (function loop(){
+      refreshVoices();
+      if(VOICES_READY || Date.now()-t0>timeoutMs) return resolve(VOICES);
+      setTimeout(loop, 100);
+    })();
+  });
+}
+if ('speechSynthesis' in window) {
+  window.speechSynthesis.addEventListener('voiceschanged', refreshVoices);
+  refreshVoices();
+}
 
-  // ------- Utils ---------
-  const norm = (s) => (s || "").toString().trim().toLowerCase();
-  const includes = (hay, needle) => norm(hay).includes(norm(needle));
+// ── 자동 언어 감지(간단히 문자 범위 기반)
+function detectLangFromText(text){
+  if (!text) return '';
+  if (/[ぁ-ゟ゠-ヿ一-龯]/.test(text)) return 'ja-JP'; // 가나/한자 포함 → 일본어
+  if (/[가-힣]/.test(text)) return 'ko-KR';
+  if (/[一-龯]/.test(text)) return 'zh-CN';          // 한자만 있을 때 중국어 추정
+  if (/[A-Za-z]/.test(text)) return 'en-US';
+  return '';
+}
 
-  function render(list) {
-    $grid.innerHTML = "";
-    const frag = document.createDocumentFragment();
+function pickVoiceByLocale(locale){
+  if(!VOICES_READY) refreshVoices();
+  if(!VOICES.length) return null;
+  const lc = (locale||'').toLowerCase();
+  let cands = VOICES.filter(v => (v.lang||'').toLowerCase() === lc);
+  let v = cands.find(v=>VENDOR_PREF.test(v.name)) || cands[0];
+  if (v) return v;
+  cands = VOICES.filter(v => (v.lang||'').toLowerCase().startsWith(lc.slice(0,2)));
+  v = cands.find(v=>VENDOR_PREF.test(v.name)) || cands[0];
+  return v || VOICES[0] || null;
+}
 
-    for (const item of list) {
-      const node = $tpl.content.firstElementChild.cloneNode(true);
-
-      // set attributes/text
-      node.dataset.word = item.word;
-      node.querySelector("[data-word-text]").textContent = item.word;
-      node.querySelector("[data-pos]").textContent = item.pos ? `(${item.pos})` : "";
-      node.querySelector("[data-meaning]").textContent = item.meaning || "";
-      node.querySelector("[data-example-en]").textContent = item.example_en || "";
-      node.querySelector("[data-example-gloss]").textContent = item.example_gloss || "";
-      node.querySelector("[data-level]").textContent = item.level || "";
-      const a = node.querySelector("[data-src]");
-      a.href = item.source_link || "#";
-
-      // learned checkbox
-      const cb = node.querySelector("[data-learned]");
-      cb.checked = learned.has(item.word);
-      cb.addEventListener("change", () => {
-        if (cb.checked) learned.add(item.word);
-        else learned.delete(item.word);
-        saveLearned();
-        // if filter "only unlearned" is on, re-apply
-        if ($showOnlyUnlearned.checked) applyFilters();
-      });
-
-      // image handling + broken image tracking
-      const img = node.querySelector("[data-img]");
-      if (item.image_url && !badImages.has(item.image_url)) {
-        img.src = item.image_url;
-        img.alt = item.word;
-        img.addEventListener("error", () => {
-          // mark as broken & hide image
-          badImages.add(item.image_url);
-          saveBadImages();
-          img.classList.add("hide");
-        }, { once:true });
-        img.addEventListener("load", () => {
-          // loaded successfully: ensure it's visible
-          img.classList.remove("hide");
-        }, { once:true });
-      } else {
-        img.classList.add("hide");
-      }
-
-      frag.appendChild(node);
+/* === 예외 발음 규칙 ===
+   - 일본어 카운터(本/人), 일자(日) 특수 읽기
+   - 단어 "本" 기본: ほん
+   - 필요 시 아래 EXCEPTIONS에 단어별 강제 읽기 추가
+*/
+const EXCEPTIONS = {
+  'ja-JP': {
+    // 단어 레벨 커스텀(정확 매칭 시 교체) — 원문:읽기
+    words: {
+      '本': 'ほん', // 단독 '본' → 'ほん' (문맥상 책)
     }
-
-    $grid.appendChild(frag);
-    $status.textContent = `총 ${list.length}개 (전체 ${ALL.length}개)`;
+  },
+  'en-US': {
+    words: {
+      'etc.': 'et cetera',
+      'Dr.': 'Doctor',
+    }
   }
+};
 
-  function applyFilters() {
-    const q = norm($q.value);
-    const lv = $level.value;
-    const onlyUnlearned = $showOnlyUnlearned.checked;
+// 일본어: 아라비아/한자 숫자 둘 다 지원 (간단 버전)
+const jpNumeralMap = {
+  '1':'いち','2':'に','3':'さん','4':'よん','5':'ご','6':'ろく','7':'なな','8':'はち','9':'きゅう','10':'じゅう'
+};
+const kanjiToArabic = {'一':'1','二':'2','三':'3','四':'4','五':'5','六':'6','七':'7','八':'8','九':'9','十':'10'};
 
-    const filtered = ALL.filter(item => {
-      if (lv && item.level !== lv) return false;
-      if (onlyUnlearned && learned.has(item.word)) return false;
-      if (!q) return true;
-      return (
-        includes(item.word, q) ||
-        includes(item.meaning, q) ||
-        includes(item.example_en, q) ||
-        includes(item.example_gloss, q)
-      );
-    });
-    render(filtered);
+// 1~10 + 本 → 특수 읽기
+function readingHon(n){
+  const num = Number(n);
+  switch(num){
+    case 1: return 'いっぽん';
+    case 2: return 'にほん';
+    case 3: return 'さんぼん';
+    case 4: return 'よんほん';
+    case 5: return 'ごほん';
+    case 6: return 'ろっぽん';
+    case 7: return 'ななほん';
+    case 8: return 'はっぽん';
+    case 9: return 'きゅうほん';
+    case 10: return 'じゅっぽん';
+    default: return jpNumeralMap[n] ? `${jpNumeralMap[n]}ほん` : `${n}ほん`;
   }
+}
+// 1/2 人 특수, 그 외 ～にん
+function readingNin(n){
+  const num = Number(n);
+  if (num===1) return 'ひとり';
+  if (num===2) return 'ふたり';
+  return (jpNumeralMap[n] ? jpNumeralMap[n] : n) + 'にん';
+}
+// 1~10,20 日 특수
+function readingDay(n){
+  const num = Number(n);
+  const map = {1:'ついたち',2:'ふつか',3:'みっか',4:'よっか',5:'いつか',6:'むいか',7:'なのか',8:'ようか',9:'ここのか',10:'とおか',20:'はつか'};
+  return map[num] || ((jpNumeralMap[n] ? jpNumeralMap[n] : n) + 'にち');
+}
 
-  $q.addEventListener("input", applyFilters);
-  $level.addEventListener("change", applyFilters);
-  $showOnlyUnlearned.addEventListener("change", applyFilters);
-  $resetLearned.addEventListener("click", () => {
-    if (!confirm("모든 learned 체크를 초기화할까요?")) return;
-    learned.clear();
-    saveLearned();
-    applyFilters();
+// 일본어 문장 교정
+function fixJapanese(text){
+  if(!text) return text;
+
+  // (1) 단어 사전 치환(정확 매칭)
+  if (EXCEPTIONS['ja-JP'].words[text]) return EXCEPTIONS['ja-JP'].words[text];
+
+  let out = text;
+
+  // (2) 숫자+本 / 人 / 日 패턴 처리
+  // - 아라비아 숫자
+  out = out.replace(/(\d+)\s*本/g, (_,n)=>readingHon(n));
+  out = out.replace(/(\d+)\s*人/g, (_,n)=>readingNin(n));
+  out = out.replace(/(\d+)\s*日/g, (_,n)=>readingDay(n));
+
+  // - 한자 숫자 (간단: 1~10, 十 처리)
+  out = out.replace(/([一二三四五六七八九十]+)\s*本/g, (_,k)=>{
+    const n = (k.split('').map(ch => kanjiToArabic[ch]||'').join('')) || k;
+    const num = n==='10' || k==='十' ? 10 : Number(n);
+    return readingHon(num||k);
+  });
+  out = out.replace(/([一二三四五六七八九十]+)\s*人/g, (_,k)=>{
+    const n = (k.split('').map(ch => kanjiToArabic[ch]||'').join('')) || k;
+    const num = n==='10' || k==='十' ? 10 : Number(n);
+    return readingNin(num||k);
+  });
+  out = out.replace(/([一二三四五六七八九十]+)\s*日/g, (_,k)=>{
+    const n = (k.split('').map(ch => kanjiToArabic[ch]||'').join('')) || k;
+    const num = n==='10' || k==='十' ? 10 : Number(n);
+    return readingDay(num||k);
   });
 
-  // ------- Load data flow ---------
-  async function fetchJSON(url) {
-    const res = await fetch(url + CACHE_BUST());
-    if (!res.ok) throw new Error(`HTTP ${res.status} for ${url}`);
-    return await res.json();
+  return out;
+}
+
+// 공통 예외 적용 (locale별)
+function applyPronunciationExceptions(text, locale){
+  if(!text) return text;
+  const lc = (locale||'').toLowerCase();
+
+  if (lc.startsWith('ja')) {
+    return fixJapanese(text);
   }
 
-  async function loadAll() {
-    try {
-      $status.textContent = "목록 로딩…";
-      const files = await fetchJSON(DATA_INDEX);
-      if (!Array.isArray(files)) throw new Error("index.json은 JSON 배열이어야 합니다.");
+  // 단어 사전(영어 등)
+  const langKey = lc.startsWith('en') ? 'en-US' : null;
+  if (langKey && EXCEPTIONS[langKey]) {
+    const dict = EXCEPTIONS[langKey].words;
+    // 정확 매칭 시만 치환 (문장 내 토큰 치환은 과잉일 수 있어 보수적으로)
+    if (dict[text]) return dict[text];
+  }
+  return text;
+}
 
-      const results = [];
-      for (const f of files) {
-        const href = "data/" + f;
-        try {
-          const arr = await fetchJSON(href);
-          if (Array.isArray(arr)) results.push(...arr);
-        } catch (e) {
-          console.warn("불러오기 실패:", href, e);
-        }
-      }
+async function speak(text, opts={}){
+  if (!('speechSynthesis' in window)) { alert('이 브라우저는 음성합성을 지원하지 않습니다.'); return; }
+  await waitVoices();
 
-      // Normalize + dedupe by word
-      const seen = new Set();
-      ALL = results.filter(x => {
-        if (!x || !x.word) return false;
-        const key = norm(x.word);
-        if (seen.has(key)) return false;
-        seen.add(key);
-        return true;
-      });
+  const { langSelValue='', forceLocaleEl=$('#forceLocale'), autoEl=$('#autoLang') } = opts;
+  const forced = forceLocaleEl?.value || '';
+  const auto = !!autoEl?.checked;
 
-      $status.textContent = "렌더링…";
-      render(ALL);
-    } catch (e) {
-      console.error(e);
-      $status.textContent = "로딩 실패: " + e.message;
-    }
+  // 1) 강제 로캘 우선
+  let locale = forced;
+  // 2) 자동 감지
+  if (!locale && auto) locale = detectLangFromText(text);
+  // 3) 셀렉터 로캘
+  if (!locale) {
+    const id = (langSelValue||'').toLowerCase();
+    locale = LOCALE_MAP[id] || (id ? `${id}-${id.toUpperCase()}` : 'en-US');
   }
 
-  loadAll();
-  </script>
+  // ★ 예외발음 적용
+  const fixed = applyPronunciationExceptions(text, locale);
+
+  const voice = pickVoiceByLocale(locale);
+  const u = new SpeechSynthesisUtterance(fixed);
+  if (voice) { u.voice = voice; u.lang = voice.lang; }
+  else { u.lang = locale; }
+
+  u.rate = 1; u.pitch = 1; u.volume = 1;
+  synth.cancel();
+  synth.speak(u);
+}
+
+/* ===== 렌더링 ===== */
+function speakIconSVG(){
+  return `<svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M3 10v4h3l4 4V6L6 10H3zm13.5 2a4.5 4.5 0 0 0-2.25-3.89v7.78A4.5 4.5 0 0 0 16.5 12zm-2.25-8.46v2.09a7.5 7.5 0 0 1 0 12.74v2.09c3.53-1.23 6-4.57 6-8.46s-2.47-7.23-6-8.46z"/></svg>`;
+}
+
+function render(items){
+  const list = $('#list');
+  list.innerHTML = '';
+  const onlyNew = $('#onlyNew').checked;
+  const filtered = (items||[])
+    .filter(x => x && x.word && x.pos && x.meaning && x.example_en && x.example_gloss && x.image_url && x.source_link)
+    .filter(x => !onlyNew || localStorage.getItem('learned_'+x.word) !== 'true');
+
+  if(filtered.length===0){ statusEl.textContent='표시할 항목 없음'; return; }
+  statusEl.textContent = filtered.length + '개 항목';
+
+  const frag = document.createDocumentFragment();
+  const placeholder = 'https://upload.wikimedia.org/wikipedia/commons/6/65/No-Image-Placeholder.svg';
+
+  filtered.forEach(it => {
+    const li = document.createElement('li');
+    li.className='item';
+    li.dataset.word = it.word;
+    li.dataset.example = it.example_en;
+    li.innerHTML = `
+      <img class="thumb" src="${it.image_url}" alt="${it.word}">
+      <div class="text">
+        <div class="wordline">
+          ${it.word}
+          <button class="speakbtn" type="button" data-type="word" title="단어 발음 듣기" aria-label="단어 발음 듣기">${speakIconSVG()}</button>
+          <span class="pos">${it.pos}</span>
+          <span class="badge">이미지 교체 필요</span>
+        </div>
+        <div class="desc">${it.meaning}</div>
+        <div class="example">
+          <span class="extext">💬 ${it.example_en}<br>(${it.example_gloss})</span>
+          <button class="speakbtn" type="button" data-type="example" title="예시 문장 읽기" aria-label="예시 문장 읽기">${speakIconSVG()}</button>
+        </div>
+        <div class="meta"><a href="${it.source_link}" target="_blank">출처</a><a href="${it.image_url}" target="_blank">이미지 URL</a></div>
+      </div>
+      <label class="check"><input type="checkbox">외움</label>
+    `;
+
+    const img = li.querySelector('img.thumb');
+    const badge = li.querySelector('.badge');
+    img.onerror = () => { img.src = placeholder; badge.style.display='inline-block'; };
+
+    const cb = li.querySelector('.check input');
+    const key = 'learned_' + it.word;
+    if(localStorage.getItem(key)==='true') cb.checked = true;
+    cb.addEventListener('change', ()=> localStorage.setItem(key, cb.checked));
+
+    frag.appendChild(li);
+  });
+  list.appendChild(frag);
+}
+
+/* 리스트 내 🔊 버튼 이벤트 위임 */
+list.addEventListener('click', (e)=>{
+  const btn = e.target.closest('.speakbtn');
+  if(!btn) return;
+  const li = btn.closest('li.item');
+  const langId = $('#langSel').value || '';
+  const type = btn.dataset.type;
+  const text = type === 'example' ? (li?.dataset.example || '') : (li?.dataset.word || '');
+  speak(text, { langSelValue: langId, forceLocaleEl: $('#forceLocale'), autoEl: $('#autoLang') });
+});
+
+/* 초기화 */
+(async function init(){
+  try{
+    DATASETS = await loadManifest();
+    fillSelectors(DATASETS);
+    statusEl.textContent = 'datasets.json 로드 완료';
+  } catch(err){
+    statusEl.textContent = '오류: ' + err.message + ' — 파일을 웹서버에서 열고 있는지 확인하세요.';
+  }
+})();
+</script>
 </body>
 </html>
