@@ -1,0 +1,137 @@
+[
+  {
+    "word": "tree",
+    "pos": "noun",
+    "meaning": "a tall plant that has a trunk and branches with leaves",
+    "example_en": "The bird built its nest in the old oak tree.",
+    "example_gloss": "새가 오래된 참나무에 둥지를 만들었다.",
+    "image_url": "https://cdn.pixabay.com/photo/2015/12/01/20/28/forest-1072828_960_720.jpg",
+    "source_link": "https://pixabay.com/photos/forest-trees-nature-environment-1072828/"
+  },
+  {
+    "word": "friend",
+    "pos": "noun",
+    "meaning": "a person you know well and like who is not part of your family",
+    "example_en": "She called her best friend to share the good news.",
+    "example_gloss": "그녀는 좋은 소식을 나누기 위해 가장 친한 친구에게 전화했다.",
+    "image_url": "https://cdn.pixabay.com/photo/2017/07/31/11/21/people-2557396_960_720.jpg",
+    "source_link": "https://pixabay.com/photos/people-friends-together-happy-2557396/"
+  },
+  {
+    "word": "volunteer",
+    "pos": "noun/verb",
+    "meaning": "a person who helps others without being paid; to offer to do something",
+    "example_en": "Many volunteers helped clean up the park after the festival.",
+    "example_gloss": "많은 자원봉사자들이 축제 후 공원 청소를 도왔다.",
+    "image_url": "https://cdn.pixabay.com/photo/2018/03/06/17/30/teamwork-3204254_960_720.jpg",
+    "source_link": "https://pixabay.com/photos/teamwork-cooperation-brainstorming-3204254/"
+  },
+  {
+    "word": "curious",
+    "pos": "adjective",
+    "meaning": "wanting to know or learn about something",
+    "example_en": "The curious child asked many questions about how planes fly.",
+    "example_gloss": "호기심 많은 아이가 비행기가 어떻게 나는지에 대해 많은 질문을 했다.",
+    "image_url": "https://cdn.pixabay.com/photo/2016/11/29/13/14/attractive-1869761_960_720.jpg",
+    "source_link": "https://pixabay.com/photos/attractive-beautiful-beauty-1869761/"
+  },
+  {
+    "word": "improve",
+    "pos": "verb",
+    "meaning": "to make something better than before",
+    "example_en": "Regular exercise will improve your health and energy levels.",
+    "example_gloss": "규칙적인 운동은 당신의 건강과 에너지 수준을 향상시킬 것이다.",
+    "image_url": "https://cdn.pixabay.com/photo/2018/02/06/14/07/ease-3134828_960_720.jpg",
+    "source_link": "https://pixabay.com/photos/ease-comfortable-relaxed-3134828/"
+  },
+  {
+    "word": "tradition",
+    "pos": "noun",
+    "meaning": "a custom or belief that has existed for a long time",
+    "example_en": "It's a family tradition to have dinner together every Sunday.",
+    "example_gloss": "매주 일요일에 함께 저녁을 먹는 것은 가족의 전통이다.",
+    "image_url": "https://cdn.pixabay.com/photo/2016/11/18/22/20/thanksgiving-1837573_960_720.jpg",
+    "source_link": "https://pixabay.com/photos/thanksgiving-family-dinner-table-1837573/"
+  },
+  {
+    "word": "respect",
+    "pos": "noun/verb",
+    "meaning": "admiration for someone; to show consideration for others",
+    "example_en": "Students should show respect for their teachers and classmates.",
+    "example_gloss": "학생들은 선생님과 급우들에게 존경을 표해야 한다.",
+    "image_url": "https://cdn.pixabay.com/photo/2017/02/16/10/12/handshake-2071021_960_720.jpg",
+    "source_link": "https://pixabay.com/photos/handshake-hands-cooperation-2071021/"
+  },
+  {
+    "word": "generous",
+    "pos": "adjective",
+    "meaning": "willing to give more money, help, etc. than usual",
+    "example_en": "She was generous with her time and helped everyone who asked.",
+    "example_gloss": "그녀는 시간을 아낌없이 내어 도움을 요청하는 모든 사람을 도왔다.",
+    "image_url": "https://cdn.pixabay.com/photo/2017/03/26/21/54/yoga-2179834_960_720.jpg",
+    "source_link": "https://pixabay.com/photos/yoga-exercise-fitness-woman-2179834/"
+  },
+  {
+    "word": "analyze",
+    "pos": "verb",
+    "meaning": "to examine something carefully to understand it",
+    "example_en": "Scientists analyze data to find patterns and draw conclusions.",
+    "example_gloss": "과학자들은 패턴을 찾고 결론을 도출하기 위해 데이터를 분석한다.",
+    "image_url": "https://cdn.pixabay.com/photo/2016/11/19/14/00/code-1839406_960_720.jpg",
+    "source_link": "https://pixabay.com/photos/code-coding-computer-data-1839406/"
+  },
+  {
+    "word": "investment",
+    "pos": "noun",
+    "meaning": "money put into something to make a profit; time or effort spent",
+    "example_en": "Education is the best investment you can make in your future.",
+    "example_gloss": "교육은 당신의 미래에 할 수 있는 최고의 투자이다.",
+    "image_url": "https://cdn.pixabay.com/photo/2016/11/27/21/42/stock-1863880_960_720.jpg",
+    "source_link": "https://pixabay.com/photos/stock-trading-monitor-desk-1863880/"
+  },
+  {
+    "word": "skeptical",
+    "pos": "adjective",
+    "meaning": "having doubts about something; not easily convinced",
+    "example_en": "She remained skeptical about the new diet's effectiveness.",
+    "example_gloss": "그녀는 새로운 다이어트의 효과에 대해 여전히 회의적이었다.",
+    "image_url": "https://cdn.pixabay.com/photo/2017/03/13/17/26/thinking-2140193_960_720.jpg",
+    "source_link": "https://pixabay.com/photos/thinking-person-person-thinking-2140193/"
+  },
+  {
+    "word": "eloquent",
+    "pos": "adjective",
+    "meaning": "able to express ideas clearly and persuasively in speech or writing",
+    "example_en": "The politician gave an eloquent speech that moved the audience.",
+    "example_gloss": "그 정치인은 청중을 감동시키는 웅변적인 연설을 했다.",
+    "image_url": "https://cdn.pixabay.com/photo/2016/11/23/14/37/blur-1853262_960_720.jpg",
+    "source_link": "https://pixabay.com/photos/blur-close-up-conference-1853262/"
+  },
+  {
+    "word": "nuance",
+    "pos": "noun",
+    "meaning": "a very slight difference in meaning, feeling, or response",
+    "example_en": "The translator captured every nuance of the original poem.",
+    "example_gloss": "번역가는 원시의 모든 뉘앙스를 포착했다.",
+    "image_url": "https://cdn.pixabay.com/photo/2017/07/31/11/32/people-2557499_960_720.jpg",
+    "source_link": "https://pixabay.com/photos/people-discuss-planning-plan-2557499/"
+  },
+  {
+    "word": "perpetuate",
+    "pos": "verb",
+    "meaning": "to cause something to continue indefinitely",
+    "example_en": "Stereotypes perpetuate misunderstandings between different cultures.",
+    "example_gloss": "고정관념은 서로 다른 문화 간의 오해를 지속시킨다.",
+    "image_url": "https://cdn.pixabay.com/photo/2017/01/31/09/30/sustainability-2023430_960_720.jpg",
+    "source_link": "https://pixabay.com/photos/sustainability-sustainable-2023430/"
+  },
+  {
+    "word": "ubiquitous",
+    "pos": "adjective",
+    "meaning": "appearing to be everywhere at the same time; widespread",
+    "example_en": "Smartphones have become ubiquitous in modern society.",
+    "example_gloss": "스마트폰은 현대 사회에서 어디에나 있게 되었다.",
+    "image_url": "https://cdn.pixabay.com/photo/2017/01/16/15/39/mobile-phone-1984833_960_720.jpg",
+    "source_link": "https://pixabay.com/photos/mobile-phone-smartphone-keyboard-1984833/"
+  }
+]
