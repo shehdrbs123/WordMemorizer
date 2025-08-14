@@ -1,137 +1,137 @@
 [
   {
-    "word": "house",
+    "word": "book",
     "pos": "noun",
-    "meaning": "a building for human habitation; a home",
-    "example_en": "They bought a beautiful house near the lake.",
-    "example_gloss": "그들은 호수 근처에 아름다운 집을 샀다.",
-    "image_url": "https://images.unsplash.com/photo-1570129477492-45c003edd2be",
-    "source_link": "https://unsplash.com/photos/house-near-green-trees-wMzx2nBdeng"
+    "meaning": "a set of printed pages that are fastened inside a cover",
+    "example_en": "I read a book every night before bed.",
+    "example_gloss": "나는 매일 밤 잠자리에 들기 전에 책을 읽는다.",
+    "image_url": "https://commons.wikimedia.org/wiki/File:Girl_reading_a_book_by_Federico_Zandomeneghi.jpg",
+    "source_link": "https://commons.wikimedia.org/wiki/File:Girl_reading_a_book_by_Federico_Zandomeneghi.jpg"
   },
   {
-    "word": "family",
+    "word": "orange",
     "pos": "noun",
-    "meaning": "a group consisting of parents and children living together",
-    "example_en": "My family enjoys spending time together on weekends.",
-    "example_gloss": "우리 가족은 주말에 함께 시간을 보내는 것을 즐긴다.",
-    "image_url": "https://images.unsplash.com/photo-1511895426328-dc8714191300",
-    "source_link": "https://unsplash.com/photos/happy-family-together-dQejX2ucPBs"
+    "meaning": "a round citrus fruit with orange-colored skin",
+    "example_en": "She ate an orange for breakfast.",
+    "example_gloss": "그녀는 아침에 오렌지를 먹었다.",
+    "image_url": "https://unsplash.com/photos/orange-citrus-fruits-on-in-bowl-wXu28v3rPGM",
+    "source_link": "https://unsplash.com/photos/orange-citrus-fruits-on-in-bowl-wXu28v3rPGM"
   },
   {
-    "word": "education",
+    "word": "exercise",
     "pos": "noun",
-    "meaning": "the process of receiving or giving systematic instruction",
-    "example_en": "Good education is essential for personal development.",
-    "example_gloss": "좋은 교육은 개인 발전에 필수적이다.",
-    "image_url": "https://images.unsplash.com/photo-1523240795612-9a054b0db644",
-    "source_link": "https://unsplash.com/photos/assorted-books-on-wooden-table-XJXWbfSo2f0"
+    "meaning": "physical activity done to stay healthy and strong",
+    "example_en": "Regular exercise helps maintain good health.",
+    "example_gloss": "규칙적인 운동은 건강을 유지하는 데 도움이 된다.",
+    "image_url": "https://pixabay.com/images/search/exercise/",
+    "source_link": "https://pixabay.com/images/search/exercise/"
   },
   {
-    "word": "technology",
+    "word": "strategy",
     "pos": "noun",
-    "meaning": "the application of scientific knowledge for practical purposes",
-    "example_en": "Modern technology has changed the way we communicate.",
-    "example_gloss": "현대 기술은 우리가 소통하는 방식을 바꿨다.",
-    "image_url": "https://images.unsplash.com/photo-1518709268805-4e9042af2176",
-    "source_link": "https://unsplash.com/photos/macbook-pro-on-brown-wooden-table-95YRwf6CNw8"
+    "meaning": "a plan of action designed to achieve a goal",
+    "example_en": "The company developed a new marketing strategy.",
+    "example_gloss": "회사는 새로운 마케팅 전략을 개발했다.",
+    "image_url": "https://pixabay.com/images/search/strategy/",
+    "source_link": "https://pixabay.com/images/search/strategy/"
   },
   {
-    "word": "community",
+    "word": "patience",
     "pos": "noun",
-    "meaning": "a group of people living in the same place or having particular characteristics in common",
-    "example_en": "The local community organized a charity event.",
-    "example_gloss": "지역 사회가 자선 행사를 조직했다.",
-    "image_url": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac",
-    "source_link": "https://unsplash.com/photos/group-of-people-sitting-beside-rectangular-wooden-table-bwki71ap-y8"
+    "meaning": "the ability to wait calmly or deal with problems without becoming annoyed",
+    "example_en": "Teaching children requires a lot of patience.",
+    "example_gloss": "아이들을 가르치는 것은 많은 인내심이 필요하다.",
+    "image_url": "https://pixabay.com/images/search/patience/",
+    "source_link": "https://pixabay.com/images/search/patience/"
   },
   {
-    "word": "relationship",
+    "word": "colleague",
     "pos": "noun",
-    "meaning": "the way in which two or more people are connected",
-    "example_en": "Building strong relationships requires trust and communication.",
-    "example_gloss": "강한 관계를 구축하려면 신뢰와 소통이 필요하다.",
-    "image_url": "https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2",
-    "source_link": "https://unsplash.com/photos/man-and-woman-holding-hands-together-in-field-during-daytime-kAJE-3_4zHE"
+    "meaning": "a person you work with, especially in a profession",
+    "example_en": "I discussed the project with my colleague.",
+    "example_gloss": "나는 동료와 프로젝트에 대해 논의했다.",
+    "image_url": "https://pixabay.com/images/search/colleague/",
+    "source_link": "https://pixabay.com/images/search/colleague/"
   },
   {
-    "word": "democracy",
+    "word": "motivation",
     "pos": "noun",
-    "meaning": "a system of government by the whole population through elected representatives",
-    "example_en": "Democracy allows citizens to participate in political decisions.",
-    "example_gloss": "민주주의는 시민들이 정치적 결정에 참여할 수 있게 한다.",
-    "image_url": "https://images.unsplash.com/photo-1586611292717-f828b167408c",
-    "source_link": "https://unsplash.com/photos/how-to-vote-signage-element5-digital-T9CXBZLUvic"
+    "meaning": "enthusiasm for doing something",
+    "example_en": "She found the motivation to start her own business.",
+    "example_gloss": "그녀는 자신의 사업을 시작할 동기를 찾았다.",
+    "image_url": "https://pixabay.com/images/search/motivation/",
+    "source_link": "https://pixabay.com/images/search/motivation/"
   },
   {
-    "word": "economy",
+    "word": "perspective",
     "pos": "noun",
-    "meaning": "the wealth and resources of a country in terms of production and consumption",
-    "example_en": "The economy has been growing steadily this year.",
-    "example_gloss": "경제는 올해 꾸준히 성장해왔다.",
-    "image_url": "https://images.unsplash.com/photo-1560472354-b33ff0c44a43",
-    "source_link": "https://unsplash.com/photos/charts-printed-on-white-paper-6sl88x150Xs"
+    "meaning": "a particular way of considering something",
+    "example_en": "The experience changed my perspective on life.",
+    "example_gloss": "그 경험은 인생에 대한 나의 관점을 바꾸었다.",
+    "image_url": "https://pixabay.com/images/search/perspective/",
+    "source_link": "https://pixabay.com/images/search/perspective/"
   },
   {
-    "word": "psychological",
+    "word": "eliminate",
+    "pos": "verb",
+    "meaning": "to remove or get rid of something",
+    "example_en": "We need to eliminate waste in our production process.",
+    "example_gloss": "우리는 생산 과정에서 낭비를 제거해야 한다.",
+    "image_url": "https://pixabay.com/images/search/eliminate/",
+    "source_link": "https://pixabay.com/images/search/eliminate/"
+  },
+  {
+    "word": "maintain",
+    "pos": "verb",
+    "meaning": "to keep something in good condition",
+    "example_en": "It's important to maintain a healthy work-life balance.",
+    "example_gloss": "건강한 일과 삶의 균형을 유지하는 것이 중요하다.",
+    "image_url": "https://pixabay.com/images/search/maintain/",
+    "source_link": "https://pixabay.com/images/search/maintain/"
+  },
+  {
+    "word": "synthesis",
+    "pos": "noun",
+    "meaning": "the combination of different ideas or things to form a whole",
+    "example_en": "The research paper presents a synthesis of various theories.",
+    "example_gloss": "연구 논문은 다양한 이론의 종합을 제시한다.",
+    "image_url": "https://pixabay.com/images/search/synthesis/",
+    "source_link": "https://pixabay.com/images/search/synthesis/"
+  },
+  {
+    "word": "rhetoric",
+    "pos": "noun",
+    "meaning": "the art of speaking or writing effectively to persuade or influence",
+    "example_en": "The politician's rhetoric appealed to voters' emotions.",
+    "example_gloss": "그 정치인의 수사법은 유권자들의 감정에 호소했다.",
+    "image_url": "https://pixabay.com/images/search/rhetoric/",
+    "source_link": "https://pixabay.com/images/search/rhetoric/"
+  },
+  {
+    "word": "ideology",
+    "pos": "noun",
+    "meaning": "a system of ideas and ideals forming the basis of economic or political theory",
+    "example_en": "The movement was based on a specific political ideology.",
+    "example_gloss": "그 운동은 특정 정치 이념에 기반을 두고 있었다.",
+    "image_url": "https://pixabay.com/images/search/ideology/",
+    "source_link": "https://pixabay.com/images/search/ideology/"
+  },
+  {
+    "word": "articulate",
     "pos": "adjective",
-    "meaning": "relating to the human mind and behavior",
-    "example_en": "The psychological impact of stress can be significant.",
-    "example_gloss": "스트레스의 심리적 영향은 상당할 수 있다.",
-    "image_url": "https://images.unsplash.com/photo-1606092195730-5d7b9af1efc5",
-    "source_link": "https://unsplash.com/photos/toddler-looking-at-believe-in-yourself-graffiti-halgatewood-com-tZc3vjPCk-Q"
+    "meaning": "able to express thoughts and ideas clearly and effectively",
+    "example_en": "She gave an articulate presentation about climate change.",
+    "example_gloss": "그녀는 기후 변화에 대한 명확한 발표를 했다.",
+    "image_url": "https://pixabay.com/images/search/articulate/",
+    "source_link": "https://pixabay.com/images/search/articulate/"
   },
   {
-    "word": "responsibility",
-    "pos": "noun",
-    "meaning": "the state of being accountable for something",
-    "example_en": "Taking responsibility for our actions shows maturity.",
-    "example_gloss": "우리의 행동에 대해 책임지는 것은 성숙함을 보여준다.",
-    "image_url": "https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca",
-    "source_link": "https://unsplash.com/photos/person-holding-white-and-red-card-gcsNOsPEXfs"
-  },
-  {
-    "word": "phenomenon",
-    "pos": "noun",
-    "meaning": "a fact or situation that is observed to exist or happen",
-    "example_en": "The Northern Lights are a spectacular natural phenomenon.",
-    "example_gloss": "북극광은 장관인 자연 현상이다.",
-    "image_url": "https://images.unsplash.com/photo-1531366936337-7c912a4589a7",
-    "source_link": "https://unsplash.com/photos/green-and-blue-aurora-borealis-over-brown-mountain-dCgbRAQmTQA"
-  },
-  {
-    "word": "criteria",
-    "pos": "noun",
-    "meaning": "principles or standards by which something is judged",
-    "example_en": "The selection criteria for the scholarship are very strict.",
-    "example_gloss": "장학금 선정 기준은 매우 엄격하다.",
-    "image_url": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173",
-    "source_link": "https://unsplash.com/photos/macbook-pro-on-brown-wooden-table-dC6Pb2JdAqs"
-  },
-  {
-    "word": "intellectual",
+    "word": "ambivalent",
     "pos": "adjective",
-    "meaning": "relating to the intellect or understanding",
-    "example_en": "The conference encouraged intellectual discourse among scholars.",
-    "example_gloss": "그 회의는 학자들 간의 지적 담론을 장려했다.",
-    "image_url": "https://images.unsplash.com/photo-1481627834876-b7833e8f5570",
-    "source_link": "https://unsplash.com/photos/assorted-title-of-books-piled-in-the-shelves-SF_1ZDA7YvA"
-  },
-  {
-    "word": "unprecedented",
-    "pos": "adjective",
-    "meaning": "never done or known before; without previous example",
-    "example_en": "The pandemic created unprecedented challenges for healthcare systems.",
-    "example_gloss": "팬데믹은 의료 시스템에 전례 없는 도전을 가져왔다.",
-    "image_url": "https://images.unsplash.com/photo-1584036561566-baf8f5f1b144",
-    "source_link": "https://unsplash.com/photos/person-in-white-long-sleeve-shirt-holding-a-clipboard-with-white-mask-bEbqpPCHcO4"
-  },
-  {
-    "word": "empirical",
-    "pos": "adjective",
-    "meaning": "based on observation or experience rather than theory",
-    "example_en": "The study provides empirical evidence for the hypothesis.",
-    "example_gloss": "그 연구는 가설에 대한 경험적 증거를 제공한다.",
-    "image_url": "https://images.unsplash.com/photo-1567427018141-0584cfcbf1b8",
-    "source_link": "https://unsplash.com/photos/person-in-white-coat-and-blue-denim-jeans-holding-test-tubes-ZPeXrWxOjRQ"
+    "meaning": "having mixed feelings or contradictory ideas about something",
+    "example_en": "He felt ambivalent about accepting the job offer.",
+    "example_gloss": "그는 그 취업 제안을 받아들이는 것에 대해 양면적인 감정을 느꼈다.",
+    "image_url": "https://pixabay.com/images/search/ambivalent/",
+    "source_link": "https://pixabay.com/images/search/ambivalent/"
   }
 ]
