@@ -1,137 +1,137 @@
 [
   {
-    "word": "coffee",
-    "pos": "n.",
-    "meaning": "커피",
-    "example_en": "I need a cup of coffee to wake up in the morning.",
-    "example_gloss": "아침에 일어나기 위해 커피 한 잔이 필요해요.",
-    "image_url": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?w=640",
-    "source_link": "https://unsplash.com/photos/coffee-cup-on-table-oMtT_fLW-fM"
+    "word": "book",
+    "pos": "noun",
+    "meaning": "a set of printed pages that are fastened inside a cover",
+    "example_en": "I read a book every night before bed.",
+    "example_gloss": "나는 매일 밤 잠자리에 들기 전에 책을 읽는다.",
+    "image_url": "https://commons.wikimedia.org/wiki/File:Girl_reading_a_book_by_Federico_Zandomeneghi.jpg",
+    "source_link": "https://commons.wikimedia.org/wiki/File:Girl_reading_a_book_by_Federico_Zandomeneghi.jpg"
   },
   {
-    "word": "bicycle",
-    "pos": "n.",
-    "meaning": "자전거",
-    "example_en": "She rides her bicycle to work every day.",
-    "example_gloss": "그녀는 매일 자전거를 타고 출근합니다.",
-    "image_url": "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=640",
-    "source_link": "https://unsplash.com/photos/bicycle-on-road-S3O4J8-RbfM"
+    "word": "orange",
+    "pos": "noun",
+    "meaning": "a round citrus fruit with orange-colored skin",
+    "example_en": "She ate an orange for breakfast.",
+    "example_gloss": "그녀는 아침에 오렌지를 먹었다.",
+    "image_url": "https://unsplash.com/photos/orange-citrus-fruits-on-in-bowl-wXu28v3rPGM",
+    "source_link": "https://unsplash.com/photos/orange-citrus-fruits-on-in-bowl-wXu28v3rPGM"
   },
   {
-    "word": "creativity",
-    "pos": "n.",
-    "meaning": "창의성",
-    "example_en": "The project required a lot of creativity and original thinking.",
-    "example_gloss": "그 프로젝트는 많은 창의성과 독창적인 사고를 필요로 했습니다.",
-    "image_url": "https://images.unsplash.com/photo-1558655146-d09347e92766?w=640",
-    "source_link": "https://unsplash.com/photos/light-bulb-illustration-bv_rJXpNU9I"
+    "word": "exercise",
+    "pos": "noun",
+    "meaning": "physical activity done to stay healthy and strong",
+    "example_en": "Regular exercise helps maintain good health.",
+    "example_gloss": "규칙적인 운동은 건강을 유지하는 데 도움이 된다.",
+    "image_url": "https://pixabay.com/images/search/exercise/",
+    "source_link": "https://pixabay.com/images/search/exercise/"
   },
   {
-    "word": "balance",
-    "pos": "n.",
-    "meaning": "균형",
-    "example_en": "It's important to maintain a work-life balance.",
-    "example_gloss": "일과 삶의 균형을 유지하는 것이 중요합니다.",
-    "image_url": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=640",
-    "source_link": "https://unsplash.com/photos/balanced-stones-on-seashore-yOBq8ZxqFnc"
+    "word": "strategy",
+    "pos": "noun",
+    "meaning": "a plan of action designed to achieve a goal",
+    "example_en": "The company developed a new marketing strategy.",
+    "example_gloss": "회사는 새로운 마케팅 전략을 개발했다.",
+    "image_url": "https://pixabay.com/images/search/strategy/",
+    "source_link": "https://pixabay.com/images/search/strategy/"
   },
   {
-    "word": "negotiate",
-    "pos": "v.",
-    "meaning": "협상하다",
-    "example_en": "The companies are trying to negotiate a new contract.",
-    "example_gloss": "그 회사들은 새로운 계약을 협상하려고 노력하고 있습니다.",
-    "image_url": "https://images.unsplash.com/photo-1521737711867-e3b97375f902?w=640",
-    "source_link": "https://unsplash.com/photos/business-meeting-handshake-ztYmIQecyH4"
+    "word": "patience",
+    "pos": "noun",
+    "meaning": "the ability to wait calmly or deal with problems without becoming annoyed",
+    "example_en": "Teaching children requires a lot of patience.",
+    "example_gloss": "아이들을 가르치는 것은 많은 인내심이 필요하다.",
+    "image_url": "https://pixabay.com/images/search/patience/",
+    "source_link": "https://pixabay.com/images/search/patience/"
   },
   {
-    "word": "privacy",
-    "pos": "n.",
-    "meaning": "사생활, 개인정보 보호",
-    "example_en": "Many people are concerned about their privacy on social media.",
-    "example_gloss": "많은 사람들이 소셜 미디어에서의 사생활에 대해 걱정하고 있습니다.",
-    "image_url": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?w=640",
-    "source_link": "https://unsplash.com/photos/cyber-security-concept-FO7JIlwjOtU"
+    "word": "colleague",
+    "pos": "noun",
+    "meaning": "a person you work with, especially in a profession",
+    "example_en": "I discussed the project with my colleague.",
+    "example_gloss": "나는 동료와 프로젝트에 대해 논의했다.",
+    "image_url": "https://pixabay.com/images/search/colleague/",
+    "source_link": "https://pixabay.com/images/search/colleague/"
   },
   {
-    "word": "digital",
-    "pos": "adj.",
-    "meaning": "디지털의",
-    "example_en": "We live in an increasingly digital world.",
-    "example_gloss": "우리는 점점 더 디지털화된 세상에 살고 있습니다.",
-    "image_url": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=640",
-    "source_link": "https://unsplash.com/photos/person-using-macbook-pro-StBFj0UU0lE"
+    "word": "motivation",
+    "pos": "noun",
+    "meaning": "enthusiasm for doing something",
+    "example_en": "She found the motivation to start her own business.",
+    "example_gloss": "그녀는 자신의 사업을 시작할 동기를 찾았다.",
+    "image_url": "https://pixabay.com/images/search/motivation/",
+    "source_link": "https://pixabay.com/images/search/motivation/"
   },
   {
-    "word": "organize",
-    "pos": "v.",
-    "meaning": "조직하다, 정리하다",
-    "example_en": "She likes to organize her schedule a week in advance.",
-    "example_gloss": "그녀는 일주일 전에 미리 일정을 정리하는 것을 좋아합니다.",
-    "image_url": "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=640",
-    "source_link": "https://unsplash.com/photos/organized-desk-setup-LQ1t-8Ms5PY"
+    "word": "perspective",
+    "pos": "noun",
+    "meaning": "a particular way of considering something",
+    "example_en": "The experience changed my perspective on life.",
+    "example_gloss": "그 경험은 인생에 대한 나의 관점을 바꾸었다.",
+    "image_url": "https://pixabay.com/images/search/perspective/",
+    "source_link": "https://pixabay.com/images/search/perspective/"
   },
   {
-    "word": "influence",
-    "pos": "v./n.",
-    "meaning": "영향을 주다, 영향",
-    "example_en": "Social media can influence people's opinions and behavior.",
-    "example_gloss": "소셜 미디어는 사람들의 의견과 행동에 영향을 줄 수 있습니다.",
-    "image_url": "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=640",
-    "source_link": "https://unsplash.com/photos/social-media-concept-2JIvboGLeho"
+    "word": "eliminate",
+    "pos": "verb",
+    "meaning": "to remove or get rid of something",
+    "example_en": "We need to eliminate waste in our production process.",
+    "example_gloss": "우리는 생산 과정에서 낭비를 제거해야 한다.",
+    "image_url": "https://pixabay.com/images/search/eliminate/",
+    "source_link": "https://pixabay.com/images/search/eliminate/"
   },
   {
-    "word": "communicate",
-    "pos": "v.",
-    "meaning": "의사소통하다",
-    "example_en": "It's essential to communicate clearly with your team members.",
-    "example_gloss": "팀원들과 명확하게 의사소통하는 것이 필수적입니다.",
-    "image_url": "https://images.unsplash.com/photo-1556761175-4b46a572b786?w=640",
-    "source_link": "https://unsplash.com/photos/people-in-meeting-room-ZVprbBmT8QA"
+    "word": "maintain",
+    "pos": "verb",
+    "meaning": "to keep something in good condition",
+    "example_en": "It's important to maintain a healthy work-life balance.",
+    "example_gloss": "건강한 일과 삶의 균형을 유지하는 것이 중요하다.",
+    "image_url": "https://pixabay.com/images/search/maintain/",
+    "source_link": "https://pixabay.com/images/search/maintain/"
   },
   {
-    "word": "eloquent",
-    "pos": "adj.",
-    "meaning": "웅변의, 설득력 있는",
-    "example_en": "The speaker gave an eloquent presentation that moved the audience.",
-    "example_gloss": "연설자는 청중을 감동시키는 웅변적인 발표를 했습니다.",
-    "image_url": "https://images.unsplash.com/photo-1475721027785-f74eccf877e2?w=640",
-    "source_link": "https://unsplash.com/photos/person-giving-presentation-yvKzKdP_7w8"
+    "word": "synthesis",
+    "pos": "noun",
+    "meaning": "the combination of different ideas or things to form a whole",
+    "example_en": "The research paper presents a synthesis of various theories.",
+    "example_gloss": "연구 논문은 다양한 이론의 종합을 제시한다.",
+    "image_url": "https://pixabay.com/images/search/synthesis/",
+    "source_link": "https://pixabay.com/images/search/synthesis/"
   },
   {
-    "word": "paradigm",
-    "pos": "n.",
-    "meaning": "패러다임, 사고의 틀",
-    "example_en": "The new research represents a paradigm shift in our understanding.",
-    "example_gloss": "새로운 연구는 우리 이해의 패러다임 변화를 나타냅니다.",
-    "image_url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=640",
-    "source_link": "https://unsplash.com/photos/abstract-pattern-M5tzZtFCOfs"
+    "word": "rhetoric",
+    "pos": "noun",
+    "meaning": "the art of speaking or writing effectively to persuade or influence",
+    "example_en": "The politician's rhetoric appealed to voters' emotions.",
+    "example_gloss": "그 정치인의 수사법은 유권자들의 감정에 호소했다.",
+    "image_url": "https://pixabay.com/images/search/rhetoric/",
+    "source_link": "https://pixabay.com/images/search/rhetoric/"
   },
   {
-    "word": "resilience",
-    "pos": "n.",
-    "meaning": "회복력, 탄력성",
-    "example_en": "Building emotional resilience helps people cope with stress and adversity.",
-    "example_gloss": "정서적 회복력을 기르는 것은 사람들이 스트레스와 역경에 대처하는 데 도움이 됩니다.",
-    "image_url": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=640",
-    "source_link": "https://unsplash.com/photos/tree-on-mountain-Q2J2GQX__QM"
+    "word": "ideology",
+    "pos": "noun",
+    "meaning": "a system of ideas and ideals forming the basis of economic or political theory",
+    "example_en": "The movement was based on a specific political ideology.",
+    "example_gloss": "그 운동은 특정 정치 이념에 기반을 두고 있었다.",
+    "image_url": "https://pixabay.com/images/search/ideology/",
+    "source_link": "https://pixabay.com/images/search/ideology/"
   },
   {
-    "word": "methodology",
-    "pos": "n.",
-    "meaning": "방법론",
-    "example_en": "The researchers explained their methodology in detail.",
-    "example_gloss": "연구자들은 그들의 방법론을 자세히 설명했습니다.",
-    "image_url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=640",
-    "source_link": "https://unsplash.com/photos/analytics-dashboard-EDZTb2SQ6j0"
+    "word": "articulate",
+    "pos": "adjective",
+    "meaning": "able to express thoughts and ideas clearly and effectively",
+    "example_en": "She gave an articulate presentation about climate change.",
+    "example_gloss": "그녀는 기후 변화에 대한 명확한 발표를 했다.",
+    "image_url": "https://pixabay.com/images/search/articulate/",
+    "source_link": "https://pixabay.com/images/search/articulate/"
   },
   {
-    "word": "hypothesis",
-    "pos": "n.",
-    "meaning": "가설",
-    "example_en": "The scientist's hypothesis was confirmed by the experimental results.",
-    "example_gloss": "과학자의 가설은 실험 결과로 확인되었습니다.",
-    "image_url": "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=640",
-    "source_link": "https://unsplash.com/photos/laboratory-equipment-eveI7MOcSmw"
+    "word": "ambivalent",
+    "pos": "adjective",
+    "meaning": "having mixed feelings or contradictory ideas about something",
+    "example_en": "He felt ambivalent about accepting the job offer.",
+    "example_gloss": "그는 그 취업 제안을 받아들이는 것에 대해 양면적인 감정을 느꼈다.",
+    "image_url": "https://pixabay.com/images/search/ambivalent/",
+    "source_link": "https://pixabay.com/images/search/ambivalent/"
   }
 ]
