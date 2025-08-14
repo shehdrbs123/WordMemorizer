@@ -88,20 +88,6 @@
 
 <script>
 const $ = s => document.querySelector(s);
-function loadWithFallback(imgEl, urls, onAnyFail){
-  if (!urls || !urls.length) { onAnyFail && onAnyFail(); return; }
-  let i = 0;
-  const tryNext = () => {
-    if (i >= urls.length) { onAnyFail && onAnyFail(); return; }
-    const url = urls[i++];
-    imgEl.onerror = null; imgEl.onload = null;
-    imgEl.onerror = () => { tryNext(); };
-    imgEl.onload = () => { /* ok */ };
-    imgEl.src = url;
-  };
-  tryNext();
-}
-
 const shuffle = (arr) => arr.sort(()=>Math.random()-0.5);
 const norm = s => (s||'').toString().trim().toLowerCase();
 let DATASETS=null, DATA=[], QUEUE=[], CUR=null, MODE='en2ko', TYPE='mc', STATS={done:0,ok:0,ng:0};
@@ -146,10 +132,7 @@ function nextQuestion(){
   CUR = QUEUE.pop(); const it = DATA[CUR];
   const prompt = (MODE==='en2ko') ? it.word : it.meaning;
   $('#prompt').textContent=prompt; $('#modeLabel').textContent=(MODE==='en2ko')?'영→한':'한→영';
-  const placeholder='https://upload.wikimedia.org/wikipedia/commons/6/65/No-Image-Placeholder.svg';
-  const imgEl=$('#img'); imgEl.alt=it.word; $('#src').href=it.source_link; $('#imgLink').href=it.image_url; $('#pos').textContent=it.pos;
-  const candidates=[it.image_url].concat(Array.isArray(it.alt_images)?it.alt_images:[]);
-  loadWithFallback(imgEl, candidates, ()=>{ imgEl.src=placeholder; });
+  $('#img').src=it.image_url; $('#img').alt=it.word; $('#src').href=it.source_link; $('#imgLink').href=it.image_url; $('#pos').textContent=it.pos;
   $('#example').classList.add('hidden'); $('#hint').textContent=''; const ans=(MODE==='en2ko')?it.meaning:it.word;
   if(TYPE==='mc'){ showMC(it, ans); } else { showTyping(it, ans); }
 }
