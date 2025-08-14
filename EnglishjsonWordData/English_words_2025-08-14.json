@@ -1,137 +1,137 @@
 [
   {
-    "word": "tree",
+    "word": "house",
     "pos": "noun",
-    "meaning": "a tall plant that has a trunk and branches with leaves",
-    "example_en": "The bird built its nest in the old oak tree.",
-    "example_gloss": "새가 오래된 참나무에 둥지를 만들었다.",
-    "image_url": "https://cdn.pixabay.com/photo/2015/12/01/20/28/forest-1072828_960_720.jpg",
-    "source_link": "https://pixabay.com/photos/forest-trees-nature-environment-1072828/"
+    "meaning": "a building for human habitation; a home",
+    "example_en": "They bought a beautiful house near the lake.",
+    "example_gloss": "그들은 호수 근처에 아름다운 집을 샀다.",
+    "image_url": "https://images.unsplash.com/photo-1570129477492-45c003edd2be",
+    "source_link": "https://unsplash.com/photos/house-near-green-trees-wMzx2nBdeng"
   },
   {
-    "word": "friend",
+    "word": "family",
     "pos": "noun",
-    "meaning": "a person you know well and like who is not part of your family",
-    "example_en": "She called her best friend to share the good news.",
-    "example_gloss": "그녀는 좋은 소식을 나누기 위해 가장 친한 친구에게 전화했다.",
-    "image_url": "https://cdn.pixabay.com/photo/2017/07/31/11/21/people-2557396_960_720.jpg",
-    "source_link": "https://pixabay.com/photos/people-friends-together-happy-2557396/"
+    "meaning": "a group consisting of parents and children living together",
+    "example_en": "My family enjoys spending time together on weekends.",
+    "example_gloss": "우리 가족은 주말에 함께 시간을 보내는 것을 즐긴다.",
+    "image_url": "https://images.unsplash.com/photo-1511895426328-dc8714191300",
+    "source_link": "https://unsplash.com/photos/happy-family-together-dQejX2ucPBs"
   },
   {
-    "word": "volunteer",
-    "pos": "noun/verb",
-    "meaning": "a person who helps others without being paid; to offer to do something",
-    "example_en": "Many volunteers helped clean up the park after the festival.",
-    "example_gloss": "많은 자원봉사자들이 축제 후 공원 청소를 도왔다.",
-    "image_url": "https://cdn.pixabay.com/photo/2018/03/06/17/30/teamwork-3204254_960_720.jpg",
-    "source_link": "https://pixabay.com/photos/teamwork-cooperation-brainstorming-3204254/"
-  },
-  {
-    "word": "curious",
-    "pos": "adjective",
-    "meaning": "wanting to know or learn about something",
-    "example_en": "The curious child asked many questions about how planes fly.",
-    "example_gloss": "호기심 많은 아이가 비행기가 어떻게 나는지에 대해 많은 질문을 했다.",
-    "image_url": "https://cdn.pixabay.com/photo/2016/11/29/13/14/attractive-1869761_960_720.jpg",
-    "source_link": "https://pixabay.com/photos/attractive-beautiful-beauty-1869761/"
-  },
-  {
-    "word": "improve",
-    "pos": "verb",
-    "meaning": "to make something better than before",
-    "example_en": "Regular exercise will improve your health and energy levels.",
-    "example_gloss": "규칙적인 운동은 당신의 건강과 에너지 수준을 향상시킬 것이다.",
-    "image_url": "https://cdn.pixabay.com/photo/2018/02/06/14/07/ease-3134828_960_720.jpg",
-    "source_link": "https://pixabay.com/photos/ease-comfortable-relaxed-3134828/"
-  },
-  {
-    "word": "tradition",
+    "word": "education",
     "pos": "noun",
-    "meaning": "a custom or belief that has existed for a long time",
-    "example_en": "It's a family tradition to have dinner together every Sunday.",
-    "example_gloss": "매주 일요일에 함께 저녁을 먹는 것은 가족의 전통이다.",
-    "image_url": "https://cdn.pixabay.com/photo/2016/11/18/22/20/thanksgiving-1837573_960_720.jpg",
-    "source_link": "https://pixabay.com/photos/thanksgiving-family-dinner-table-1837573/"
+    "meaning": "the process of receiving or giving systematic instruction",
+    "example_en": "Good education is essential for personal development.",
+    "example_gloss": "좋은 교육은 개인 발전에 필수적이다.",
+    "image_url": "https://images.unsplash.com/photo-1523240795612-9a054b0db644",
+    "source_link": "https://unsplash.com/photos/assorted-books-on-wooden-table-XJXWbfSo2f0"
   },
   {
-    "word": "respect",
-    "pos": "noun/verb",
-    "meaning": "admiration for someone; to show consideration for others",
-    "example_en": "Students should show respect for their teachers and classmates.",
-    "example_gloss": "학생들은 선생님과 급우들에게 존경을 표해야 한다.",
-    "image_url": "https://cdn.pixabay.com/photo/2017/02/16/10/12/handshake-2071021_960_720.jpg",
-    "source_link": "https://pixabay.com/photos/handshake-hands-cooperation-2071021/"
-  },
-  {
-    "word": "generous",
-    "pos": "adjective",
-    "meaning": "willing to give more money, help, etc. than usual",
-    "example_en": "She was generous with her time and helped everyone who asked.",
-    "example_gloss": "그녀는 시간을 아낌없이 내어 도움을 요청하는 모든 사람을 도왔다.",
-    "image_url": "https://cdn.pixabay.com/photo/2017/03/26/21/54/yoga-2179834_960_720.jpg",
-    "source_link": "https://pixabay.com/photos/yoga-exercise-fitness-woman-2179834/"
-  },
-  {
-    "word": "analyze",
-    "pos": "verb",
-    "meaning": "to examine something carefully to understand it",
-    "example_en": "Scientists analyze data to find patterns and draw conclusions.",
-    "example_gloss": "과학자들은 패턴을 찾고 결론을 도출하기 위해 데이터를 분석한다.",
-    "image_url": "https://cdn.pixabay.com/photo/2016/11/19/14/00/code-1839406_960_720.jpg",
-    "source_link": "https://pixabay.com/photos/code-coding-computer-data-1839406/"
-  },
-  {
-    "word": "investment",
+    "word": "technology",
     "pos": "noun",
-    "meaning": "money put into something to make a profit; time or effort spent",
-    "example_en": "Education is the best investment you can make in your future.",
-    "example_gloss": "교육은 당신의 미래에 할 수 있는 최고의 투자이다.",
-    "image_url": "https://cdn.pixabay.com/photo/2016/11/27/21/42/stock-1863880_960_720.jpg",
-    "source_link": "https://pixabay.com/photos/stock-trading-monitor-desk-1863880/"
+    "meaning": "the application of scientific knowledge for practical purposes",
+    "example_en": "Modern technology has changed the way we communicate.",
+    "example_gloss": "현대 기술은 우리가 소통하는 방식을 바꿨다.",
+    "image_url": "https://images.unsplash.com/photo-1518709268805-4e9042af2176",
+    "source_link": "https://unsplash.com/photos/macbook-pro-on-brown-wooden-table-95YRwf6CNw8"
   },
   {
-    "word": "skeptical",
-    "pos": "adjective",
-    "meaning": "having doubts about something; not easily convinced",
-    "example_en": "She remained skeptical about the new diet's effectiveness.",
-    "example_gloss": "그녀는 새로운 다이어트의 효과에 대해 여전히 회의적이었다.",
-    "image_url": "https://cdn.pixabay.com/photo/2017/03/13/17/26/thinking-2140193_960_720.jpg",
-    "source_link": "https://pixabay.com/photos/thinking-person-person-thinking-2140193/"
-  },
-  {
-    "word": "eloquent",
-    "pos": "adjective",
-    "meaning": "able to express ideas clearly and persuasively in speech or writing",
-    "example_en": "The politician gave an eloquent speech that moved the audience.",
-    "example_gloss": "그 정치인은 청중을 감동시키는 웅변적인 연설을 했다.",
-    "image_url": "https://cdn.pixabay.com/photo/2016/11/23/14/37/blur-1853262_960_720.jpg",
-    "source_link": "https://pixabay.com/photos/blur-close-up-conference-1853262/"
-  },
-  {
-    "word": "nuance",
+    "word": "community",
     "pos": "noun",
-    "meaning": "a very slight difference in meaning, feeling, or response",
-    "example_en": "The translator captured every nuance of the original poem.",
-    "example_gloss": "번역가는 원시의 모든 뉘앙스를 포착했다.",
-    "image_url": "https://cdn.pixabay.com/photo/2017/07/31/11/32/people-2557499_960_720.jpg",
-    "source_link": "https://pixabay.com/photos/people-discuss-planning-plan-2557499/"
+    "meaning": "a group of people living in the same place or having particular characteristics in common",
+    "example_en": "The local community organized a charity event.",
+    "example_gloss": "지역 사회가 자선 행사를 조직했다.",
+    "image_url": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac",
+    "source_link": "https://unsplash.com/photos/group-of-people-sitting-beside-rectangular-wooden-table-bwki71ap-y8"
   },
   {
-    "word": "perpetuate",
-    "pos": "verb",
-    "meaning": "to cause something to continue indefinitely",
-    "example_en": "Stereotypes perpetuate misunderstandings between different cultures.",
-    "example_gloss": "고정관념은 서로 다른 문화 간의 오해를 지속시킨다.",
-    "image_url": "https://cdn.pixabay.com/photo/2017/01/31/09/30/sustainability-2023430_960_720.jpg",
-    "source_link": "https://pixabay.com/photos/sustainability-sustainable-2023430/"
+    "word": "relationship",
+    "pos": "noun",
+    "meaning": "the way in which two or more people are connected",
+    "example_en": "Building strong relationships requires trust and communication.",
+    "example_gloss": "강한 관계를 구축하려면 신뢰와 소통이 필요하다.",
+    "image_url": "https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2",
+    "source_link": "https://unsplash.com/photos/man-and-woman-holding-hands-together-in-field-during-daytime-kAJE-3_4zHE"
   },
   {
-    "word": "ubiquitous",
+    "word": "democracy",
+    "pos": "noun",
+    "meaning": "a system of government by the whole population through elected representatives",
+    "example_en": "Democracy allows citizens to participate in political decisions.",
+    "example_gloss": "민주주의는 시민들이 정치적 결정에 참여할 수 있게 한다.",
+    "image_url": "https://images.unsplash.com/photo-1586611292717-f828b167408c",
+    "source_link": "https://unsplash.com/photos/how-to-vote-signage-element5-digital-T9CXBZLUvic"
+  },
+  {
+    "word": "economy",
+    "pos": "noun",
+    "meaning": "the wealth and resources of a country in terms of production and consumption",
+    "example_en": "The economy has been growing steadily this year.",
+    "example_gloss": "경제는 올해 꾸준히 성장해왔다.",
+    "image_url": "https://images.unsplash.com/photo-1560472354-b33ff0c44a43",
+    "source_link": "https://unsplash.com/photos/charts-printed-on-white-paper-6sl88x150Xs"
+  },
+  {
+    "word": "psychological",
     "pos": "adjective",
-    "meaning": "appearing to be everywhere at the same time; widespread",
-    "example_en": "Smartphones have become ubiquitous in modern society.",
-    "example_gloss": "스마트폰은 현대 사회에서 어디에나 있게 되었다.",
-    "image_url": "https://cdn.pixabay.com/photo/2017/01/16/15/39/mobile-phone-1984833_960_720.jpg",
-    "source_link": "https://pixabay.com/photos/mobile-phone-smartphone-keyboard-1984833/"
+    "meaning": "relating to the human mind and behavior",
+    "example_en": "The psychological impact of stress can be significant.",
+    "example_gloss": "스트레스의 심리적 영향은 상당할 수 있다.",
+    "image_url": "https://images.unsplash.com/photo-1606092195730-5d7b9af1efc5",
+    "source_link": "https://unsplash.com/photos/toddler-looking-at-believe-in-yourself-graffiti-halgatewood-com-tZc3vjPCk-Q"
+  },
+  {
+    "word": "responsibility",
+    "pos": "noun",
+    "meaning": "the state of being accountable for something",
+    "example_en": "Taking responsibility for our actions shows maturity.",
+    "example_gloss": "우리의 행동에 대해 책임지는 것은 성숙함을 보여준다.",
+    "image_url": "https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca",
+    "source_link": "https://unsplash.com/photos/person-holding-white-and-red-card-gcsNOsPEXfs"
+  },
+  {
+    "word": "phenomenon",
+    "pos": "noun",
+    "meaning": "a fact or situation that is observed to exist or happen",
+    "example_en": "The Northern Lights are a spectacular natural phenomenon.",
+    "example_gloss": "북극광은 장관인 자연 현상이다.",
+    "image_url": "https://images.unsplash.com/photo-1531366936337-7c912a4589a7",
+    "source_link": "https://unsplash.com/photos/green-and-blue-aurora-borealis-over-brown-mountain-dCgbRAQmTQA"
+  },
+  {
+    "word": "criteria",
+    "pos": "noun",
+    "meaning": "principles or standards by which something is judged",
+    "example_en": "The selection criteria for the scholarship are very strict.",
+    "example_gloss": "장학금 선정 기준은 매우 엄격하다.",
+    "image_url": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173",
+    "source_link": "https://unsplash.com/photos/macbook-pro-on-brown-wooden-table-dC6Pb2JdAqs"
+  },
+  {
+    "word": "intellectual",
+    "pos": "adjective",
+    "meaning": "relating to the intellect or understanding",
+    "example_en": "The conference encouraged intellectual discourse among scholars.",
+    "example_gloss": "그 회의는 학자들 간의 지적 담론을 장려했다.",
+    "image_url": "https://images.unsplash.com/photo-1481627834876-b7833e8f5570",
+    "source_link": "https://unsplash.com/photos/assorted-title-of-books-piled-in-the-shelves-SF_1ZDA7YvA"
+  },
+  {
+    "word": "unprecedented",
+    "pos": "adjective",
+    "meaning": "never done or known before; without previous example",
+    "example_en": "The pandemic created unprecedented challenges for healthcare systems.",
+    "example_gloss": "팬데믹은 의료 시스템에 전례 없는 도전을 가져왔다.",
+    "image_url": "https://images.unsplash.com/photo-1584036561566-baf8f5f1b144",
+    "source_link": "https://unsplash.com/photos/person-in-white-long-sleeve-shirt-holding-a-clipboard-with-white-mask-bEbqpPCHcO4"
+  },
+  {
+    "word": "empirical",
+    "pos": "adjective",
+    "meaning": "based on observation or experience rather than theory",
+    "example_en": "The study provides empirical evidence for the hypothesis.",
+    "example_gloss": "그 연구는 가설에 대한 경험적 증거를 제공한다.",
+    "image_url": "https://images.unsplash.com/photo-1567427018141-0584cfcbf1b8",
+    "source_link": "https://unsplash.com/photos/person-in-white-coat-and-blue-denim-jeans-holding-test-tubes-ZPeXrWxOjRQ"
   }
 ]
