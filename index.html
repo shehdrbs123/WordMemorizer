@@ -78,6 +78,20 @@
   <ul id="list" class="vlist"></ul>
 </div>
 <script>
+function loadWithFallback(imgEl, urls, onAnyFail){
+  if(!urls||!urls.length){ onAnyFail && onAnyFail(); return; }
+  let i=0;
+  const tryNext=()=>{
+    if(i>=urls.length){ onAnyFail && onAnyFail(); return; }
+    const url=urls[i++];
+    imgEl.onerror=null; imgEl.onload=null;
+    imgEl.onerror=()=>{ tryNext(); };
+    imgEl.onload=()=>{};
+    imgEl.src=url;
+  };
+  tryNext();
+}
+
 /* ===== 공통 ===== */
 const $ = s => document.querySelector(s);
 const list = $('#list');
@@ -320,23 +334,6 @@ async function speak(text, opts={}){
 
 /* ===== 렌더링 ===== */
 function speakIconSVG(){
-function loadWithFallback(imgEl, urls, onAnyFail){
-  // Try each URL sequentially; on final failure, call onAnyFail (e.g., set placeholder & badge).
-  if (!urls || !urls.length) { onAnyFail && onAnyFail(); return; }
-  let i = 0;
-  const tryNext = () => {
-    if (i >= urls.length) { onAnyFail && onAnyFail(); return; }
-    const url = urls[i++];
-    // Detach previous handlers
-    imgEl.onerror = null;
-    imgEl.onload = null;
-    imgEl.onerror = () => { tryNext(); };
-    imgEl.onload = () => { /* success */ };
-    imgEl.src = url;
-  };
-  tryNext();
-}
-
   return `<svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M3 10v4h3l4 4V6L6 10H3zm13.5 2a4.5 4.5 0 0 0-2.25-3.89v7.78A4.5 4.5 0 0 0 16.5 12zm-2.25-8.46v2.09a7.5 7.5 0 0 1 0 12.74v2.09c3.53-1.23 6-4.57 6-8.46s-2.47-7.23-6-8.46z"/></svg>`;
 }
 
@@ -380,10 +377,8 @@ function render(items){
 
     const img = li.querySelector('img.thumb');
     const badge = li.querySelector('.badge');
-    
     const candidates = [it.image_url].concat(Array.isArray(it.alt_images)?it.alt_images:[]);
     loadWithFallback(img, candidates, ()=>{ img.src = placeholder; badge.style.display='inline-block'; });
-
 
     const cb = li.querySelector('.check input');
     const key = 'learned_' + it.word;
