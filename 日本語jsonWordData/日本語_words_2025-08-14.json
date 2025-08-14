@@ -1,0 +1,137 @@
+[
+  {
+    "word": "朝",
+    "pos": "n.",
+    "meaning": "아침",
+    "example_en": "朝早く起きました。",
+    "example_gloss": "아침 일찍 일어났습니다.",
+    "image_url": "https://cdn.pixabay.com/photo/2024/04/05/08/30/sunrise-8675236_1280.jpg",
+    "source_link": "https://pixabay.com/photos/sunrise-morning-sun-sunlight-sky-8675236/"
+  },
+  {
+    "word": "茶碗",
+    "pos": "n.",
+    "meaning": "밥그릇",
+    "example_en": "茶碗にご飯を盛りました。",
+    "example_gloss": "밥그릇에 밥을 담았습니다.",
+    "image_url": "https://cdn.pixabay.com/photo/2016/09/15/12/30/rice-1666913_1280.jpg",
+    "source_link": "https://pixabay.com/photos/rice-japanese-cuisine-bowl-1666913/"
+  },
+  {
+    "word": "学習",
+    "pos": "n.",
+    "meaning": "학습",
+    "example_en": "毎日日本語を学習しています。",
+    "example_gloss": "매일 일본어를 학습하고 있습니다.",
+    "image_url": "https://cdn.pixabay.com/photo/2016/11/29/06/15/students-1867442_1280.jpg",
+    "source_link": "https://pixabay.com/photos/students-studying-classroom-1867442/"
+  },
+  {
+    "word": "散歩",
+    "pos": "n.",
+    "meaning": "산책",
+    "example_en": "公園で散歩をしました。",
+    "example_gloss": "공원에서 산책을 했습니다.",
+    "image_url": "https://cdn.pixabay.com/photo/2017/08/06/12/06/people-2591874_1280.jpg",
+    "source_link": "https://pixabay.com/photos/people-walking-park-couple-2591874/"
+  },
+  {
+    "word": "料理",
+    "pos": "n.",
+    "meaning": "요리",
+    "example_en": "母の料理はとても美味しいです。",
+    "example_gloss": "어머니의 요리는 매우 맛있습니다.",
+    "image_url": "https://cdn.pixabay.com/photo/2017/06/16/11/38/breakfast-2408818_1280.jpg",
+    "source_link": "https://pixabay.com/photos/breakfast-cooking-kitchen-food-2408818/"
+  },
+  {
+    "word": "電車",
+    "pos": "n.",
+    "meaning": "전차, 기차",
+    "example_en": "電車で学校に行きます。",
+    "example_gloss": "전차로 학교에 갑니다.",
+    "image_url": "https://cdn.pixabay.com/photo/2016/02/13/12/26/aurora-1197753_1280.jpg",
+    "source_link": "https://pixabay.com/photos/train-railway-station-platform-1197753/"
+  },
+  {
+    "word": "部屋",
+    "pos": "n.",
+    "meaning": "방",
+    "example_en": "私の部屋は二階にあります。",
+    "example_gloss": "제 방은 2층에 있습니다.",
+    "image_url": "https://cdn.pixabay.com/photo/2016/11/18/17/20/living-room-1835923_1280.jpg",
+    "source_link": "https://pixabay.com/photos/living-room-interior-room-1835923/"
+  },
+  {
+    "word": "掃除",
+    "pos": "n.",
+    "meaning": "청소",
+    "example_en": "土曜日に部屋の掃除をします。",
+    "example_gloss": "토요일에 방 청소를 합니다.",
+    "image_url": "https://cdn.pixabay.com/photo/2015/04/20/17/39/man-731900_1280.jpg",
+    "source_link": "https://pixabay.com/photos/man-cleaning-vacuum-cleaner-731900/"
+  },
+  {
+    "word": "買い物",
+    "pos": "n.",
+    "meaning": "쇼핑",
+    "example_en": "母と一緒に買い物に行きました。",
+    "example_gloss": "어머니와 함께 쇼핑을 갔습니다.",
+    "image_url": "https://cdn.pixabay.com/photo/2016/03/02/20/13/shopping-1232944_1280.jpg",
+    "source_link": "https://pixabay.com/photos/shopping-bags-woman-lifestyle-1232944/"
+  },
+  {
+    "word": "洗濯",
+    "pos": "n.",
+    "meaning": "빨래",
+    "example_en": "毎週日曜日に洗濯をします。",
+    "example_gloss": "매주 일요일에 빨래를 합니다.",
+    "image_url": "https://cdn.pixabay.com/photo/2014/09/11/18/45/laundry-442138_1280.jpg",
+    "source_link": "https://pixabay.com/photos/laundry-washing-machine-tumble-442138/"
+  },
+  {
+    "word": "影響",
+    "pos": "n.",
+    "meaning": "영향",
+    "example_en": "天気は私の気分に影響します。",
+    "example_gloss": "날씨는 저의 기분에 영향을 줍니다.",
+    "image_url": "https://cdn.pixabay.com/photo/2016/01/09/18/27/vintage-1130731_1280.jpg",
+    "source_link": "https://pixabay.com/photos/vintage-network-concept-influence-1130731/"
+  },
+  {
+    "word": "実現",
+    "pos": "n.",
+    "meaning": "실현",
+    "example_en": "夢の実現のために努力しています。",
+    "example_gloss": "꿈의 실현을 위해 노력하고 있습니다.",
+    "image_url": "https://cdn.pixabay.com/photo/2016/01/19/17/48/bulb-1149908_1280.jpg",
+    "source_link": "https://pixabay.com/photos/bulb-light-idea-energy-1149908/"
+  },
+  {
+    "word": "概念",
+    "pos": "n.",
+    "meaning": "개념",
+    "example_en": "この概念を理解するのは難しいです。",
+    "example_gloss": "이 개념을 이해하는 것은 어렵습니다.",
+    "image_url": "https://cdn.pixabay.com/photo/2017/01/14/12/59/iceland-1979445_1280.jpg",
+    "source_link": "https://pixabay.com/photos/concept-man-papers-person-1979445/"
+  },
+  {
+    "word": "背景",
+    "pos": "n.",
+    "meaning": "배경",
+    "example_en": "この問題の背景を説明してください。",
+    "example_gloss": "이 문제의 배경을 설명해 주세요.",
+    "image_url": "https://cdn.pixabay.com/photo/2016/03/26/13/09/cup-of-coffee-1280537_1280.jpg",
+    "source_link": "https://pixabay.com/photos/background-texture-coffee-vintage-1280537/"
+  },
+  {
+    "word": "傾向",
+    "pos": "n.",
+    "meaning": "경향",
+    "example_en": "最近そのような傾向が見られます。",
+    "example_gloss": "최근 그러한 경향이 보입니다.",
+    "image_url": "https://cdn.pixabay.com/photo/2016/01/09/18/27/growth-1130731_1280.jpg",
+    "source_link": "https://pixabay.com/photos/growth-success-graph-business-1130731/"
+  }
+]
