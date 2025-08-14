@@ -1,0 +1,15 @@
+ocean
+mountain
+forest
+create
+wonder
+discover
+develop
+analyze
+maintain
+contribute
+perspective
+phenomenon
+acquisition
+implementation
+specification
