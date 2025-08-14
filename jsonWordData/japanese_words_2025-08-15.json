@@ -1,0 +1,197 @@
+[
+  {
+    "word": "えんぴつ",
+    "pos": "n.",
+    "meaning": "연필",
+    "example_en": "私のえんぴつは机の上にあります。",
+    "example_gloss": "내 연필은 책상 위에 있습니다.",
+    "image_url": "https://images.unsplash.com/photo-1503455637927-730bce8583c0?w=400&h=300&fit=crop",
+    "alt_images": [
+      "https://images.unsplash.com/photo-1584464491033-06628f3a6b7b?w=400&h=300&fit=crop",
+      "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=300&fit=crop"
+    ],
+    "source_link": "https://unsplash.com/photos/woman-holding-yellow-and-black-pen-503455637927"
+  },
+  {
+    "word": "つくえ",
+    "pos": "n.",
+    "meaning": "책상",
+    "example_en": "つくえの上に本があります。",
+    "example_gloss": "책상 위에 책이 있습니다.",
+    "image_url": "https://images.unsplash.com/photo-1518455027359-f3f8164ba6bd?w=400&h=300&fit=crop",
+    "alt_images": [
+      "https://images.unsplash.com/photo-1504805572947-34fad45aed93?w=400&h=300&fit=crop",
+      "https://images.unsplash.com/photo-1493770348161-369560ae357d?w=400&h=300&fit=crop"
+    ],
+    "source_link": "https://unsplash.com/photos/white-wooden-table-near-brown-wall-518455027359"
+  },
+  {
+    "word": "しゅくだい",
+    "pos": "n.",
+    "meaning": "숙제",
+    "example_en": "今日のしゅくだいは数学の問題です。",
+    "example_gloss": "오늘의 숙제는 수학 문제입니다.",
+    "image_url": "https://images.unsplash.com/photo-1495107334309-fcf20504a5ab?w=400&h=300&fit=crop",
+    "alt_images": [
+      "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=300&fit=crop",
+      "https://images.unsplash.com/photo-1484069560501-87d72b0c3669?w=400&h=300&fit=crop"
+    ],
+    "source_link": "https://unsplash.com/photos/person-holding-ballpoint-pen-writing-on-notebook-495107334309"
+  },
+  {
+    "word": "じゅぎょう",
+    "pos": "n.",
+    "meaning": "수업",
+    "example_en": "英語のじゅぎょうは午前中にあります。",
+    "example_gloss": "영어 수업은 오전 중에 있습니다.",
+    "image_url": "https://images.unsplash.com/photo-1497486751825-1233686d5d80?w=400&h=300&fit=crop",
+    "alt_images": [
+      "https://images.unsplash.com/photo-1580582932707-520aed937b7b?w=400&h=300&fit=crop",
+      "https://images.unsplash.com/photo-1513475382585-d06e58bcb0e0?w=400&h=300&fit=crop"
+    ],
+    "source_link": "https://unsplash.com/photos/empty-chairs-in-theater-497486751825"
+  },
+  {
+    "word": "きょうしつ",
+    "pos": "n.",
+    "meaning": "교실",
+    "example_en": "きょうしつで勉強しています。",
+    "example_gloss": "교실에서 공부하고 있습니다.",
+    "image_url": "https://images.unsplash.com/photo-1580582932707-520aed937b7b?w=400&h=300&fit=crop",
+    "alt_images": [
+      "https://images.unsplash.com/photo-1497486751825-1233686d5d80?w=400&h=300&fit=crop",
+      "https://images.unsplash.com/photo-1513475382585-d06e58bcb0e0?w=400&h=300&fit=crop"
+    ],
+    "source_link": "https://unsplash.com/photos/empty-classroom-during-daytime-580582932707"
+  },
+  {
+    "word": "せんせい",
+    "pos": "n.",
+    "meaning": "선생님",
+    "example_en": "田中せんせいはとても親切です。",
+    "example_gloss": "다나카 선생님은 매우 친절합니다.",
+    "image_url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=300&fit=crop",
+    "alt_images": [
+      "https://images.unsplash.com/photo-1580894894513-541e068a3e2b?w=400&h=300&fit=crop",
+      "https://images.unsplash.com/photo-1494989411319-4a7e1b9d16ad?w=400&h=300&fit=crop"
+    ],
+    "source_link": "https://unsplash.com/photos/person-holding-blue-ballpoint-pen-writing-507003211169"
+  },
+  {
+    "word": "しけん",
+    "pos": "n.",
+    "meaning": "시험",
+    "example_en": "来週の金曜日にしけんがあります。",
+    "example_gloss": "다음 주 금요일에 시험이 있습니다.",
+    "image_url": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=400&h=300&fit=crop",
+    "alt_images": [
+      "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?w=400&h=300&fit=crop",
+      "https://images.unsplash.com/photo-1516534775068-ba3e7458af70?w=400&h=300&fit=crop"
+    ],
+    "source_link": "https://unsplash.com/photos/opened-book-434030216411"
+  },
+  {
+    "word": "ノート",
+    "pos": "n.",
+    "meaning": "노트",
+    "example_en": "ノートにメモを取りました。",
+    "example_gloss": "노트에 메모를 했습니다.",
+    "image_url": "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=400&h=300&fit=crop",
+    "alt_images": [
+      "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=300&fit=crop",
+      "https://images.unsplash.com/photo-1495107334309-fcf20504a5ab?w=400&h=300&fit=crop"
+    ],
+    "source_link": "https://unsplash.com/photos/white-printer-paper-close-up-photography-481627834876"
+  },
+  {
+    "word": "こくばん",
+    "pos": "n.",
+    "meaning": "칠판",
+    "example_en": "こくばんに数式を書きました。",
+    "example_gloss": "칠판에 수식을 썼습니다.",
+    "image_url": "https://images.unsplash.com/photo-1497005367839-6e852de72767?w=400&h=300&fit=crop",
+    "alt_images": [
+      "https://images.unsplash.com/photo-1580582932707-520aed937b7b?w=400&h=300&fit=crop",
+      "https://images.unsplash.com/photo-1513475382585-d06e58bcb0e0?w=400&h=300&fit=crop"
+    ],
+    "source_link": "https://unsplash.com/photos/white-and-black-concrete-building-497005367839"
+  },
+  {
+    "word": "しつもん",
+    "pos": "n.",
+    "meaning": "질문",
+    "example_en": "しつもんがあります。",
+    "example_gloss": "질문이 있습니다.",
+    "image_url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=300&fit=crop",
+    "alt_images": [
+      "https://images.unsplash.com/photo-1495107334309-fcf20504a5ab?w=400&h=300&fit=crop",
+      "https://images.unsplash.com/photo-1503455637927-730bce8583c0?w=400&h=300&fit=crop"
+    ],
+    "source_link": "https://unsplash.com/photos/person-holding-blue-ballpoint-pen-writing-507003211169"
+  },
+  {
+    "word": "きょうざい",
+    "pos": "n.",
+    "meaning": "교재",
+    "example_en": "新しいきょうざいを使って授業を行います。",
+    "example_gloss": "새로운 교재를 사용해서 수업을 진행합니다.",
+    "image_url": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=400&h=300&fit=crop",
+    "alt_images": [
+      "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=400&h=300&fit=crop",
+      "https://images.unsplash.com/photo-1516534775068-ba3e7458af70?w=400&h=300&fit=crop"
+    ],
+    "source_link": "https://unsplash.com/photos/opened-book-434030216411"
+  },
+  {
+    "word": "しどう",
+    "pos": "n.",
+    "meaning": "지도",
+    "example_en": "個別しどうを受けることができます。",
+    "example_gloss": "개별 지도를 받을 수 있습니다.",
+    "image_url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=300&fit=crop",
+    "alt_images": [
+      "https://images.unsplash.com/photo-1580894894513-541e068a3e2b?w=400&h=300&fit=crop",
+      "https://images.unsplash.com/photo-1494989411319-4a7e1b9d16ad?w=400&h=300&fit=crop"
+    ],
+    "source_link": "https://unsplash.com/photos/person-holding-blue-ballpoint-pen-writing-507003211169"
+  },
+  {
+    "word": "じしゅうがくしゅう",
+    "pos": "n.",
+    "meaning": "자주학습",
+    "example_en": "じしゅうがくしゅうで理解を深めることが大切です。",
+    "example_gloss": "자주학습으로 이해를 깊게 하는 것이 중요합니다.",
+    "image_url": "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=400&h=300&fit=crop",
+    "alt_images": [
+      "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=400&h=300&fit=crop",
+      "https://images.unsplash.com/photo-1495107334309-fcf20504a5ab?w=400&h=300&fit=crop"
+    ],
+    "source_link": "https://unsplash.com/photos/white-printer-paper-close-up-photography-481627834876"
+  },
+  {
+    "word": "がくしゅうかんきょう",
+    "pos": "n.",
+    "meaning": "학습환경",
+    "example_en": "よいがくしゅうかんきょうを整えることが重要です。",
+    "example_gloss": "좋은 학습환경을 정비하는 것이 중요합니다.",
+    "image_url": "https://images.unsplash.com/photo-1580582932707-520aed937b7b?w=400&h=300&fit=crop",
+    "alt_images": [
+      "https://images.unsplash.com/photo-1497486751825-1233686d5d80?w=400&h=300&fit=crop",
+      "https://images.unsplash.com/photo-1513475382585-d06e58bcb0e0?w=400&h=300&fit=crop"
+    ],
+    "source_link": "https://unsplash.com/photos/empty-classroom-during-daytime-580582932707"
+  },
+  {
+    "word": "きょういくほうほう",
+    "pos": "n.",
+    "meaning": "교육방법",
+    "example_en": "新しいきょういくほうほうを導入しました。",
+    "example_gloss": "새로운 교육방법을 도입했습니다.",
+    "image_url": "https://images.unsplash.com/photo-1497005367839-6e852de72767?w=400&h=300&fit=crop",
+    "alt_images": [
+      "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=300&fit=crop",
+      "https://images.unsplash.com/photo-1580894894513-541e068a3e2b?w=400&h=300&fit=crop"
+    ],
+    "source_link": "https://unsplash.com/photos/white-and-black-concrete-building-497005367839"
+  }
+]
