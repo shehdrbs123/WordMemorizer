@@ -9,6 +9,16 @@
           "path": "EnglishjsonWordData/english_words_2025-08-15.json"
         }
       ]
+    },
+    {
+      "id": "ja",
+      "name": "Japanese",
+      "files": [
+        {
+          "title": "Japanese Words 2025 08 15",
+          "path": "jsonWordData/japanese_words_2025-08-15.json"
+        }
+      ]
     }
   ]
 }
