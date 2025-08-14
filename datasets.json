@@ -1,5 +1,4 @@
-{
-  "languages": [
+"languages": [
     {
       "id": "en",
       "name": "English",
@@ -19,15 +18,11 @@
         {
           "title": "English Words 2025 08 14 Batch 2",
           "path": "EnglishjsonWordData/English_words_2025-08-14.json"
-        },
-        {
-          "title": "English Words 2025 08 15",
-          "path": "EnglishjsonWordData/English_words_2025-08-15.json"
         }
       ]
     },
     {
-      "id": "ja",
+      "id": "xx",
       "name": "日本語",
       "files": [
         {
