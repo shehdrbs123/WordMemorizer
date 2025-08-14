@@ -87,9 +87,11 @@ let CURRENT = null;
 
 /* ===== datasets.json ===== */
 async function loadManifest(){
-  const res = await fetch('./datasets.json?v=2025-08-11');
+  const res = await fetch('./datasets.json?v=2025-08-15');
   if(!res.ok) throw new Error('datasets.json 로드 실패');
-  return await res.json();
+  const text = await res.text();
+  console.log('datasets.json response:', text.substring(0, 100));
+  return JSON.parse(text);
 }
 function fillSelectors(manifest){
   const langSel = $('#langSel');
@@ -115,9 +117,11 @@ $('#onlyNew').addEventListener('change', ()=>{ if(CURRENT) render(CURRENT); });
 /* ===== 데이터 로드 ===== */
 async function loadJSON(path){
   statusEl.textContent = '로딩 중…';
-  const res = await fetch(path);
-  if(!res.ok){ statusEl.textContent='JSON 로드 실패'; return; }
-  const arr = await res.json();
+  const res = await fetch(path + '?v=' + Date.now());
+  if(!res.ok){ statusEl.textContent='JSON 로드 실패: ' + res.status; return; }
+  const text = await res.text();
+  console.log('JSON response:', text.substring(0, 100));
+  const arr = JSON.parse(text);
   CURRENT = (Array.isArray(arr) ? arr : []);
   render(CURRENT);
 }
@@ -255,7 +259,7 @@ function fixJapanese(text){
     const num = n==='10' || k==='十' ? 10 : Number(n);
     return readingNin(num||k);
   });
-  out = out.replace(/([一二三四五六七八九十]+)\s*日/g, (_,k)=>{
+  out = out.replace(/([一二三四五六七八九십]+)\s*日/g, (_,k)=>{
     const n = (k.split('').map(ch => kanjiToArabic[ch]||'').join('')) || k;
     const num = n==='10' || k==='十' ? 10 : Number(n);
     return readingDay(num||k);
@@ -390,6 +394,7 @@ list.addEventListener('click', (e)=>{
     statusEl.textContent = 'datasets.json 로드 완료';
   } catch(err){
     statusEl.textContent = '오류: ' + err.message + ' — 파일을 웹서버에서 열고 있는지 확인하세요.';
+    console.error('Init error:', err);
   }
 })();
 </script>
