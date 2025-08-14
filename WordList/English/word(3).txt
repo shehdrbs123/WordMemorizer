@@ -1,0 +1,15 @@
+bridge
+flower
+memory
+shadow
+whisper
+courage
+wonder
+journey
+ancient
+treasure
+perseverance
+eloquent
+serendipity
+introspective
+ephemeral
