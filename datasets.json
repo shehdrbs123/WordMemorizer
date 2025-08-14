@@ -1,1 +1,48 @@
-{\n  \"languages\": [\n    {\n      \"id\": \"en\",\n      \"name\": \"English\",\n      \"files\": [\n        {\n          \"title\": \"English Words 2025 08 12\",\n          \"path\": \"EnglishjsonWordData/english_words_2025-08-12.json\"\n        },\n        {\n          \"title\": \"English Words 2025 08 13\",\n          \"path\": \"EnglishjsonWordData/english_words_2025-08-13.json\"\n        },\n        {\n          \"title\": \"English Words 2025 08 14\",\n          \"path\": \"EnglishjsonWordData/english_words_2025-08-14.json\"\n        },\n        {\n          \"title\": \"English Words 2025 08 14 Batch 2\",\n          \"path\": \"EnglishjsonWordData/English_words_2025-08-14.json\"\n        },\n        {\n          \"title\": \"English Words 2025 08 15\",\n          \"path\": \"EnglishjsonWordData/English_words_2025-08-15.json\"\n        }\n      ]\n    },\n    {\n      \"id\": \"xx\",\n      \"name\": \"日本語\",\n      \"files\": [\n        {\n          \"title\": \"日本語 Words 2025 08 12\",\n          \"path\": \"日本語jsonWordData/日本語_words_2025-08-12.json\"\n        },\n        {\n          \"title\": \"日本語 Words 2025 08 13\",\n          \"path\": \"日本語jsonWordData/日本語_words_2025-08-13.json\"\n        },\n        {\n          \"title\": \"日本語 Words 2025 08 14\",\n          \"path\": \"日本語jsonWordData/日本語_words_2025-08-14.json\"\n        }\n      ]\n    }\n  ]\n}
+{
+  "languages": [
+    {
+      "id": "en",
+      "name": "English",
+      "files": [
+        {
+          "title": "English Words 2025 08 12",
+          "path": "EnglishjsonWordData/english_words_2025-08-12.json"
+        },
+        {
+          "title": "English Words 2025 08 13",
+          "path": "EnglishjsonWordData/english_words_2025-08-13.json"
+        },
+        {
+          "title": "English Words 2025 08 14",
+          "path": "EnglishjsonWordData/english_words_2025-08-14.json"
+        },
+        {
+          "title": "English Words 2025 08 14 Batch 2",
+          "path": "EnglishjsonWordData/English_words_2025-08-14.json"
+        },
+        {
+          "title": "English Words 2025 08 15",
+          "path": "EnglishjsonWordData/English_words_2025-08-15.json"
+        }
+      ]
+    },
+    {
+      "id": "ja",
+      "name": "日本語",
+      "files": [
+        {
+          "title": "日本語 Words 2025 08 12",
+          "path": "日本語jsonWordData/日本語_words_2025-08-12.json"
+        },
+        {
+          "title": "日本語 Words 2025 08 13",
+          "path": "日本語jsonWordData/日本語_words_2025-08-13.json"
+        },
+        {
+          "title": "日本語 Words 2025 08 14",
+          "path": "日本語jsonWordData/日本語_words_2025-08-14.json"
+        }
+      ]
+    }
+  ]
+}
