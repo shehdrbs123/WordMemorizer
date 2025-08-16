@@ -1,0 +1,197 @@
+[
+  {
+    "word": "やま",
+    "pos": "n.",
+    "meaning": "산",
+    "example_en": "あの山はとても高いです。",
+    "example_gloss": "저 산은 매우 높습니다.",
+    "image_url": "https://images.unsplash.com/photo-1508073825191-5de3e0dd54b2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
+    "alt_images": [
+      "https://images.unsplash.com/photo-1490806843957-31f4c9a91c65?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
+    ],
+    "source_link": "https://unsplash.com/photos/mountain-landscape-under-white-clouds-during-daytime-m7K4Kg3FbCo"
+  },
+  {
+    "word": "かわ",
+    "pos": "n.",
+    "meaning": "강",
+    "example_en": "川で魚を釣りました。",
+    "example_gloss": "강에서 물고기를 낚았습니다.",
+    "image_url": "https://images.unsplash.com/photo-1502780402662-acc01917114e?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+    "alt_images": [
+      "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
+    ],
+    "source_link": "https://unsplash.com/photos/river-between-green-leafed-trees-o4c2zoVhjSw"
+  },
+  {
+    "word": "しぜん",
+    "pos": "n.",
+    "meaning": "자연",
+    "example_en": "自然の美しさに感動しました。",
+    "example_gloss": "자연의 아름다움에 감동했습니다.",
+    "image_url": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+    "alt_images": [
+      "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1502780402662-acc01917114e?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
+    ],
+    "source_link": "https://unsplash.com/photos/river-flowing-through-forest-trees-FAM3TSpB4mc"
+  },
+  {
+    "word": "きせつ",
+    "pos": "n.",
+    "meaning": "계절",
+    "example_en": "日本には四つの季節があります。",
+    "example_gloss": "일본에는 네 개의 계절이 있습니다.",
+    "image_url": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+    "alt_images": [
+      "https://images.unsplash.com/photo-1518837695005-2083093ee35b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
+    ],
+    "source_link": "https://unsplash.com/photos/green-leaf-trees-under-blue-sky-Ciq8QspIq-o"
+  },
+  {
+    "word": "はやし",
+    "pos": "n.",
+    "meaning": "숲",
+    "example_en": "林の中を歩くのが好きです。",
+    "example_gloss": "숲 속을 걷는 것을 좋아합니다.",
+    "image_url": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+    "alt_images": [
+      "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
+    ],
+    "source_link": "https://unsplash.com/photos/river-flowing-through-forest-trees-FAM3TSpB4mc"
+  },
+  {
+    "word": "いわ",
+    "pos": "n.",
+    "meaning": "바위",
+    "example_en": "大きな岩が道をふさいでいる。",
+    "example_gloss": "큰 바위가 길을 막고 있다.",
+    "image_url": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+    "alt_images": [
+      "https://images.unsplash.com/photo-1502780402662-acc01917114e?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
+    ],
+    "source_link": "https://unsplash.com/photos/mountain-landscape-under-white-clouds-during-daytime-m7K4Kg3FbCo"
+  },
+  {
+    "word": "つき",
+    "pos": "n.",
+    "meaning": "달",
+    "example_en": "今夜の月はとても明るいです。",
+    "example_gloss": "오늘 밤 달은 매우 밝습니다.",
+    "image_url": "https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+    "alt_images": [
+      "https://images.unsplash.com/photo-1446776653964-20c1d3a81b06?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
+    ],
+    "source_link": "https://unsplash.com/photos/full-moon-ooR1jY2yFr4"
+  },
+  {
+    "word": "たいよう",
+    "pos": "n.",
+    "meaning": "태양",
+    "example_en": "太陽が東から昇ります。",
+    "example_gloss": "태양이 동쪽에서 떠오릅니다.",
+    "image_url": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+    "alt_images": [
+      "https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1502780402662-acc01917114e?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
+    ],
+    "source_link": "https://unsplash.com/photos/mountain-landscape-under-white-clouds-during-daytime-m7K4Kg3FbCo"
+  },
+  {
+    "word": "うみ",
+    "pos": "n.",
+    "meaning": "바다",
+    "example_en": "夏に海で泳ぎました。",
+    "example_gloss": "여름에 바다에서 수영했습니다.",
+    "image_url": "https://images.unsplash.com/photo-1439066615861-d1af74d74000?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+    "alt_images": [
+      "https://images.unsplash.com/photo-1518837695005-2083093ee35b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1502780402662-acc01917114e?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
+    ],
+    "source_link": "https://unsplash.com/photos/lake-and-mountain-digital-wallpaper-yC-Yzbqy7PY"
+  },
+  {
+    "word": "そら",
+    "pos": "n.",
+    "meaning": "하늘",
+    "example_en": "空が青くてきれいです。",
+    "example_gloss": "하늘이 푸르고 아름답습니다.",
+    "image_url": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+    "alt_images": [
+      "https://images.unsplash.com/photo-1518837695005-2083093ee35b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1439066615861-d1af74d74000?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
+    ],
+    "source_link": "https://unsplash.com/photos/green-leaf-trees-under-blue-sky-Ciq8QspIq-o"
+  },
+  {
+    "word": "ちけい",
+    "pos": "n.",
+    "meaning": "지형",
+    "example_en": "この地域の地形は複雑です。",
+    "example_gloss": "이 지역의 지형은 복잡합니다.",
+    "image_url": "https://images.unsplash.com/photo-1508073825191-5de3e0dd54b2?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+    "alt_images": [
+      "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1502780402662-acc01917114e?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
+    ],
+    "source_link": "https://unsplash.com/photos/mountain-landscape-under-white-clouds-during-daytime-m7K4Kg3FbCo"
+  },
+  {
+    "word": "せいたい",
+    "pos": "n.",
+    "meaning": "생태",
+    "example_en": "森林の生態系を保護する必要があります。",
+    "example_gloss": "산림의 생태계를 보호할 필요가 있습니다.",
+    "image_url": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+    "alt_images": [
+      "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
+    ],
+    "source_link": "https://unsplash.com/photos/river-flowing-through-forest-trees-FAM3TSpB4mc"
+  },
+  {
+    "word": "たいき",
+    "pos": "n.",
+    "meaning": "대기",
+    "example_en": "大気汚染が深刻な問題になっています。",
+    "example_gloss": "대기오염이 심각한 문제가 되고 있습니다.",
+    "image_url": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+    "alt_images": [
+      "https://images.unsplash.com/photo-1518837695005-2083093ee35b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1439066615861-d1af74d74000?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
+    ],
+    "source_link": "https://unsplash.com/photos/green-leaf-trees-under-blue-sky-Ciq8QspIq-o"
+  },
+  {
+    "word": "かんきょう",
+    "pos": "n.",
+    "meaning": "환경",
+    "example_en": "環境問題について話し合いました。",
+    "example_gloss": "환경문제에 대해 이야기했습니다.",
+    "image_url": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+    "alt_images": [
+      "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
+    ],
+    "source_link": "https://unsplash.com/photos/river-flowing-through-forest-trees-FAM3TSpB4mc"
+  },
+  {
+    "word": "きこう",
+    "pos": "n.",
+    "meaning": "기후",
+    "example_en": "この地方の気候は温暖です。",
+    "example_gloss": "이 지방의 기후는 온화합니다.",
+    "image_url": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+    "alt_images": [
+      "https://images.unsplash.com/photo-1518837695005-2083093ee35b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1439066615861-d1af74d74000?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
+    ],
+    "source_link": "https://unsplash.com/photos/green-leaf-trees-under-blue-sky-Ciq8QspIq-o"
+  }
+]
