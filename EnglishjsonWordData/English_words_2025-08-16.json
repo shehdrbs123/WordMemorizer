@@ -1,0 +1,197 @@
+[
+  {
+    "word": "salt",
+    "pos": "n.",
+    "meaning": "소금",
+    "example_en": "Add a pinch of salt to the soup to enhance its flavor.",
+    "example_gloss": "수프의 맛을 향상시키기 위해 소금을 한 꼬집 넣으세요.",
+    "image_url": "https://images.unsplash.com/photo-1506368249639-73a05d6f6488?ixlib=rb-4.0.3&w=400&q=80",
+    "alt_images": [
+      "https://images.pexels.com/photos/433527/pexels-photo-433527.jpeg?w=400&h=300&fit=crop",
+      "https://pixabay.com/get/g6d5c8a2e8c4f1b9b9d9d8c8c4e4e4e4e4e4e4e4e.jpg"
+    ],
+    "source_link": "https://unsplash.com/photos/white-powder-in-clear-glass-bowl-73a05d6f6488"
+  },
+  {
+    "word": "flour",
+    "pos": "n.",
+    "meaning": "밀가루",
+    "example_en": "Mix the flour with water to make the dough.",
+    "example_gloss": "반죽을 만들기 위해 밀가루를 물과 섞으세요.",
+    "image_url": "https://images.unsplash.com/photo-1574323347407-f5e1ad6d020b?ixlib=rb-4.0.3&w=400&q=80",
+    "alt_images": [
+      "https://images.pexels.com/photos/298217/pexels-photo-298217.jpeg?w=400&h=300&fit=crop",
+      "https://pixabay.com/get/g6d5c8a2e8c4f1b9b9d9d8c8c4e4e4e4e4e4e4e4e.jpg"
+    ],
+    "source_link": "https://unsplash.com/photos/white-powder-on-brown-wooden-table-f5e1ad6d020b"
+  },
+  {
+    "word": "sauté",
+    "pos": "v.",
+    "meaning": "볶다, 살짝 튀기다",
+    "example_en": "Sauté the vegetables in olive oil until they become tender.",
+    "example_gloss": "야채가 부드러워질 때까지 올리브오일에 볶으세요.",
+    "image_url": "https://images.unsplash.com/photo-1556908114-f6e7ad7d3136?ixlib=rb-4.0.3&w=400&q=80",
+    "alt_images": [
+      "https://images.pexels.com/photos/1435904/pexels-photo-1435904.jpeg?w=400&h=300&fit=crop",
+      "https://pixabay.com/get/g6d5c8a2e8c4f1b9b9d9d8c8c4e4e4e4e4e4e4e4e.jpg"
+    ],
+    "source_link": "https://unsplash.com/photos/person-holding-stainless-steel-bowl-f6e7ad7d3136"
+  },
+  {
+    "word": "simmer",
+    "pos": "v.",
+    "meaning": "끓이다 (약한 불로)",
+    "example_en": "Let the sauce simmer for 20 minutes to develop rich flavors.",
+    "example_gloss": "진한 맛이 우러나도록 소스를 20분간 약한 불로 끓이세요.",
+    "image_url": "https://images.unsplash.com/photo-1556909045-f0d2fe3f5999?ixlib=rb-4.0.3&w=400&q=80",
+    "alt_images": [
+      "https://images.pexels.com/photos/1109197/pexels-photo-1109197.jpeg?w=400&h=300&fit=crop",
+      "https://pixabay.com/get/g6d5c8a2e8c4f1b9b9d9d8c8c4e4e4e4e4e4e4e4e.jpg"
+    ],
+    "source_link": "https://unsplash.com/photos/stainless-steel-cooking-pot-on-stove-f0d2fe3f5999"
+  },
+  {
+    "word": "marinade",
+    "pos": "n.",
+    "meaning": "양념장, 절임액",
+    "example_en": "The chicken should sit in the marinade for at least two hours.",
+    "example_gloss": "닭고기는 양념장에 최소 두 시간은 재워두어야 합니다.",
+    "image_url": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&w=400&q=80",
+    "alt_images": [
+      "https://images.pexels.com/photos/1435895/pexels-photo-1435895.jpeg?w=400&h=300&fit=crop",
+      "https://pixabay.com/get/g6d5c8a2e8c4f1b9b9d9d8c8c4e4e4e4e4e4e4e4e.jpg"
+    ],
+    "source_link": "https://unsplash.com/photos/cooked-food-on-white-ceramic-plate-1cb2f99b2d8b"
+  },
+  {
+    "word": "recipe",
+    "pos": "n.",
+    "meaning": "요리법, 레시피",
+    "example_en": "This traditional recipe has been passed down through generations.",
+    "example_gloss": "이 전통적인 요리법은 여러 세대를 거쳐 전해져 내려왔습니다.",
+    "image_url": "https://images.unsplash.com/photo-1556909045-4d5c2f4d2d2d?ixlib=rb-4.0.3&w=400&q=80",
+    "alt_images": [
+      "https://images.pexels.com/photos/1109197/pexels-photo-1109197.jpeg?w=400&h=300&fit=crop",
+      "https://pixabay.com/get/g6d5c8a2e8c4f1b9b9d9d8c8c4e4e4e4e4e4e4e4e.jpg"
+    ],
+    "source_link": "https://unsplash.com/photos/cookbook-recipe-cooking-4d5c2f4d2d2d"
+  },
+  {
+    "word": "garnish",
+    "pos": "v.",
+    "meaning": "장식하다, 고명을 올리다",
+    "example_en": "Garnish the dessert with fresh berries and mint leaves.",
+    "example_gloss": "디저트를 신선한 베리와 민트 잎으로 장식하세요.",
+    "image_url": "https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?ixlib=rb-4.0.3&w=400&q=80",
+    "alt_images": [
+      "https://images.pexels.com/photos/1128678/pexels-photo-1128678.jpeg?w=400&h=300&fit=crop",
+      "https://pixabay.com/get/g6d5c8a2e8c4f1b9b9d9d8c8c4e4e4e4e4e4e4e4e.jpg"
+    ],
+    "source_link": "https://unsplash.com/photos/plate-of-food-b28f40a0ca4b"
+  },
+  {
+    "word": "cuisine",
+    "pos": "n.",
+    "meaning": "요리, 음식 문화",
+    "example_en": "Italian cuisine is famous for its pasta and pizza dishes.",
+    "example_gloss": "이탈리아 요리는 파스타와 피자 요리로 유명합니다.",
+    "image_url": "https://images.unsplash.com/photo-1498579150354-977475b7ea0b?ixlib=rb-4.0.3&w=400&q=80",
+    "alt_images": [
+      "https://images.pexels.com/photos/1279330/pexels-photo-1279330.jpeg?w=400&h=300&fit=crop",
+      "https://pixabay.com/get/g6d5c8a2e8c4f1b9b9d9d8c8c4e4e4e4e4e4e4e4e.jpg"
+    ],
+    "source_link": "https://unsplash.com/photos/pizza-on-brown-wooden-board-977475b7ea0b"
+  },
+  {
+    "word": "caramelize",
+    "pos": "v.",
+    "meaning": "캐러멜화하다, 설탕을 태우다",
+    "example_en": "Caramelize the onions slowly over low heat until they turn golden brown.",
+    "example_gloss": "양파가 황금빛 갈색이 될 때까지 약한 불에서 천천히 캐러멜화하세요.",
+    "image_url": "https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&w=400&q=80",
+    "alt_images": [
+      "https://images.pexels.com/photos/1435904/pexels-photo-1435904.jpeg?w=400&h=300&fit=crop",
+      "https://pixabay.com/get/g6d5c8a2e8c4f1b9b9d9d8c8c4e4e4e4e4e4e4e4e.jpg"
+    ],
+    "source_link": "https://unsplash.com/photos/onions-cooking-caramelize-48f60103fc96"
+  },
+  {
+    "word": "fermentation",
+    "pos": "n.",
+    "meaning": "발효",
+    "example_en": "The fermentation process gives sourdough bread its distinctive tangy flavor.",
+    "example_gloss": "발효 과정이 사워도우 빵에 독특한 신맛을 줍니다.",
+    "image_url": "https://images.unsplash.com/photo-1549890762-0a3f8933bc75?ixlib=rb-4.0.3&w=400&q=80",
+    "alt_images": [
+      "https://images.pexels.com/photos/1775043/pexels-photo-1775043.jpeg?w=400&h=300&fit=crop",
+      "https://pixabay.com/get/g6d5c8a2e8c4f1b9b9d9d8c8c4e4e4e4e4e4e4e4e.jpg"
+    ],
+    "source_link": "https://unsplash.com/photos/sourdough-bread-fermentation-0a3f8933bc75"
+  },
+  {
+    "word": "umami",
+    "pos": "n.",
+    "meaning": "감칠맛 (다섯 번째 기본 맛)",
+    "example_en": "Mushrooms and aged cheese provide a rich umami flavor to the dish.",
+    "example_gloss": "버섯과 숙성된 치즈가 요리에 진한 감칠맛을 제공합니다.",
+    "image_url": "https://images.unsplash.com/photo-1506976785307-8732e854ad03?ixlib=rb-4.0.3&w=400&q=80",
+    "alt_images": [
+      "https://images.pexels.com/photos/1437267/pexels-photo-1437267.jpeg?w=400&h=300&fit=crop",
+      "https://pixabay.com/get/g6d5c8a2e8c4f1b9b9d9d8c8c4e4e4e4e4e4e4e4e.jpg"
+    ],
+    "source_link": "https://unsplash.com/photos/brown-mushrooms-8732e854ad03"
+  },
+  {
+    "word": "confit",
+    "pos": "n.",
+    "meaning": "콩피 (저온에서 오일에 삶은 요리)",
+    "example_en": "Duck confit is prepared by slowly cooking the meat in its own fat.",
+    "example_gloss": "오리 콩피는 고기를 자신의 기름에서 천천히 조리하여 만듭니다.",
+    "image_url": "https://images.unsplash.com/photo-1544025162-d76694265947?ixlib=rb-4.0.3&w=400&q=80",
+    "alt_images": [
+      "https://images.pexels.com/photos/1437267/pexels-photo-1437267.jpeg?w=400&h=300&fit=crop",
+      "https://pixabay.com/get/g6d5c8a2e8c4f1b9b9d9d8c8c4e4e4e4e4e4e4e4e.jpg"
+    ],
+    "source_link": "https://unsplash.com/photos/duck-confit-d76694265947"
+  },
+  {
+    "word": "molecular gastronomy",
+    "pos": "phr.",
+    "meaning": "분자 요리법",
+    "example_en": "Molecular gastronomy transforms traditional dishes using scientific techniques.",
+    "example_gloss": "분자 요리법은 과학적 기법을 사용하여 전통 요리를 변화시킵니다.",
+    "image_url": "https://images.unsplash.com/photo-1565958011703-44f9829ba187?ixlib=rb-4.0.3&w=400&q=80",
+    "alt_images": [
+      "https://images.pexels.com/photos/1437267/pexels-photo-1437267.jpeg?w=400&h=300&fit=crop",
+      "https://pixabay.com/get/g6d5c8a2e8c4f1b9b9d9d8c8c4e4e4e4e4e4e4e4e.jpg"
+    ],
+    "source_link": "https://unsplash.com/photos/molecular-gastronomy-44f9829ba187"
+  },
+  {
+    "word": "emulsification",
+    "pos": "n.",
+    "meaning": "유화 (기름과 물을 섞는 과정)",
+    "example_en": "Proper emulsification is crucial for making a perfect mayonnaise.",
+    "example_gloss": "완벽한 마요네즈를 만들기 위해서는 적절한 유화가 중요합니다.",
+    "image_url": "https://images.unsplash.com/photo-1571740829364-c09d3b6e8b6b?ixlib=rb-4.0.3&w=400&q=80",
+    "alt_images": [
+      "https://images.pexels.com/photos/1437267/pexels-photo-1437267.jpeg?w=400&h=300&fit=crop",
+      "https://pixabay.com/get/g6d5c8a2e8c4f1b9b9d9d8c8c4e4e4e4e4e4e4e4e.jpg"
+    ],
+    "source_link": "https://unsplash.com/photos/mayonnaise-emulsification-c09d3b6e8b6b"
+  },
+  {
+    "word": "mise en place",
+    "pos": "phr.",
+    "meaning": "미장플라스 (요리 준비 작업)",
+    "example_en": "Professional chefs always practice mise en place before starting to cook.",
+    "example_gloss": "전문 요리사들은 요리를 시작하기 전에 항상 미장플라스를 실시합니다.",
+    "image_url": "https://images.unsplash.com/photo-1556908114-4aa2863f4e1d?ixlib=rb-4.0.3&w=400&q=80",
+    "alt_images": [
+      "https://images.pexels.com/photos/1437267/pexels-photo-1437267.jpeg?w=400&h=300&fit=crop",
+      "https://pixabay.com/get/g6d5c8a2e8c4f1b9b9d9d8c8c4e4e4e4e4e4e4e4e.jpg"
+    ],
+    "source_link": "https://unsplash.com/photos/kitchen-mise-en-place-4aa2863f4e1d"
+  }
+]
