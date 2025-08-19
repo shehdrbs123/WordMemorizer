@@ -1,1 +1,40 @@
-{\n  "languages": [\n    {\n      "id": "en",\n      "name": "English",\n      "files": [\n        {\n          "title": "English Technology Words 2025 08 19",\n          "path": "EnglishjsonWordData/English_words_2025-08-19.json"\n        },\n        {\n          "title": "English Food & Cooking Words 2025 08 16",\n          "path": "EnglishjsonWordData/English_words_2025-08-16.json"\n        },\n        {\n          "title": "English Words 2025 08 15",\n          "path": "EnglishjsonWordData/english_words_2025-08-15.json"\n        },\n        {\n          "title": "English Words 2024 08 14",\n          "path": "EnglishjsonWordData/English_words_2024-08-14.json"\n        }\n      ]\n    },\n    {\n      "id": "ja",\n      "name": "Japanese",\n      "files": [\n        {\n          "title": "Japanese Words 2025 08 15",\n          "path": "jsonWordData/japanese_words_2025-08-15.json"\n        }\n      ]\n    }\n  ]\n}
+{
+  "languages": [
+    {
+      "id": "en",
+      "name": "English",
+      "files": [
+        {
+          "title": "English Technology Words 2025 08 19",
+          "path": "EnglishjsonWordData/English_words_2025-08-19.json"
+        },
+        {
+          "title": "English Food & Cooking Words 2025 08 16",
+          "path": "EnglishjsonWordData/English_words_2025-08-16.json"
+        },
+        {
+          "title": "English Words 2025 08 15",
+          "path": "EnglishjsonWordData/english_words_2025-08-15.json"
+        },
+        {
+          "title": "English Words 2024 08 14",
+          "path": "EnglishjsonWordData/English_words_2024-08-14.json"
+        }
+      ]
+    },
+    {
+      "id": "ja",
+      "name": "Japanese",
+      "files": [
+        {
+          "title": "Japanese Food & Cooking Words 2025 08 19",
+          "path": "JapanesejsonWordData/Japanese_words_2025-08-19.json"
+        },
+        {
+          "title": "Japanese Words 2025 08 15",
+          "path": "jsonWordData/japanese_words_2025-08-15.json"
+        }
+      ]
+    }
+  ]
+}
