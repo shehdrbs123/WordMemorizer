@@ -1,0 +1,152 @@
+[
+  {
+    "word": "ごはん",
+    "pos": "n.",
+    "meaning": "밥, 쌀밥",
+    "example_en": "毎日ごはんを食べます。",
+    "example_gloss": "매일 밥을 먹습니다.",
+    "image_url": "https://images.unsplash.com/photo-1586201375761-83865001e31c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
+    "alt_images": ["https://images.unsplash.com/photo-1555939594-58d7cb561ad1?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80", "https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"],
+    "source_link": "https://unsplash.com/photos/white-ceramic-bowl-with-rice"
+  },
+  {
+    "word": "パン",
+    "pos": "n.",
+    "meaning": "빵",
+    "example_en": "朝食にパンを食べました。",
+    "example_gloss": "아침식사로 빵을 먹었습니다.",
+    "image_url": "https://images.unsplash.com/photo-1509440159596-0249088772ff?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
+    "alt_images": ["https://images.unsplash.com/photo-1549931319-a545dcf3bc73?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80", "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"],
+    "source_link": "https://unsplash.com/photos/bread-on-brown-wooden-surface"
+  },
+  {
+    "word": "料理",
+    "pos": "n.",
+    "meaning": "요리",
+    "example_en": "母は料理が上手です。",
+    "example_gloss": "어머니는 요리를 잘합니다.",
+    "image_url": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
+    "alt_images": ["https://images.unsplash.com/photo-1466978913421-dad2ebd01d17?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80", "https://images.unsplash.com/photo-1556909114-2ea5e4ed91f7?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"],
+    "source_link": "https://unsplash.com/photos/cooking-in-kitchen"
+  },
+  {
+    "word": "味噌汁",
+    "pos": "n.",
+    "meaning": "된장국",
+    "example_en": "朝ごはんに味噌汁を飲みます。",
+    "example_gloss": "아침밥에 된장국을 마십니다.",
+    "image_url": "https://images.unsplash.com/photo-1606540963110-8cbb3e2e3243?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
+    "alt_images": ["https://images.unsplash.com/photo-1566499769940-08aad01b8c58?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80", "https://images.unsplash.com/photo-1569931019042-5412cc8e9d73?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"],
+    "source_link": "https://unsplash.com/photos/miso-soup-in-bowl"
+  },
+  {
+    "word": "野菜",
+    "pos": "n.",
+    "meaning": "야채, 채소",
+    "example_en": "野菜をたくさん食べるべきです。",
+    "example_gloss": "야채를 많이 먹어야 합니다.",
+    "image_url": "https://images.unsplash.com/photo-1542838132-92c53300491e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
+    "alt_images": ["https://images.unsplash.com/photo-1540420773420-3366772f4999?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80", "https://images.unsplash.com/photo-1574707317146-1e5b46b8e5ab?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"],
+    "source_link": "https://unsplash.com/photos/vegetables-on-table"
+  },
+  {
+    "word": "魚",
+    "pos": "n.",
+    "meaning": "물고기, 생선",
+    "example_en": "新鮮な魚を買いました。",
+    "example_gloss": "신선한 생선을 샀습니다.",
+    "image_url": "https://images.unsplash.com/photo-1544943910-4c1dc44aab44?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
+    "alt_images": ["https://images.unsplash.com/photo-1565680018434-b513d5e5fd47?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80", "https://images.unsplash.com/photo-1609501676725-7186f738ed84?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"],
+    "source_link": "https://unsplash.com/photos/fresh-fish-on-ice"
+  },
+  {
+    "word": "肉",
+    "pos": "n.",
+    "meaning": "고기",
+    "example_en": "今日は肉を食べたいです。",
+    "example_gloss": "오늘은 고기를 먹고 싶습니다.",
+    "image_url": "https://images.unsplash.com/photo-1546833999-b9f581a1996d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
+    "alt_images": ["https://images.unsplash.com/photo-1553030438-bb2ee0993375?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80", "https://images.unsplash.com/photo-1540554735-d4bb3d8c8ad9?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"],
+    "source_link": "https://unsplash.com/photos/raw-meat-on-cutting-board"
+  },
+  {
+    "word": "調理する",
+    "pos": "v.",
+    "meaning": "조리하다, 요리하다",
+    "example_en": "夕食を調理する時間です。",
+    "example_gloss": "저녁식사를 조리할 시간입니다.",
+    "image_url": "https://images.unsplash.com/photo-1556909114-2ea5e4ed91f7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
+    "alt_images": ["https://images.unsplash.com/photo-1571442463800-1337d7af9d2f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80", "https://images.unsplash.com/photo-1556908114-83d9cf4b7151?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"],
+    "source_link": "https://unsplash.com/photos/cooking-food-in-kitchen"
+  },
+  {
+    "word": "栄養",
+    "pos": "n.",
+    "meaning": "영양",
+    "example_en": "バランスの良い栄養を摂取することが重要です。",
+    "example_gloss": "균형 잡힌 영양을 섭취하는 것이 중요합니다.",
+    "image_url": "https://images.unsplash.com/photo-1490645935967-10de6ba17061?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
+    "alt_images": ["https://images.unsplash.com/photo-1505576399279-565b52d4ac71?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80", "https://images.unsplash.com/photo-1567306226416-28f0efdc88ce?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"],
+    "source_link": "https://unsplash.com/photos/healthy-food-nutrition"
+  },
+  {
+    "word": "食材",
+    "pos": "n.",
+    "meaning": "식재료",
+    "example_en": "高品質な食材を選ぶことが大切です。",
+    "example_gloss": "고품질 식재료를 선택하는 것이 중요합니다.",
+    "image_url": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
+    "alt_images": ["https://images.unsplash.com/photo-1515543237350-b3eea1ec8082?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80", "https://images.unsplash.com/photo-1505394033641-40c6ad1178d7?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"],
+    "source_link": "https://unsplash.com/photos/fresh-ingredients-kitchen"
+  },
+  {
+    "word": "レシピ",
+    "pos": "n.",
+    "meaning": "레시피, 조리법",
+    "example_en": "新しいレシピを試してみたいです。",
+    "example_gloss": "새로운 레시피를 시도해보고 싶습니다.",
+    "image_url": "https://images.unsplash.com/photo-1513475382585-d06e58bcb0e0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
+    "alt_images": ["https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80", "https://images.unsplash.com/photo-1495521821757-a0c7db6e2def?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"],
+    "source_link": "https://unsplash.com/photos/cooking-recipe-book"
+  },
+  {
+    "word": "発酵",
+    "pos": "n.",
+    "meaning": "발효",
+    "example_en": "味噌は発酵食品の代表例です。",
+    "example_gloss": "된장은 발효식품의 대표적인 예입니다.",
+    "image_url": "https://images.unsplash.com/photo-1603064752734-4c48eff53d05?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
+    "alt_images": ["https://images.unsplash.com/photo-1599909533896-de0bb2de8830?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80", "https://images.unsplash.com/photo-1594736797933-d0a56ba05095?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"],
+    "source_link": "https://unsplash.com/photos/fermented-food-jars"
+  },
+  {
+    "word": "酸化",
+    "pos": "n.",
+    "meaning": "산화",
+    "example_en": "果物の酸化を防ぐために密閉容器に保存します。",
+    "example_gloss": "과일의 산화를 방지하기 위해 밀폐용기에 보관합니다.",
+    "image_url": "https://images.unsplash.com/photo-1581336629527-10d41d4d3b70?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
+    "alt_images": ["https://images.unsplash.com/photo-1549451051-0c3ac2e20d35?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80", "https://images.unsplash.com/photo-1546173159-315724a31696?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"],
+    "source_link": "https://unsplash.com/photos/apple-oxidation-brown"
+  },
+  {
+    "word": "美食学",
+    "pos": "n.",
+    "meaning": "미식학, 요리학",
+    "example_en": "美食学を学んでシェフになりたいです。",
+    "example_gloss": "미식학을 배워서 셰프가 되고 싶습니다.",
+    "image_url": "https://images.unsplash.com/photo-1559181567-c3190ca9959b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
+    "alt_images": ["https://images.unsplash.com/photo-1547573854-74d2a71d0826?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80", "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"],
+    "source_link": "https://unsplash.com/photos/chef-gourmet-plating"
+  },
+  {
+    "word": "栽培",
+    "pos": "n.",
+    "meaning": "재배",
+    "example_en": "有機栽培の野菜は健康に良いとされています。",
+    "example_gloss": "유기재배 야채는 건강에 좋다고 여겨집니다.",
+    "image_url": "https://images.unsplash.com/photo-1530587191325-3db32d826c18?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
+    "alt_images": ["https://images.unsplash.com/photo-1464207687429-7505649dae38?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80", "https://images.unsplash.com/photo-1595273670150-bd0c3c392e46?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"],
+    "source_link": "https://unsplash.com/photos/vegetable-garden-growing"
+  }
+]
