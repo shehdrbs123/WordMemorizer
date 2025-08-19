@@ -1,0 +1,152 @@
+[
+  {
+    "word": "computer",
+    "pos": "n.",
+    "meaning": "컴퓨터",
+    "example_en": "I use my computer every day for work.",
+    "example_gloss": "나는 매일 일을 위해 컴퓨터를 사용한다.",
+    "image_url": "https://images.pexels.com/photos/442153/pexels-photo-442153.jpeg",
+    "alt_images": ["https://images.unsplash.com/photo-1496181133206-80ce9b88a853", "https://images.pexels.com/photos/177598/pexels-photo-177598.jpeg"],
+    "source_link": "https://www.pexels.com/photo/apple-magic-mouse-beside-of-left-click-beside-macbook-442153/"
+  },
+  {
+    "word": "email",
+    "pos": "n.",
+    "meaning": "이메일",
+    "example_en": "Please send me an email with the details.",
+    "example_gloss": "자세한 내용을 이메일로 보내주세요.",
+    "image_url": "https://images.pexels.com/photos/586103/pexels-photo-586103.jpeg",
+    "alt_images": ["https://images.unsplash.com/photo-1556075798-4825dfaaf498", "https://images.pexels.com/photos/1591056/pexels-photo-1591056.jpeg"],
+    "source_link": "https://www.pexels.com/photo/close-up-view-of-system-hacking-586103/"
+  },
+  {
+    "word": "download",
+    "pos": "v.",
+    "meaning": "다운로드하다",
+    "example_en": "You can download the app from the official website.",
+    "example_gloss": "공식 웹사이트에서 앱을 다운로드할 수 있습니다.",
+    "image_url": "https://images.pexels.com/photos/163064/play-stone-network-networked-interactive-163064.jpeg",
+    "alt_images": ["https://images.unsplash.com/photo-1550009158-9ebf69173e03", "https://images.pexels.com/photos/267350/pexels-photo-267350.jpeg"],
+    "source_link": "https://www.pexels.com/photo/turned-on-monitor-displaying-frequency-graph-163064/"
+  },
+  {
+    "word": "software",
+    "pos": "n.",
+    "meaning": "소프트웨어",
+    "example_en": "This software helps manage our daily tasks efficiently.",
+    "example_gloss": "이 소프트웨어는 우리의 일상 업무를 효율적으로 관리하는 데 도움이 된다.",
+    "image_url": "https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg",
+    "alt_images": ["https://images.unsplash.com/photo-1516321318423-f06f85e504b3", "https://images.pexels.com/photos/574071/pexels-photo-574071.jpeg"],
+    "source_link": "https://www.pexels.com/photo/coding-computer-data-depth-of-field-546819/"
+  },
+  {
+    "word": "password",
+    "pos": "n.",
+    "meaning": "비밀번호",
+    "example_en": "Make sure to create a strong password for security.",
+    "example_gloss": "보안을 위해 강력한 비밀번호를 만들어야 합니다.",
+    "image_url": "https://images.pexels.com/photos/60504/security-protection-anti-virus-software-60504.jpeg",
+    "alt_images": ["https://images.unsplash.com/photo-1555949963-aa79dcee981c", "https://images.pexels.com/photos/2882509/pexels-photo-2882509.jpeg"],
+    "source_link": "https://www.pexels.com/photo/security-logo-60504/"
+  },
+  {
+    "word": "backup",
+    "pos": "n./v.",
+    "meaning": "백업",
+    "example_en": "Always backup your important files to prevent data loss.",
+    "example_gloss": "데이터 손실을 방지하기 위해 항상 중요한 파일을 백업하세요.",
+    "image_url": "https://images.pexels.com/photos/1181316/pexels-photo-1181316.jpeg",
+    "alt_images": ["https://images.unsplash.com/photo-1558494949-ef010cbdcc31", "https://images.pexels.com/photos/159304/network-cable-ethernet-computer-159304.jpeg"],
+    "source_link": "https://www.pexels.com/photo/contemporary-gradient-handrails-perspective-1181316/"
+  },
+  {
+    "word": "wireless",
+    "pos": "adj.",
+    "meaning": "무선의",
+    "example_en": "The wireless connection allows you to work from anywhere.",
+    "example_gloss": "무선 연결을 통해 어디서든 일할 수 있다.",
+    "image_url": "https://images.pexels.com/photos/4164418/pexels-photo-4164418.jpeg",
+    "alt_images": ["https://images.unsplash.com/photo-1544197150-b99a580bb7a8", "https://images.pexels.com/photos/4219654/pexels-photo-4219654.jpeg"],
+    "source_link": "https://www.pexels.com/photo/wifi-logo-4164418/"
+  },
+  {
+    "word": "streaming",
+    "pos": "n.",
+    "meaning": "스트리밍",
+    "example_en": "Video streaming has become very popular among young people.",
+    "example_gloss": "비디오 스트리밍은 젊은 사람들 사이에서 매우 인기가 높아졌다.",
+    "image_url": "https://images.pexels.com/photos/4439901/pexels-photo-4439901.jpeg",
+    "alt_images": ["https://images.unsplash.com/photo-1522869635100-9f4c5e86aa37", "https://images.pexels.com/photos/4009402/pexels-photo-4009402.jpeg"],
+    "source_link": "https://www.pexels.com/photo/person-holding-black-remote-control-4439901/"
+  },
+  {
+    "word": "interface",
+    "pos": "n.",
+    "meaning": "인터페이스",
+    "example_en": "The new interface makes the application much easier to use.",
+    "example_gloss": "새로운 인터페이스는 애플리케이션을 훨씬 사용하기 쉽게 만든다.",
+    "image_url": "https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg",
+    "alt_images": ["https://images.unsplash.com/photo-1551288049-bebda4e38f71", "https://images.pexels.com/photos/267399/pexels-photo-267399.jpeg"],
+    "source_link": "https://www.pexels.com/photo/mockup-graphics-tablet-smartphone-technology-196644/"
+  },
+  {
+    "word": "cybersecurity",
+    "pos": "n.",
+    "meaning": "사이버 보안",
+    "example_en": "Companies invest heavily in cybersecurity to protect their data.",
+    "example_gloss": "기업들은 데이터를 보호하기 위해 사이버 보안에 막대한 투자를 한다.",
+    "image_url": "https://images.pexels.com/photos/5380664/pexels-photo-5380664.jpeg",
+    "alt_images": ["https://images.unsplash.com/photo-1550751827-4bd374c3f58b", "https://images.pexels.com/photos/60504/security-protection-anti-virus-software-60504.jpeg"],
+    "source_link": "https://www.pexels.com/photo/matrix-movie-still-5380664/"
+  },
+  {
+    "word": "algorithm",
+    "pos": "n.",
+    "meaning": "알고리즘",
+    "example_en": "Machine learning algorithms can analyze vast amounts of data.",
+    "example_gloss": "머신러닝 알고리즘은 방대한 양의 데이터를 분석할 수 있다.",
+    "image_url": "https://images.pexels.com/photos/373543/pexels-photo-373543.jpeg",
+    "alt_images": ["https://images.unsplash.com/photo-1518186285589-2f7649de83e0", "https://images.pexels.com/photos/207580/pexels-photo-207580.jpeg"],
+    "source_link": "https://www.pexels.com/photo/matrix-computer-screen-373543/"
+  },
+  {
+    "word": "encryption",
+    "pos": "n.",
+    "meaning": "암호화",
+    "example_en": "Data encryption ensures that sensitive information remains secure.",
+    "example_gloss": "데이터 암호화는 민감한 정보가 안전하게 유지되도록 보장한다.",
+    "image_url": "https://images.pexels.com/photos/1181354/pexels-photo-1181354.jpeg",
+    "alt_images": ["https://images.unsplash.com/photo-1563013544-824ae1b704d3", "https://images.pexels.com/photos/270360/pexels-photo-270360.jpeg"],
+    "source_link": "https://www.pexels.com/photo/gray-laptop-computer-showing-html-codes-in-shallow-focus-photography-1181354/"
+  },
+  {
+    "word": "scalability",
+    "pos": "n.",
+    "meaning": "확장성",
+    "example_en": "The platform's scalability allows it to handle millions of users.",
+    "example_gloss": "플랫폼의 확장성은 수백만 명의 사용자를 처리할 수 있게 해준다.",
+    "image_url": "https://images.pexels.com/photos/325229/pexels-photo-325229.jpeg",
+    "alt_images": ["https://images.unsplash.com/photo-1451187580459-43490279c0fa", "https://images.pexels.com/photos/159304/network-cable-ethernet-computer-159304.jpeg"],
+    "source_link": "https://www.pexels.com/photo/servers-in-server-room-325229/"
+  },
+  {
+    "word": "interoperability",
+    "pos": "n.",
+    "meaning": "상호 운용성",
+    "example_en": "Interoperability between different systems is crucial for seamless integration.",
+    "example_gloss": "서로 다른 시스템 간의 상호 운용성은 원활한 통합을 위해 중요하다.",
+    "image_url": "https://images.pexels.com/photos/159304/network-cable-ethernet-computer-159304.jpeg",
+    "alt_images": ["https://images.unsplash.com/photo-1558494949-ef010cbdcc31", "https://images.pexels.com/photos/325229/pexels-photo-325229.jpeg"],
+    "source_link": "https://www.pexels.com/photo/network-cable-ethernet-computer-159304/"
+  },
+  {
+    "word": "virtualization",
+    "pos": "n.",
+    "meaning": "가상화",
+    "example_en": "Server virtualization reduces hardware costs and improves efficiency.",
+    "example_gloss": "서버 가상화는 하드웨어 비용을 줄이고 효율성을 향상시킨다.",
+    "image_url": "https://images.pexels.com/photos/1181354/pexels-photo-1181354.jpeg",
+    "alt_images": ["https://images.unsplash.com/photo-1518709268805-4e9042af2176", "https://images.pexels.com/photos/325229/pexels-photo-325229.jpeg"],
+    "source_link": "https://www.pexels.com/photo/gray-laptop-computer-showing-html-codes-in-shallow-focus-photography-1181354/"
+  }
+]
