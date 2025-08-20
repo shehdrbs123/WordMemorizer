@@ -1,0 +1,197 @@
+[
+  {
+    "word": "bus",
+    "pos": "n.",
+    "meaning": "버스",
+    "example_en": "I take the bus to work every morning.",
+    "example_gloss": "나는 매일 아침 직장에 버스를 타고 간다.",
+    "image_url": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
+    "alt_images": [
+      "https://images.unsplash.com/photo-1570125909232-eb263c188f7e?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1559827260-dc66d52bef19?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
+    ],
+    "source_link": "https://unsplash.com/photos/a-bus-with-a-cartoon-on-it-vQ02qcgQ22Y"
+  },
+  {
+    "word": "ticket",
+    "pos": "n.",
+    "meaning": "표, 티켓",
+    "example_en": "Don't forget to buy your plane ticket before the trip.",
+    "example_gloss": "여행 전에 비행기표 사는 것을 잊지 마세요.",
+    "image_url": "https://images.unsplash.com/photo-1516559828984-fb3b99548b21?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+    "alt_images": [
+      "https://images.unsplash.com/photo-1578575437130-527eed3abbec?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
+    ],
+    "source_link": "https://unsplash.com/s/photos/ticket"
+  },
+  {
+    "word": "departure",
+    "pos": "n.",
+    "meaning": "출발",
+    "example_en": "The departure time has been delayed by two hours.",
+    "example_gloss": "출발 시간이 두 시간 연기되었습니다.",
+    "image_url": "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+    "alt_images": [
+      "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1556388158-158ea5ccacbd?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
+    ],
+    "source_link": "https://unsplash.com/s/photos/departure"
+  },
+  {
+    "word": "luggage",
+    "pos": "n.",
+    "meaning": "짐, 수하물",
+    "example_en": "Please keep your luggage with you at all times.",
+    "example_gloss": "항상 짐을 몸 가까이에 두세요.",
+    "image_url": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+    "alt_images": [
+      "https://images.unsplash.com/photo-1565024994946-9dc2f1e8b0e1?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1581833971358-2c8b550f87b3?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
+    ],
+    "source_link": "https://unsplash.com/s/photos/luggage"
+  },
+  {
+    "word": "accommodation",
+    "pos": "n.",
+    "meaning": "숙박시설",
+    "example_en": "We need to book accommodation for our weekend getaway.",
+    "example_gloss": "주말 여행을 위해 숙박시설을 예약해야 합니다.",
+    "image_url": "https://images.unsplash.com/photo-1571896349842-33c89424de2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+    "alt_images": [
+      "https://images.unsplash.com/photo-1566073771259-6a8506099945?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1445019980597-93fa8acb246c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
+    ],
+    "source_link": "https://unsplash.com/s/photos/hotel"
+  },
+  {
+    "word": "destination",
+    "pos": "n.",
+    "meaning": "목적지",
+    "example_en": "Paris is a popular tourist destination in Europe.",
+    "example_gloss": "파리는 유럽에서 인기 있는 관광 목적지입니다.",
+    "image_url": "https://images.unsplash.com/photo-1502602898536-47ad22581b52?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+    "alt_images": [
+      "https://images.unsplash.com/photo-1549144511-f099e773c147?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1508672019048-805c876b67e2?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
+    ],
+    "source_link": "https://unsplash.com/s/photos/destination"
+  },
+  {
+    "word": "turbulence",
+    "pos": "n.",
+    "meaning": "난기류",
+    "example_en": "The pilot warned passengers about possible turbulence during the flight.",
+    "example_gloss": "조종사는 비행 중 난기류 가능성에 대해 승객들에게 경고했습니다.",
+    "image_url": "https://images.unsplash.com/photo-1570710891163-6d3b5c47248b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+    "alt_images": [
+      "https://images.unsplash.com/photo-1464207687429-7505649dae38?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
+    ],
+    "source_link": "https://unsplash.com/s/photos/airplane-clouds"
+  },
+  {
+    "word": "embark",
+    "pos": "v.",
+    "meaning": "승선하다, 시작하다",
+    "example_en": "Passengers will embark at gate 15 in thirty minutes.",
+    "example_gloss": "승객들은 30분 후 15번 게이트에서 탑승할 예정입니다.",
+    "image_url": "https://images.unsplash.com/photo-1556388158-158ea5ccacbd?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+    "alt_images": [
+      "https://images.unsplash.com/photo-1545558014-8692077e9b5c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1578575437130-527eed3abbec?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
+    ],
+    "source_link": "https://unsplash.com/s/photos/boarding"
+  },
+  {
+    "word": "itinerary",
+    "pos": "n.",
+    "meaning": "여행 일정",
+    "example_en": "Our travel agent prepared a detailed itinerary for the European tour.",
+    "example_gloss": "여행사에서 유럽 투어를 위한 자세한 일정표를 준비해 주었습니다.",
+    "image_url": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+    "alt_images": [
+      "https://images.unsplash.com/photo-1517400508447-f8dd518b86db?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
+    ],
+    "source_link": "https://unsplash.com/s/photos/travel-planning"
+  },
+  {
+    "word": "layover",
+    "pos": "n.",
+    "meaning": "경유, 중간 정차",
+    "example_en": "We have a three-hour layover in London before continuing to New York.",
+    "example_gloss": "뉴욕으로 가기 전에 런던에서 3시간 경유합니다.",
+    "image_url": "https://images.unsplash.com/photo-1578575437130-527eed3abbec?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+    "alt_images": [
+      "https://images.unsplash.com/photo-1560472355-536de3962603?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
+    ],
+    "source_link": "https://unsplash.com/s/photos/airport-waiting"
+  },
+  {
+    "word": "expatriate",
+    "pos": "n.",
+    "meaning": "해외 거주자, 국외 거주자",
+    "example_en": "Many expatriates struggle with homesickness during their first year abroad.",
+    "example_gloss": "많은 해외 거주자들이 첫 해에 향수병으로 고생합니다.",
+    "image_url": "https://images.unsplash.com/photo-1513475382585-d06e58bcb0e0?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+    "alt_images": [
+      "https://images.unsplash.com/photo-1488646953014-85cb44e25828?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
+    ],
+    "source_link": "https://unsplash.com/s/photos/expat"
+  },
+  {
+    "word": "repatriation",
+    "pos": "n.",
+    "meaning": "본국 송환, 귀국",
+    "example_en": "The government arranged for the repatriation of citizens stranded overseas.",
+    "example_gloss": "정부는 해외에 발이 묶인 시민들의 본국 송환을 주선했습니다.",
+    "image_url": "https://images.unsplash.com/photo-1578575437130-527eed3abbec?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+    "alt_images": [
+      "https://images.unsplash.com/photo-1559827260-dc66d52bef19?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1513475382585-d06e58bcb0e0?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
+    ],
+    "source_link": "https://unsplash.com/s/photos/airport-departure"
+  },
+  {
+    "word": "peripatetic",
+    "pos": "adj.",
+    "meaning": "여행하는, 떠돌아다니는",
+    "example_en": "His peripatetic lifestyle as a travel writer took him to over fifty countries.",
+    "example_gloss": "여행 작가로서의 그의 떠돌이 생활은 그를 50개국 이상으로 데려갔습니다.",
+    "image_url": "https://images.unsplash.com/photo-1488646953014-85cb44e25828?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+    "alt_images": [
+      "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
+    ],
+    "source_link": "https://unsplash.com/s/photos/nomad"
+  },
+  {
+    "word": "circumnavigate",
+    "pos": "v.",
+    "meaning": "...을 일주하다",
+    "example_en": "The couple plans to circumnavigate the globe in their sailboat.",
+    "example_gloss": "그 부부는 요트로 지구 일주를 계획하고 있습니다.",
+    "image_url": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+    "alt_images": [
+      "https://images.unsplash.com/photo-1559827260-dc66d52bef19?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1502602898536-47ad22581b52?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
+    ],
+    "source_link": "https://unsplash.com/s/photos/sailing-world"
+  },
+  {
+    "word": "sojourn",
+    "pos": "n.",
+    "meaning": "체류, 잠시 머무름",
+    "example_en": "Her brief sojourn in Tibet left a lasting impression on her spiritual journey.",
+    "example_gloss": "티베트에서의 짧은 체류는 그녀의 영적 여정에 깊은 인상을 남겼습니다.",
+    "image_url": "https://images.unsplash.com/photo-1548013146-72479768bada?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+    "alt_images": [
+      "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1513475382585-d06e58bcb0e0?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
+    ],
+    "source_link": "https://unsplash.com/s/photos/tibet-mountain"
+  }
+]

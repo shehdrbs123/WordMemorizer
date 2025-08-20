@@ -1,0 +1,15 @@
+bus
+ticket
+departure
+luggage
+accommodation
+destination
+turbulence
+embark
+itinerary
+layover
+expatriate
+repatriation
+peripatetic
+circumnavigate
+sojourn
