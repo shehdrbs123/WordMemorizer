@@ -5,6 +5,10 @@
       "name": "English",
       "files": [
         {
+          "title": "English Health & Wellness Words 2025 08 21",
+          "path": "EnglishjsonWordData/English_words_2025-08-21.json"
+        },
+        {
           "title": "English Travel & Transportation Words 2025 08 20",
           "path": "EnglishjsonWordData/English_words_2025-08-20.json"
         },
