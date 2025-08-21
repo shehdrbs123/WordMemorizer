@@ -1,0 +1,197 @@
+[
+  {
+    "word": "pill",
+    "pos": "n.",
+    "meaning": "알약, 정제",
+    "example_en": "Remember to take your vitamin pill with breakfast every morning.",
+    "example_gloss": "매일 아침 아침식사와 함께 비타민 알약을 복용하는 것을 기억하세요.",
+    "image_url": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?q=80&w=800&auto=format&fit=crop",
+    "alt_images": [
+      "https://images.unsplash.com/photo-1576671081837-49000212a370?q=80&w=800&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1550572017-4d1d3b16b4e7?q=80&w=800&auto=format&fit=crop"
+    ],
+    "source_link": "https://unsplash.com/photos/pill-bottle-with-pills-spilling-out"
+  },
+  {
+    "word": "exercise",
+    "pos": "n./v.",
+    "meaning": "운동, 운동하다",
+    "example_en": "Regular exercise helps maintain both physical and mental health.",
+    "example_gloss": "규칙적인 운동은 신체적, 정신적 건강을 유지하는 데 도움이 됩니다.",
+    "image_url": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?q=80&w=800&auto=format&fit=crop",
+    "alt_images": [
+      "https://images.unsplash.com/photo-1538805060514-97d9cc17730c?q=80&w=800&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1549060279-7e168fcee0c2?q=80&w=800&auto=format&fit=crop"
+    ],
+    "source_link": "https://unsplash.com/photos/people-exercising-in-gym"
+  },
+  {
+    "word": "nutrition",
+    "pos": "n.",
+    "meaning": "영양, 영양학",
+    "example_en": "Good nutrition is essential for a healthy lifestyle and disease prevention.",
+    "example_gloss": "좋은 영양은 건강한 생활 방식과 질병 예방에 필수적입니다.",
+    "image_url": "https://images.unsplash.com/photo-1498837167922-ddd27525d352?q=80&w=800&auto=format&fit=crop",
+    "alt_images": [
+      "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?q=80&w=800&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1490645935967-10de6ba17061?q=80&w=800&auto=format&fit=crop"
+    ],
+    "source_link": "https://unsplash.com/photos/healthy-food-salad-vegetables"
+  },
+  {
+    "word": "wellness",
+    "pos": "n.",
+    "meaning": "웰니스, 건강관리",
+    "example_en": "The company offers wellness programs to help employees maintain work-life balance.",
+    "example_gloss": "회사는 직원들이 일과 삶의 균형을 유지할 수 있도록 웰니스 프로그램을 제공합니다.",
+    "image_url": "https://images.unsplash.com/photo-1506629905607-45eb8d5d60b8?q=80&w=800&auto=format&fit=crop",
+    "alt_images": [
+      "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?q=80&w=800&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?q=80&w=800&auto=format&fit=crop"
+    ],
+    "source_link": "https://unsplash.com/photos/wellness-spa-meditation"
+  },
+  {
+    "word": "therapy",
+    "pos": "n.",
+    "meaning": "치료, 요법",
+    "example_en": "Physical therapy helped her recover from the knee injury completely.",
+    "example_gloss": "물리 치료는 그녀가 무릎 부상에서 완전히 회복하는 데 도움이 되었습니다.",
+    "image_url": "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?q=80&w=800&auto=format&fit=crop",
+    "alt_images": [
+      "https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?q=80&w=800&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1559757175-0eb30cd8c063?q=80&w=800&auto=format&fit=crop"
+    ],
+    "source_link": "https://unsplash.com/photos/physical-therapy-session"
+  },
+  {
+    "word": "supplement",
+    "pos": "n./v.",
+    "meaning": "보충제, 보완하다",
+    "example_en": "Many athletes take protein supplements to support muscle growth.",
+    "example_gloss": "많은 운동선수들이 근육 성장을 지원하기 위해 단백질 보충제를 섭취합니다.",
+    "image_url": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?q=80&w=800&auto=format&fit=crop",
+    "alt_images": [
+      "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?q=80&w=800&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1607619056574-7b8d3ee536b2?q=80&w=800&auto=format&fit=crop"
+    ],
+    "source_link": "https://unsplash.com/photos/supplement-bottles-capsules"
+  },
+  {
+    "word": "meditation",
+    "pos": "n.",
+    "meaning": "명상, 묵상",
+    "example_en": "Daily meditation practice can significantly reduce stress and anxiety levels.",
+    "example_gloss": "매일의 명상 수행은 스트레스와 불안 수준을 상당히 줄일 수 있습니다.",
+    "image_url": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?q=80&w=800&auto=format&fit=crop",
+    "alt_images": [
+      "https://images.unsplash.com/photo-1518611012118-696072aa579a?q=80&w=800&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1599447421416-3414500d18a5?q=80&w=800&auto=format&fit=crop"
+    ],
+    "source_link": "https://unsplash.com/photos/meditation-pose-sunset"
+  },
+  {
+    "word": "immunity",
+    "pos": "n.",
+    "meaning": "면역력, 면역",
+    "example_en": "Getting enough sleep is crucial for maintaining strong immunity against infections.",
+    "example_gloss": "충분한 수면을 취하는 것은 감염에 대한 강한 면역력을 유지하는 데 중요합니다.",
+    "image_url": "https://images.unsplash.com/photo-1584432810601-6c7f27d2362b?q=80&w=800&auto=format&fit=crop",
+    "alt_images": [
+      "https://images.unsplash.com/photo-1579952363873-27d3bfad9c0d?q=80&w=800&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1585435557343-3b092031d4c1?q=80&w=800&auto=format&fit=crop"
+    ],
+    "source_link": "https://unsplash.com/photos/immune-system-cells"
+  },
+  {
+    "word": "metabolism",
+    "pos": "n.",
+    "meaning": "신진대사",
+    "example_en": "Regular cardio exercise can boost your metabolism and help burn calories efficiently.",
+    "example_gloss": "규칙적인 유산소 운동은 신진대사를 촉진하고 칼로리를 효율적으로 연소하는 데 도움이 될 수 있습니다.",
+    "image_url": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?q=80&w=800&auto=format&fit=crop",
+    "alt_images": [
+      "https://images.unsplash.com/photo-1538805060514-97d9cc17730c?q=80&w=800&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1571902943202-507ec2618e8f?q=80&w=800&auto=format&fit=crop"
+    ],
+    "source_link": "https://unsplash.com/photos/running-cardio-exercise"
+  },
+  {
+    "word": "rehabilitation",
+    "pos": "n.",
+    "meaning": "재활, 회복",
+    "example_en": "The stroke patient underwent intensive rehabilitation to regain motor functions.",
+    "example_gloss": "뇌졸중 환자는 운동 기능을 회복하기 위해 집중적인 재활 치료를 받았습니다.",
+    "image_url": "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?q=80&w=800&auto=format&fit=crop",
+    "alt_images": [
+      "https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?q=80&w=800&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1582719471137-c3967ffb1c42?q=80&w=800&auto=format&fit=crop"
+    ],
+    "source_link": "https://unsplash.com/photos/rehabilitation-therapy"
+  },
+  {
+    "word": "mindfulness",
+    "pos": "n.",
+    "meaning": "마음챙김, 주의깊음",
+    "example_en": "Practicing mindfulness during meals can improve digestion and eating habits.",
+    "example_gloss": "식사 중 마음챙김을 실천하면 소화와 식습관을 개선할 수 있습니다.",
+    "image_url": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?q=80&w=800&auto=format&fit=crop",
+    "alt_images": [
+      "https://images.unsplash.com/photo-1599447421416-3414500d18a5?q=80&w=800&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1518611012118-696072aa579a?q=80&w=800&auto=format&fit=crop"
+    ],
+    "source_link": "https://unsplash.com/photos/mindfulness-meditation"
+  },
+  {
+    "word": "cardiovascular",
+    "pos": "adj.",
+    "meaning": "심혈관의",
+    "example_en": "Swimming provides excellent cardiovascular benefits while being gentle on joints.",
+    "example_gloss": "수영은 관절에 부담을 주지 않으면서도 뛰어난 심혈관 건강상 이점을 제공합니다.",
+    "image_url": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?q=80&w=800&auto=format&fit=crop",
+    "alt_images": [
+      "https://images.unsplash.com/photo-1594737625785-a6cbdabd333c?q=80&w=800&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1584464491033-06628f3a6b7b?q=80&w=800&auto=format&fit=crop"
+    ],
+    "source_link": "https://unsplash.com/photos/cardio-exercise-heart-health"
+  },
+  {
+    "word": "bioavailability",
+    "pos": "n.",
+    "meaning": "생체이용률",
+    "example_en": "The bioavailability of certain vitamins increases when taken with healthy fats.",
+    "example_gloss": "특정 비타민들의 생체이용률은 건강한 지방과 함께 섭취할 때 증가합니다.",
+    "image_url": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?q=80&w=800&auto=format&fit=crop",
+    "alt_images": [
+      "https://images.unsplash.com/photo-1607619056574-7b8d3ee536b2?q=80&w=800&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?q=80&w=800&auto=format&fit=crop"
+    ],
+    "source_link": "https://unsplash.com/photos/vitamin-absorption-supplements"
+  },
+  {
+    "word": "prophylactic",
+    "pos": "adj./n.",
+    "meaning": "예방의, 예방약",
+    "example_en": "Many doctors recommend prophylactic measures like vaccination to prevent disease outbreaks.",
+    "example_gloss": "많은 의사들이 질병 발생을 예방하기 위해 백신 접종과 같은 예방 조치를 권장합니다.",
+    "image_url": "https://images.unsplash.com/photo-1585435557343-3b092031d4c1?q=80&w=800&auto=format&fit=crop",
+    "alt_images": [
+      "https://images.unsplash.com/photo-1579952363873-27d3bfad9c0d?q=80&w=800&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1584432810601-6c7f27d2362b?q=80&w=800&auto=format&fit=crop"
+    ],
+    "source_link": "https://unsplash.com/photos/preventive-medicine-vaccination"
+  },
+  {
+    "word": "homeostasis",
+    "pos": "n.",
+    "meaning": "항상성, 생체의 균형 유지",
+    "example_en": "The human body maintains homeostasis through complex regulatory mechanisms and feedback loops.",
+    "example_gloss": "인체는 복잡한 조절 메커니즘과 피드백 루프를 통해 항상성을 유지합니다.",
+    "image_url": "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?q=80&w=800&auto=format&fit=crop",
+    "alt_images": [
+      "https://images.unsplash.com/photo-1584432810601-6c7f27d2362b?q=80&w=800&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1559757175-0eb30cd8c063?q=80&w=800&auto=format&fit=crop"
+    ],
+    "source_link": "https://unsplash.com/photos/body-balance-health"
+  }
+]
