@@ -39,12 +39,16 @@
       "name": "Japanese",
       "files": [
         {
+          "title": "Japanese Sports & Physical Activities Words 2025 11 24",
+          "path": "JapanesejsonWordData/japanese_words_2025-11-24.json"
+        },
+        {
           "title": "Japanese Food & Cooking Words 2025 08 19",
           "path": "JapanesejsonWordData/Japanese_words_2025-08-19.json"
         },
         {
           "title": "Japanese Words 2025 08 15",
-          "path": "jsonWordData/japanese_words_2025-08-15.json"
+          "path": "JapanesejsonWordData/japanese_words_2025-08-15.json"
         }
       ]
     }
