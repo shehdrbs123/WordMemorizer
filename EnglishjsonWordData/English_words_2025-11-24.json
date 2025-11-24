@@ -1,0 +1,197 @@
+[
+  {
+    "word": "shirt",
+    "pos": "n.",
+    "meaning": "상의; 셔츠",
+    "example_en": "He wore a white shirt to the meeting.",
+    "example_gloss": "그는 회의에 흰 셔츠를 입고 갔다.",
+    "image_url": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=800",
+    "alt_images": [
+      "https://images.unsplash.com/photo-1574180045827-0cf754b1a10d?w=800",
+      "https://images.pexels.com/photos/1537671/pexels-photo-1537671.jpeg?w=800"
+    ],
+    "source_link": "https://unsplash.com/s/photos/shirt"
+  },
+  {
+    "word": "pants",
+    "pos": "n.",
+    "meaning": "바지",
+    "example_en": "She bought a new pair of blue pants.",
+    "example_gloss": "그녀는 새로운 파란 바지 한 벌을 샀다.",
+    "image_url": "https://images.unsplash.com/photo-1542272604-787c62d465d1?w=800",
+    "alt_images": [
+      "https://images.pexels.com/photos/1055691/pexels-photo-1055691.jpeg?w=800",
+      "https://images.unsplash.com/photo-1506629082632-401ba5e0b46c?w=800"
+    ],
+    "source_link": "https://unsplash.com/s/photos/pants"
+  },
+  {
+    "word": "jacket",
+    "pos": "n.",
+    "meaning": "재킷; 소매가 긴 겉옷",
+    "example_en": "A leather jacket looks stylish for autumn.",
+    "example_gloss": "가죽 재킷은 가을에 세련되어 보인다.",
+    "image_url": "https://images.unsplash.com/photo-1551028719-00167b16ebc5?w=800",
+    "alt_images": [
+      "https://images.pexels.com/photos/1926769/pexels-photo-1926769.jpeg?w=800",
+      "https://images.unsplash.com/photo-1535632066927-ab7348ef28d9?w=800"
+    ],
+    "source_link": "https://unsplash.com/s/photos/jacket"
+  },
+  {
+    "word": "shoes",
+    "pos": "n.",
+    "meaning": "신발",
+    "example_en": "I need comfortable shoes for long walks.",
+    "example_gloss": "나는 긴 산책을 위해 편한 신발이 필요하다.",
+    "image_url": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=800",
+    "alt_images": [
+      "https://images.pexels.com/photos/39866/shoes-training-athletic-sports-39866.jpeg?w=800",
+      "https://images.unsplash.com/photo-1460353581641-37baddab0fa2?w=800"
+    ],
+    "source_link": "https://unsplash.com/s/photos/shoes"
+  },
+  {
+    "word": "dress",
+    "pos": "n.",
+    "meaning": "드레스; 여성 원피스",
+    "example_en": "She wore an elegant black dress to the party.",
+    "example_gloss": "그녀는 파티에 우아한 검은 드레스를 입고 갔다.",
+    "image_url": "https://images.unsplash.com/photo-1595777707802-9b994aa38996?w=800",
+    "alt_images": [
+      "https://images.pexels.com/photos/1536619/pexels-photo-1536619.jpeg?w=800",
+      "https://images.unsplash.com/photo-1544568432-b3a3d2e71b03?w=800"
+    ],
+    "source_link": "https://unsplash.com/s/photos/dress"
+  },
+  {
+    "word": "tie",
+    "pos": "n.",
+    "meaning": "넥타이",
+    "example_en": "He adjusted his tie before the interview.",
+    "example_gloss": "그는 인터뷰 전에 넥타이를 정리했다.",
+    "image_url": "https://images.unsplash.com/photo-1555949258-eb67b1ef3014?w=800",
+    "alt_images": [
+      "https://images.pexels.com/photos/4173854/pexels-photo-4173854.jpeg?w=800",
+      "https://images.unsplash.com/photo-1502764613149-7f3bbb9a8e0d?w=800"
+    ],
+    "source_link": "https://unsplash.com/s/photos/tie"
+  },
+  {
+    "word": "fabric",
+    "pos": "n.",
+    "meaning": "직물; 천",
+    "example_en": "The fabric of this sweater is very soft and comfortable.",
+    "example_gloss": "이 스웨터의 천은 매우 부드럽고 편하다.",
+    "image_url": "https://images.unsplash.com/photo-1625246333195-78d9c38ad576?w=800",
+    "alt_images": [
+      "https://images.pexels.com/photos/3771808/pexels-photo-3771808.jpeg?w=800",
+      "https://images.unsplash.com/photo-1585399579318-b3fef9a45b5d?w=800"
+    ],
+    "source_link": "https://unsplash.com/s/photos/fabric"
+  },
+  {
+    "word": "pattern",
+    "pos": "n.",
+    "meaning": "무늬; 패턴; 패션 패턴",
+    "example_en": "The shirt features a striped pattern in blue and white.",
+    "example_gloss": "이 셔츠는 파랑과 흰색의 줄무늬 패턴이 특징이다.",
+    "image_url": "https://images.unsplash.com/photo-1590411396620-f28fbc792d60?w=800",
+    "alt_images": [
+      "https://images.pexels.com/photos/3622622/pexels-photo-3622622.jpeg?w=800",
+      "https://images.unsplash.com/photo-1552062407-291ecb38f32f?w=800"
+    ],
+    "source_link": "https://unsplash.com/s/photos/pattern"
+  },
+  {
+    "word": "collar",
+    "pos": "n.",
+    "meaning": "칼라; 옷깃",
+    "example_en": "The shirt has a stiff collar that needs to be starched.",
+    "example_gloss": "이 셔츠는 풀을 먹여야 하는 뻣뻣한 칼라가 있다.",
+    "image_url": "https://images.unsplash.com/photo-1591028735384-87ca04bd8f23?w=800",
+    "alt_images": [
+      "https://images.pexels.com/photos/3945683/pexels-photo-3945683.jpeg?w=800",
+      "https://images.unsplash.com/photo-1593938894481-46618e38f347?w=800"
+    ],
+    "source_link": "https://unsplash.com/s/photos/collar"
+  },
+  {
+    "word": "sleeve",
+    "pos": "n.",
+    "meaning": "소매",
+    "example_en": "Roll up your sleeves; it's time to work.",
+    "example_gloss": "소매를 걷어올려라; 이제 일할 시간이다.",
+    "image_url": "https://images.unsplash.com/photo-1557804506-669714d2e9d8?w=800",
+    "alt_images": [
+      "https://images.pexels.com/photos/2451633/pexels-photo-2451633.jpeg?w=800",
+      "https://images.unsplash.com/photo-1535632066927-ab7348ef28d9?w=800"
+    ],
+    "source_link": "https://unsplash.com/s/photos/sleeve"
+  },
+  {
+    "word": "sartorial",
+    "pos": "adj.",
+    "meaning": "재단사의; 의복의; 복장 관련의",
+    "example_en": "His sartorial choices always reflect his impeccable taste in fashion.",
+    "example_gloss": "그의 복장 선택은 항상 패션에 대한 그의 완벽한 취향을 반영한다.",
+    "image_url": "https://images.unsplash.com/photo-1595851141802-1c9ea5485b63?w=800",
+    "alt_images": [
+      "https://images.pexels.com/photos/1926769/pexels-photo-1926769.jpeg?w=800",
+      "https://images.unsplash.com/photo-1508252b780-96b6fa65e918?w=800"
+    ],
+    "source_link": "https://unsplash.com/s/photos/fashion"
+  },
+  {
+    "word": "couture",
+    "pos": "n.",
+    "meaning": "고급 여성복; 맞춤 의류 제조",
+    "example_en": "Paris is famous for its haute couture fashion shows.",
+    "example_gloss": "파리는 오트쿠튀르 패션쇼로 유명하다.",
+    "image_url": "https://images.unsplash.com/photo-1509631179647-0177331693ae?w=800",
+    "alt_images": [
+      "https://images.pexels.com/photos/2681751/pexels-photo-2681751.jpeg?w=800",
+      "https://images.unsplash.com/photo-1495521821757-a1efb6729352?w=800"
+    ],
+    "source_link": "https://unsplash.com/s/photos/couture"
+  },
+  {
+    "word": "haberdashery",
+    "pos": "n.",
+    "meaning": "의류 소품점; 남성 의류 소품",
+    "example_en": "She visited the haberdashery to find buttons and thread.",
+    "example_gloss": "그녀는 단추와 실을 찾기 위해 의류 소품점을 방문했다.",
+    "image_url": "https://images.unsplash.com/photo-1580087383245-fb18b2f9d521?w=800",
+    "alt_images": [
+      "https://images.pexels.com/photos/7381200/pexels-photo-7381200.jpeg?w=800",
+      "https://images.unsplash.com/photo-1595521594548-eb4eb9b8df96?w=800"
+    ],
+    "source_link": "https://unsplash.com/s/photos/buttons"
+  },
+  {
+    "word": "embellishment",
+    "pos": "n.",
+    "meaning": "장식; 미화; 악세사리",
+    "example_en": "The dress features intricate embellishments with sequins and beads.",
+    "example_gloss": "이 드레스는 스팽글과 구슬로 된 정교한 장식이 특징이다.",
+    "image_url": "https://images.unsplash.com/photo-1509704869103-ae30b55202c7?w=800",
+    "alt_images": [
+      "https://images.pexels.com/photos/1055691/pexels-photo-1055691.jpeg?w=800",
+      "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?w=800"
+    ],
+    "source_link": "https://unsplash.com/s/photos/embellishment"
+  },
+  {
+    "word": "versatile",
+    "pos": "adj.",
+    "meaning": "다재다능한; 용도가 많은; 다양한 용도로 쓸 수 있는",
+    "example_en": "A white T-shirt is a versatile piece that works with any outfit.",
+    "example_gloss": "흰 티셔츠는 어떤 옷과도 잘 어울리는 다용도 아이템이다.",
+    "image_url": "https://images.unsplash.com/photo-1520006594314-47080259f997?w=800",
+    "alt_images": [
+      "https://images.pexels.com/photos/1536619/pexels-photo-1536619.jpeg?w=800",
+      "https://images.unsplash.com/photo-1495777707802-9b994aa38996?w=800"
+    ],
+    "source_link": "https://unsplash.com/s/photos/wardrobe"
+  }
+]
