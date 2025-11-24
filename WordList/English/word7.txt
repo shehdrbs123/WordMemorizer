@@ -1,0 +1,15 @@
+shirt
+pants
+jacket
+shoes
+dress
+tie
+fabric
+pattern
+collar
+sleeve
+sartorial
+couture
+haberdashery
+embellishment
+versatile
