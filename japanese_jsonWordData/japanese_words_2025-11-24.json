@@ -1,0 +1,197 @@
+[
+  {
+    "word": "走る",
+    "pos": "v.",
+    "meaning": "달리다",
+    "example_en": "毎日走る習慣があります。",
+    "example_gloss": "매일 달리는 습관이 있습니다.",
+    "image_url": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=500&h=500&fit=crop",
+    "alt_images": [
+      "https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=500&h=500&fit=crop",
+      "https://images.unsplash.com/photo-1552943682-95ee845d6f6d?w=500&h=500&fit=crop"
+    ],
+    "source_link": "https://unsplash.com/photos/runners-in-a-race"
+  },
+  {
+    "word": "ボール",
+    "pos": "n.",
+    "meaning": "공",
+    "example_en": "ボールをキャッチしました。",
+    "example_gloss": "공을 캐치했습니다.",
+    "image_url": "https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=500&h=500&fit=crop",
+    "alt_images": [
+      "https://images.unsplash.com/photo-1553531088-a0e2d2b1e00b?w=500&h=500&fit=crop",
+      "https://images.unsplash.com/photo-1518898234b58ff0a08304b01b7e9dbf?w=500&h=500&fit=crop"
+    ],
+    "source_link": "https://unsplash.com/photos/sports-balls"
+  },
+  {
+    "word": "野球",
+    "pos": "n.",
+    "meaning": "야구",
+    "example_en": "野球は日本で人気のあるスポーツです。",
+    "example_gloss": "야구는 일본에서 인기 있는 스포츠입니다.",
+    "image_url": "https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=500&h=500&fit=crop",
+    "alt_images": [
+      "https://images.unsplash.com/photo-1589487391730-58f20eb2c619?w=500&h=500&fit=crop",
+      "https://images.unsplash.com/photo-1577004201935-f69b1ba03d0e?w=500&h=500&fit=crop"
+    ],
+    "source_link": "https://unsplash.com/photos/baseball"
+  },
+  {
+    "word": "練習",
+    "pos": "n./v.",
+    "meaning": "연습",
+    "example_en": "毎日練習しています。",
+    "example_gloss": "매일 연습하고 있습니다.",
+    "image_url": "https://images.unsplash.com/photo-1517836357463-d25ddfcbf042?w=500&h=500&fit=crop",
+    "alt_images": [
+      "https://images.unsplash.com/photo-1599921841528-0c87c846fa70?w=500&h=500&fit=crop",
+      "https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=500&h=500&fit=crop"
+    ],
+    "source_link": "https://unsplash.com/photos/sports-training"
+  },
+  {
+    "word": "試合",
+    "pos": "n.",
+    "meaning": "경기",
+    "example_en": "試合に勝ちました。",
+    "example_gloss": "경기에 이겼습니다.",
+    "image_url": "https://images.unsplash.com/photo-1559027615-cd2628902d4a?w=500&h=500&fit=crop",
+    "alt_images": [
+      "https://images.unsplash.com/photo-1509286307586-70cd2b0c25ed?w=500&h=500&fit=crop",
+      "https://images.unsplash.com/photo-1517836357463-d25ddfcbf042?w=500&h=500&fit=crop"
+    ],
+    "source_link": "https://unsplash.com/photos/sports-match"
+  },
+  {
+    "word": "選手",
+    "pos": "n.",
+    "meaning": "선수",
+    "example_en": "彼は野球選手です。",
+    "example_gloss": "그는 야구 선수입니다.",
+    "image_url": "https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=500&h=500&fit=crop",
+    "alt_images": [
+      "https://images.unsplash.com/photo-1505228395891-9a51e7e86e81?w=500&h=500&fit=crop",
+      "https://images.unsplash.com/photo-1517836357463-d25ddfcbf042?w=500&h=500&fit=crop"
+    ],
+    "source_link": "https://unsplash.com/photos/athlete"
+  },
+  {
+    "word": "勝つ",
+    "pos": "v.",
+    "meaning": "이기다",
+    "example_en": "チームは試合に勝ちました。",
+    "example_gloss": "팀이 경기에 이겼습니다.",
+    "image_url": "https://images.unsplash.com/photo-1517836357463-d25ddfcbf042?w=500&h=500&fit=crop",
+    "alt_images": [
+      "https://images.unsplash.com/photo-1559027615-cd2628902d4a?w=500&h=500&fit=crop",
+      "https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=500&h=500&fit=crop"
+    ],
+    "source_link": "https://unsplash.com/photos/winning-team"
+  },
+  {
+    "word": "筋肉",
+    "pos": "n.",
+    "meaning": "근육",
+    "example_en": "運動すると筋肉が強くなります。",
+    "example_gloss": "운동하면 근육이 강해집니다.",
+    "image_url": "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=500&h=500&fit=crop",
+    "alt_images": [
+      "https://images.unsplash.com/photo-1486142958529-8dae18b14b5f?w=500&h=500&fit=crop",
+      "https://images.unsplash.com/photo-1576072511087-41b86d3470c2?w=500&h=500&fit=crop"
+    ],
+    "source_link": "https://unsplash.com/photos/fitness-muscle"
+  },
+  {
+    "word": "体力",
+    "pos": "n.",
+    "meaning": "체력",
+    "example_en": "良い体力を持つことは重要です。",
+    "example_gloss": "좋은 체력을 갖는 것이 중요합니다.",
+    "image_url": "https://images.unsplash.com/photo-1517836357463-d25ddfcbf042?w=500&h=500&fit=crop",
+    "alt_images": [
+      "https://images.unsplash.com/photo-1576072511087-41b86d3470c2?w=500&h=500&fit=crop",
+      "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=500&h=500&fit=crop"
+    ],
+    "source_link": "https://unsplash.com/photos/physical-fitness"
+  },
+  {
+    "word": "動作",
+    "pos": "n.",
+    "meaning": "동작",
+    "example_en": "正しい動作が大事です。",
+    "example_gloss": "올바른 동작이 중요합니다.",
+    "image_url": "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=500&h=500&fit=crop",
+    "alt_images": [
+      "https://images.unsplash.com/photo-1517836357463-d25ddfcbf042?w=500&h=500&fit=crop",
+      "https://images.unsplash.com/photo-1576072511087-41b86d3470c2?w=500&h=500&fit=crop"
+    ],
+    "source_link": "https://unsplash.com/photos/fitness-movement"
+  },
+  {
+    "word": "競技",
+    "pos": "n.",
+    "meaning": "경기",
+    "example_en": "オリンピックでは多くの競技があります。",
+    "example_gloss": "올림픽에는 많은 경기가 있습니다.",
+    "image_url": "https://images.unsplash.com/photo-1559027615-cd2628902d4a?w=500&h=500&fit=crop",
+    "alt_images": [
+      "https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=500&h=500&fit=crop",
+      "https://images.unsplash.com/photo-1517836357463-d25ddfcbf042?w=500&h=500&fit=crop"
+    ],
+    "source_link": "https://unsplash.com/photos/competition"
+  },
+  {
+    "word": "敏捷性",
+    "pos": "n.",
+    "meaning": "민첩성",
+    "example_en": "敏捷性はスポーツで必要です。",
+    "example_gloss": "민첩성은 스포츠에서 필요합니다.",
+    "image_url": "https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=500&h=500&fit=crop",
+    "alt_images": [
+      "https://images.unsplash.com/photo-1517836357463-d25ddfcbf042?w=500&h=500&fit=crop",
+      "https://images.unsplash.com/photo-1576072511087-41b86d3470c2?w=500&h=500&fit=crop"
+    ],
+    "source_link": "https://unsplash.com/photos/agility-training"
+  },
+  {
+    "word": "戦術",
+    "pos": "n.",
+    "meaning": "전술",
+    "example_en": "効果的な戦術がチームの成功を決めます。",
+    "example_gloss": "효과적인 전술이 팀의 성공을 결정합니다.",
+    "image_url": "https://images.unsplash.com/photo-1559027615-cd2628902d4a?w=500&h=500&fit=crop",
+    "alt_images": [
+      "https://images.unsplash.com/photo-1517836357463-d25ddfcbf042?w=500&h=500&fit=crop",
+      "https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=500&h=500&fit=crop"
+    ],
+    "source_link": "https://unsplash.com/photos/team-strategy"
+  },
+  {
+    "word": "身体能力",
+    "pos": "n.",
+    "meaning": "신체 능력",
+    "example_en": "優れた身体能力は練習から来ます。",
+    "example_gloss": "뛰어난 신체 능력은 연습에서 옵니다.",
+    "image_url": "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=500&h=500&fit=crop",
+    "alt_images": [
+      "https://images.unsplash.com/photo-1576072511087-41b86d3470c2?w=500&h=500&fit=crop",
+      "https://images.unsplash.com/photo-1517836357463-d25ddfcbf042?w=500&h=500&fit=crop"
+    ],
+    "source_link": "https://unsplash.com/photos/athletic-ability"
+  },
+  {
+    "word": "体系的",
+    "pos": "adj.",
+    "meaning": "체계적인",
+    "example_en": "体系的なトレーニングが必要です。",
+    "example_gloss": "체계적인 훈련이 필요합니다.",
+    "image_url": "https://images.unsplash.com/photo-1517836357463-d25ddfcbf042?w=500&h=500&fit=crop",
+    "alt_images": [
+      "https://images.unsplash.com/photo-1576072511087-41b86d3470c2?w=500&h=500&fit=crop",
+      "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=500&h=500&fit=crop"
+    ],
+    "source_link": "https://unsplash.com/photos/systematic-training"
+  }
+]
